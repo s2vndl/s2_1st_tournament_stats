@@ -1,0 +1,2096 @@
+{
+    "gameMode": "CaptureTheFlag",
+    "redPlayers": [
+        "EBA9074566BEA3E7",
+        "D482320672E27418",
+        "784CD6C79930CC43"
+    ],
+    "bluePlayers": [
+        "82FC63DE46014718",
+        "9DD00BA9F5AA7525",
+        "B83C6CC780CDF96C"
+    ],
+    "size": 6,
+    "region": "eu",
+    "server": "gs-eu-2",
+    "startTime": 1671309030095,
+    "endTime": 1671309885415,
+    "winner": "Blue",
+    "totalRounds": 2,
+    "redRoundWins": 0,
+    "blueRoundWins": 2,
+    "matchQuality": 0.4601880175397288,
+    "blueWinProbability": 0.2519781173679081,
+    "redWinProbability": 0.7480218826320919,
+    "rounds": [
+        {
+            "startTime": 1671309278171,
+            "endTime": 1671309503078,
+            "mapName": "ctf_crossfire",
+            "events": [
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309294718,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "784CD6C79930CC43",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309294883,
+                    "killerPlayfabId": "784CD6C79930CC43",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "M79"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309294887,
+                    "killerPlayfabId": "784CD6C79930CC43",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "M79"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309299534,
+                    "killerPlayfabId": "EBA9074566BEA3E7",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309299618,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "D482320672E27418",
+                    "victimTeam": "Red",
+                    "weaponName": "SteyrAUG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309302742,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EBA9074566BEA3E7",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309304420,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "784CD6C79930CC43",
+                    "victimTeam": "Red",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309304570,
+                    "killerPlayfabId": "784CD6C79930CC43",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "M79"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309307586,
+                    "killerPlayfabId": "EBA9074566BEA3E7",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309309421,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "D482320672E27418",
+                    "victimTeam": "Red",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309309423,
+                    "killerPlayfabId": "D482320672E27418",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309314005,
+                    "killerPlayfabId": "EBA9074566BEA3E7",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309314091,
+                    "killerPlayfabId": "784CD6C79930CC43",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "M79"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309314405,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "784CD6C79930CC43",
+                    "victimTeam": "Red",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309314905,
+                    "killerPlayfabId": "EBA9074566BEA3E7",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309320299,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "D482320672E27418",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309322826,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EBA9074566BEA3E7",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309327393,
+                    "killerPlayfabId": "D482320672E27418",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309327996,
+                    "killerPlayfabId": "EBA9074566BEA3E7",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309331282,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "784CD6C79930CC43",
+                    "victimTeam": "Red",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309338108,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "D482320672E27418",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309339179,
+                    "killerPlayfabId": "784CD6C79930CC43",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "M79"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309342828,
+                    "killerPlayfabId": "EBA9074566BEA3E7",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309344296,
+                    "killerPlayfabId": "784CD6C79930CC43",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "M79"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309345279,
+                    "killerPlayfabId": "D482320672E27418",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309348934,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "784CD6C79930CC43",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309353451,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "D482320672E27418",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309354851,
+                    "killerPlayfabId": "EBA9074566BEA3E7",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309356851,
+                    "killerPlayfabId": "784CD6C79930CC43",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "M79"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309359685,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EBA9074566BEA3E7",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309363920,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "D482320672E27418",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309366336,
+                    "killerPlayfabId": "784CD6C79930CC43",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "M79"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309367220,
+                    "killerPlayfabId": "EBA9074566BEA3E7",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309371372,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "784CD6C79930CC43",
+                    "victimTeam": "Red",
+                    "weaponName": "SteyrAUG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309372155,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EBA9074566BEA3E7",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309375289,
+                    "killerPlayfabId": "D482320672E27418",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309376258,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "D482320672E27418",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "FLAG_CAP",
+                    "timestamp": 1671309377856,
+                    "cappingTeam": "Blue",
+                    "playfabId": "9DD00BA9F5AA7525"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309382817,
+                    "killerPlayfabId": "EBA9074566BEA3E7",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309384920,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "784CD6C79930CC43",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309384920,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EBA9074566BEA3E7",
+                    "victimTeam": "Red",
+                    "weaponName": "SteyrAUG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309390830,
+                    "killerPlayfabId": "D482320672E27418",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309393934,
+                    "killerPlayfabId": "EBA9074566BEA3E7",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "FLAG_CAP",
+                    "timestamp": 1671309399561,
+                    "cappingTeam": "Red",
+                    "playfabId": "784CD6C79930CC43"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309400064,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EBA9074566BEA3E7",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309405747,
+                    "killerPlayfabId": "EBA9074566BEA3E7",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309407280,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "D482320672E27418",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309414069,
+                    "killerPlayfabId": "EBA9074566BEA3E7",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309415119,
+                    "killerPlayfabId": "784CD6C79930CC43",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "M79"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309423336,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "D482320672E27418",
+                    "victimTeam": "Red",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309424987,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EBA9074566BEA3E7",
+                    "victimTeam": "Red",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309428404,
+                    "killerPlayfabId": "D482320672E27418",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309430287,
+                    "killerPlayfabId": "784CD6C79930CC43",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "M79"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309430289,
+                    "killerPlayfabId": "784CD6C79930CC43",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "784CD6C79930CC43",
+                    "victimTeam": "Red",
+                    "weaponName": "M79"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309436922,
+                    "killerPlayfabId": "EBA9074566BEA3E7",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309441207,
+                    "killerPlayfabId": "784CD6C79930CC43",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "M79"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309445256,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EBA9074566BEA3E7",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309448027,
+                    "killerPlayfabId": "784CD6C79930CC43",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "RPG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309448027,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "784CD6C79930CC43",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309451075,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "D482320672E27418",
+                    "victimTeam": "Red",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "FLAG_CAP",
+                    "timestamp": 1671309452627,
+                    "cappingTeam": "Blue",
+                    "playfabId": "B83C6CC780CDF96C"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309455234,
+                    "killerPlayfabId": "D482320672E27418",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309457816,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EBA9074566BEA3E7",
+                    "victimTeam": "Red",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309458501,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "784CD6C79930CC43",
+                    "victimTeam": "Red",
+                    "weaponName": "RPG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309464092,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "D482320672E27418",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "FLAG_CAP",
+                    "timestamp": 1671309466162,
+                    "cappingTeam": "Blue",
+                    "playfabId": "9DD00BA9F5AA7525"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309467793,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "784CD6C79930CC43",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309468960,
+                    "killerPlayfabId": "EBA9074566BEA3E7",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309470617,
+                    "killerPlayfabId": "EBA9074566BEA3E7",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309472465,
+                    "killerPlayfabId": "EBA9074566BEA3E7",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309474761,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "D482320672E27418",
+                    "victimTeam": "Red",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "FLAG_CAP",
+                    "timestamp": 1671309478664,
+                    "cappingTeam": "Red",
+                    "playfabId": "EBA9074566BEA3E7"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309482128,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "784CD6C79930CC43",
+                    "victimTeam": "Red",
+                    "weaponName": "SteyrAUG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309482295,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EBA9074566BEA3E7",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "FLAG_CAP",
+                    "timestamp": 1671309488015,
+                    "cappingTeam": "Blue",
+                    "playfabId": "9DD00BA9F5AA7525"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309488079,
+                    "killerPlayfabId": "D482320672E27418",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309489912,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EBA9074566BEA3E7",
+                    "victimTeam": "Red",
+                    "weaponName": "SteyrAUG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309496214,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "784CD6C79930CC43",
+                    "victimTeam": "Red",
+                    "weaponName": "SteyrAUG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309496563,
+                    "killerPlayfabId": "EBA9074566BEA3E7",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309498373,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "D482320672E27418",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309499271,
+                    "killerPlayfabId": "EBA9074566BEA3E7",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309499625,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EBA9074566BEA3E7",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "FLAG_CAP",
+                    "timestamp": 1671309502960,
+                    "cappingTeam": "Blue",
+                    "playfabId": "9DD00BA9F5AA7525"
+                }
+            ],
+            "blueCaps": 5,
+            "redCaps": 2,
+            "winner": "Blue"
+        },
+        {
+            "startTime": 1671309570813,
+            "endTime": 1671309885415,
+            "mapName": "ctf_dopamine",
+            "events": [
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309586681,
+                    "killerPlayfabId": "784CD6C79930CC43",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "Rheinmetall"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309589215,
+                    "killerPlayfabId": "EBA9074566BEA3E7",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309590485,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "D482320672E27418",
+                    "victimTeam": "Red",
+                    "weaponName": "Rheinmetall"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309591021,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "784CD6C79930CC43",
+                    "victimTeam": "Red",
+                    "weaponName": "Rheinmetall"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309591765,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EBA9074566BEA3E7",
+                    "victimTeam": "Red",
+                    "weaponName": "Rheinmetall"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309592184,
+                    "killerPlayfabId": "EBA9074566BEA3E7",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309596549,
+                    "killerPlayfabId": "784CD6C79930CC43",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309597199,
+                    "killerPlayfabId": "EBA9074566BEA3E7",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309600699,
+                    "killerPlayfabId": "D482320672E27418",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309602633,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "D482320672E27418",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309603850,
+                    "killerPlayfabId": "EBA9074566BEA3E7",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309604850,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "784CD6C79930CC43",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309604869,
+                    "killerPlayfabId": "784CD6C79930CC43",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "Rheinmetall"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309606316,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EBA9074566BEA3E7",
+                    "victimTeam": "Red",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309610100,
+                    "killerPlayfabId": "D482320672E27418",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309612751,
+                    "killerPlayfabId": "D482320672E27418",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309615384,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EBA9074566BEA3E7",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309616685,
+                    "killerPlayfabId": "784CD6C79930CC43",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "Rheinmetall"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309620257,
+                    "killerPlayfabId": "EBA9074566BEA3E7",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309621122,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "D482320672E27418",
+                    "victimTeam": "Red",
+                    "weaponName": "Rheinmetall"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309624950,
+                    "killerPlayfabId": "784CD6C79930CC43",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "Rheinmetall"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309625549,
+                    "killerPlayfabId": "EBA9074566BEA3E7",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309627686,
+                    "killerPlayfabId": "784CD6C79930CC43",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "Rheinmetall"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309627799,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "784CD6C79930CC43",
+                    "victimTeam": "Red",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309629824,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EBA9074566BEA3E7",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309634620,
+                    "killerPlayfabId": "784CD6C79930CC43",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "Rheinmetall"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309635740,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "D482320672E27418",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309636657,
+                    "killerPlayfabId": "784CD6C79930CC43",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "Rheinmetall"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309645658,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "784CD6C79930CC43",
+                    "victimTeam": "Red",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309646692,
+                    "killerPlayfabId": "D482320672E27418",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309646841,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EBA9074566BEA3E7",
+                    "victimTeam": "Red",
+                    "weaponName": "Rheinmetall"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309650080,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "D482320672E27418",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "FLAG_CAP",
+                    "timestamp": 1671309653811,
+                    "cappingTeam": "Blue",
+                    "playfabId": "9DD00BA9F5AA7525"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309654543,
+                    "killerPlayfabId": "EBA9074566BEA3E7",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309657726,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "784CD6C79930CC43",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309661294,
+                    "killerPlayfabId": "EBA9074566BEA3E7",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309661760,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "D482320672E27418",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309661827,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EBA9074566BEA3E7",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309667328,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "784CD6C79930CC43",
+                    "victimTeam": "Red",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309667511,
+                    "killerPlayfabId": "EBA9074566BEA3E7",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309669611,
+                    "killerPlayfabId": "EBA9074566BEA3E7",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309669644,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EBA9074566BEA3E7",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309673379,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "D482320672E27418",
+                    "victimTeam": "Red",
+                    "weaponName": "Rheinmetall"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309673430,
+                    "killerPlayfabId": "D482320672E27418",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309680085,
+                    "killerPlayfabId": "784CD6C79930CC43",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "Rheinmetall"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309680821,
+                    "killerPlayfabId": "EBA9074566BEA3E7",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309682813,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "784CD6C79930CC43",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309687667,
+                    "killerPlayfabId": "EBA9074566BEA3E7",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309687849,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EBA9074566BEA3E7",
+                    "victimTeam": "Red",
+                    "weaponName": "Rheinmetall"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309688997,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "784CD6C79930CC43",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309689364,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "D482320672E27418",
+                    "victimTeam": "Red",
+                    "weaponName": "Rheinmetall"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309693481,
+                    "killerPlayfabId": "784CD6C79930CC43",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "Rheinmetall"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309695636,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EBA9074566BEA3E7",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309697125,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "784CD6C79930CC43",
+                    "victimTeam": "Red",
+                    "weaponName": "Rheinmetall"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309702424,
+                    "killerPlayfabId": "EBA9074566BEA3E7",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309705340,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "D482320672E27418",
+                    "victimTeam": "Red",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309705407,
+                    "killerPlayfabId": "EBA9074566BEA3E7",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "EBA9074566BEA3E7",
+                    "victimTeam": "Red",
+                    "weaponName": "N/A"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309705540,
+                    "killerPlayfabId": "D482320672E27418",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309707657,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "784CD6C79930CC43",
+                    "victimTeam": "Red",
+                    "weaponName": "Rheinmetall"
+                },
+                {
+                    "type": "FLAG_CAP",
+                    "timestamp": 1671309709667,
+                    "cappingTeam": "Blue",
+                    "playfabId": "B83C6CC780CDF96C"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309713391,
+                    "killerPlayfabId": "D482320672E27418",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309714675,
+                    "killerPlayfabId": "EBA9074566BEA3E7",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309715791,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "784CD6C79930CC43",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309716741,
+                    "killerPlayfabId": "EBA9074566BEA3E7",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309720275,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "D482320672E27418",
+                    "victimTeam": "Red",
+                    "weaponName": "Rheinmetall"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309723059,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EBA9074566BEA3E7",
+                    "victimTeam": "Red",
+                    "weaponName": "Rheinmetall"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309728977,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "784CD6C79930CC43",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309729560,
+                    "killerPlayfabId": "D482320672E27418",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309731193,
+                    "killerPlayfabId": "EBA9074566BEA3E7",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309736363,
+                    "killerPlayfabId": "784CD6C79930CC43",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "M79"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309737062,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "D482320672E27418",
+                    "victimTeam": "Red",
+                    "weaponName": "Rheinmetall"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309738771,
+                    "killerPlayfabId": "EBA9074566BEA3E7",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309739718,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "784CD6C79930CC43",
+                    "victimTeam": "Red",
+                    "weaponName": "Rheinmetall"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309742931,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EBA9074566BEA3E7",
+                    "victimTeam": "Red",
+                    "weaponName": "Rheinmetall"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309745210,
+                    "killerPlayfabId": "D482320672E27418",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309745292,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "D482320672E27418",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309748042,
+                    "killerPlayfabId": "784CD6C79930CC43",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "M79"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309748283,
+                    "killerPlayfabId": "EBA9074566BEA3E7",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309748562,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EBA9074566BEA3E7",
+                    "victimTeam": "Red",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309752851,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "784CD6C79930CC43",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309754367,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "D482320672E27418",
+                    "victimTeam": "Red",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309754369,
+                    "killerPlayfabId": "D482320672E27418",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309758766,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EBA9074566BEA3E7",
+                    "victimTeam": "Red",
+                    "weaponName": "Rheinmetall"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309758801,
+                    "killerPlayfabId": "EBA9074566BEA3E7",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309763202,
+                    "killerPlayfabId": "EBA9074566BEA3E7",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309763552,
+                    "killerPlayfabId": "D482320672E27418",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309763585,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "D482320672E27418",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309764919,
+                    "killerPlayfabId": "784CD6C79930CC43",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "RPG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309764921,
+                    "killerPlayfabId": "784CD6C79930CC43",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "784CD6C79930CC43",
+                    "victimTeam": "Red",
+                    "weaponName": "RPG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309767986,
+                    "killerPlayfabId": "EBA9074566BEA3E7",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309768052,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EBA9074566BEA3E7",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309774153,
+                    "killerPlayfabId": "D482320672E27418",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309774453,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "784CD6C79930CC43",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309774470,
+                    "killerPlayfabId": "784CD6C79930CC43",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "M79"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309776053,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EBA9074566BEA3E7",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309779607,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "D482320672E27418",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309780641,
+                    "killerPlayfabId": "EBA9074566BEA3E7",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309782958,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "784CD6C79930CC43",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309784025,
+                    "killerPlayfabId": "EBA9074566BEA3E7",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309786076,
+                    "killerPlayfabId": "EBA9074566BEA3E7",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309786526,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EBA9074566BEA3E7",
+                    "victimTeam": "Red",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309788893,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "D482320672E27418",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309793366,
+                    "killerPlayfabId": "784CD6C79930CC43",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "M79"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309795818,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EBA9074566BEA3E7",
+                    "victimTeam": "Red",
+                    "weaponName": "Rheinmetall"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309796117,
+                    "killerPlayfabId": "784CD6C79930CC43",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "RPG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309796601,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "D482320672E27418",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309798675,
+                    "killerPlayfabId": "784CD6C79930CC43",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "M79"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309802754,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EBA9074566BEA3E7",
+                    "victimTeam": "Red",
+                    "weaponName": "RPG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309802755,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "RPG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309802755,
+                    "killerPlayfabId": "784CD6C79930CC43",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "M79"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309803068,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "784CD6C79930CC43",
+                    "victimTeam": "Red",
+                    "weaponName": "Rheinmetall"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309808953,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "D482320672E27418",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309812137,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EBA9074566BEA3E7",
+                    "victimTeam": "Red",
+                    "weaponName": "Rheinmetall"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309815895,
+                    "killerPlayfabId": "D482320672E27418",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309816620,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "784CD6C79930CC43",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309821555,
+                    "killerPlayfabId": "784CD6C79930CC43",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309823921,
+                    "killerPlayfabId": "EBA9074566BEA3E7",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309824722,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "D482320672E27418",
+                    "victimTeam": "Red",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309825806,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EBA9074566BEA3E7",
+                    "victimTeam": "Red",
+                    "weaponName": "Rheinmetall"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309827089,
+                    "killerPlayfabId": "784CD6C79930CC43",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "M79"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309828539,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "784CD6C79930CC43",
+                    "victimTeam": "Red",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309832054,
+                    "killerPlayfabId": "EBA9074566BEA3E7",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309833723,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "D482320672E27418",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309835507,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EBA9074566BEA3E7",
+                    "victimTeam": "Red",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309838440,
+                    "killerPlayfabId": "D482320672E27418",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309838523,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "D482320672E27418",
+                    "victimTeam": "Red",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309842825,
+                    "killerPlayfabId": "EBA9074566BEA3E7",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309845508,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "784CD6C79930CC43",
+                    "victimTeam": "Red",
+                    "weaponName": "Rheinmetall"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309846858,
+                    "killerPlayfabId": "D482320672E27418",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309848942,
+                    "killerPlayfabId": "D482320672E27418",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "FLAG_CAP",
+                    "timestamp": 1671309849662,
+                    "cappingTeam": "Red",
+                    "playfabId": "EBA9074566BEA3E7"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309852526,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "N/A"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309855543,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EBA9074566BEA3E7",
+                    "victimTeam": "Red",
+                    "weaponName": "RPG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309855826,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "D482320672E27418",
+                    "victimTeam": "Red",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309858708,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "784CD6C79930CC43",
+                    "victimTeam": "Red",
+                    "weaponName": "Rheinmetall"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309859952,
+                    "killerPlayfabId": "EBA9074566BEA3E7",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309863879,
+                    "killerPlayfabId": "EBA9074566BEA3E7",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309866932,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EBA9074566BEA3E7",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309867280,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "D482320672E27418",
+                    "victimTeam": "Red",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309867464,
+                    "killerPlayfabId": "784CD6C79930CC43",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "M79"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309868638,
+                    "killerPlayfabId": "EBA9074566BEA3E7",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "N/A"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309872778,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "784CD6C79930CC43",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309874717,
+                    "killerPlayfabId": "EBA9074566BEA3E7",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309874882,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EBA9074566BEA3E7",
+                    "victimTeam": "Red",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309877279,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "D482320672E27418",
+                    "victimTeam": "Red",
+                    "weaponName": "RPG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309879357,
+                    "killerPlayfabId": "784CD6C79930CC43",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309884747,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "784CD6C79930CC43",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671309885315,
+                    "killerPlayfabId": "EBA9074566BEA3E7",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                }
+            ],
+            "blueCaps": 2,
+            "redCaps": 1,
+            "winner": "Blue"
+        }
+    ]
+}

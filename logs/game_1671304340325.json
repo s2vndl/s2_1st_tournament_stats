@@ -1,0 +1,3588 @@
+{
+    "gameMode": "CaptureTheFlag",
+    "redPlayers": [
+        "EDB92702EC149828",
+        "517348F5DF244DE5",
+        "F029E4BFE212BE18"
+    ],
+    "bluePlayers": [
+        "82FC63DE46014718",
+        "9DD00BA9F5AA7525",
+        "B83C6CC780CDF96C"
+    ],
+    "size": 6,
+    "region": "eu",
+    "server": "gs-eu-1",
+    "startTime": 1671304340325,
+    "endTime": 1671305666804,
+    "winner": "Blue",
+    "totalRounds": 3,
+    "redRoundWins": 0,
+    "blueRoundWins": 2,
+    "matchQuality": 0.4759331503741701,
+    "blueWinProbability": 0.2663054524426225,
+    "redWinProbability": 0.7336945475573775,
+    "rounds": [
+        {
+            "startTime": 1671304575837,
+            "endTime": 1671304890150,
+            "mapName": "ctf_wretch",
+            "events": [
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304593681,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304595281,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304597439,
+                    "killerPlayfabId": "F029E4BFE212BE18",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "N/A"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304599499,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "FLAG_CAP",
+                    "timestamp": 1671304603186,
+                    "cappingTeam": "Red",
+                    "playfabId": "F029E4BFE212BE18"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304604333,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304604336,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304608084,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304611769,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "M79"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304614085,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304614841,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "M79"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304616953,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "F029E4BFE212BE18",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304623272,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304627720,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "RPG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304633149,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304635408,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304636946,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "F029E4BFE212BE18",
+                    "victimTeam": "Red",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "FLAG_CAP",
+                    "timestamp": 1671304639993,
+                    "cappingTeam": "Blue",
+                    "playfabId": "9DD00BA9F5AA7525"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304640473,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304645281,
+                    "killerPlayfabId": "F029E4BFE212BE18",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304648959,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304651427,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "F029E4BFE212BE18",
+                    "victimTeam": "Red",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304652244,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304653727,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "RPG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304653744,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304659978,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304659981,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304660011,
+                    "killerPlayfabId": "F029E4BFE212BE18",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "RPG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304663463,
+                    "killerPlayfabId": "F029E4BFE212BE18",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "Barrett"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304666898,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "RPG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304672198,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304673598,
+                    "killerPlayfabId": "F029E4BFE212BE18",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "Barrett"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304678200,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "F029E4BFE212BE18",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304678766,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304682974,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304687128,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304689410,
+                    "killerPlayfabId": "F029E4BFE212BE18",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "Melee"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304694276,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304699294,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "F029E4BFE212BE18",
+                    "victimTeam": "Red",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304701792,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304703316,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304703317,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304703374,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "RPG"
+                },
+                {
+                    "type": "FLAG_CAP",
+                    "timestamp": 1671304706284,
+                    "cappingTeam": "Red",
+                    "playfabId": "F029E4BFE212BE18"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304710291,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304714092,
+                    "killerPlayfabId": "F029E4BFE212BE18",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "Barrett"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304715823,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "RPG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304715823,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "RPG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304718693,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304721944,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "F029E4BFE212BE18",
+                    "victimTeam": "Red",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "FLAG_CAP",
+                    "timestamp": 1671304722197,
+                    "cappingTeam": "Red",
+                    "playfabId": "EDB92702EC149828"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304726029,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304728579,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304730096,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "F029E4BFE212BE18",
+                    "victimTeam": "Red",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304731730,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304734364,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304735081,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304736548,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "RPG"
+                },
+                {
+                    "type": "FLAG_CAP",
+                    "timestamp": 1671304738551,
+                    "cappingTeam": "Blue",
+                    "playfabId": "9DD00BA9F5AA7525"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304743251,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304743765,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "F029E4BFE212BE18",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304747407,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304749636,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304751209,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304756772,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304759951,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304762684,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "F029E4BFE212BE18",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "FLAG_CAP",
+                    "timestamp": 1671304765485,
+                    "cappingTeam": "Blue",
+                    "playfabId": "9DD00BA9F5AA7525"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304766567,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304769733,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304773837,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304775001,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304778522,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304779672,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304786094,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304789312,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "F029E4BFE212BE18",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304790478,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304792363,
+                    "killerPlayfabId": "F029E4BFE212BE18",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304797481,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304800832,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304802425,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304808480,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304809410,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304812686,
+                    "killerPlayfabId": "F029E4BFE212BE18",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "Deagles"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304814968,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304821921,
+                    "killerPlayfabId": "F029E4BFE212BE18",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "Deagles"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304823693,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304824868,
+                    "killerPlayfabId": "F029E4BFE212BE18",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "Deagles"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304826130,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304827754,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304832742,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304834075,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304837624,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304839860,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304844678,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304848978,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304849245,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304850695,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304857070,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304859036,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "F029E4BFE212BE18",
+                    "victimTeam": "Red",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304860069,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304860486,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304867102,
+                    "killerPlayfabId": "F029E4BFE212BE18",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304869855,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304871426,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304874807,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "F029E4BFE212BE18",
+                    "victimTeam": "Red",
+                    "weaponName": "RPG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304878361,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304878979,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304888682,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304888915,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304889065,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "RPG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304889282,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "MP5"
+                }
+            ],
+            "blueCaps": 3,
+            "redCaps": 3,
+            "winner": "Tie"
+        },
+        {
+            "startTime": 1671304966118,
+            "endTime": 1671305280919,
+            "mapName": "ctf_Spark",
+            "events": [
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304982161,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "N/A"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304983415,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304983415,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "RPG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304983417,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304984641,
+                    "killerPlayfabId": "F029E4BFE212BE18",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "Barrett"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304990659,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304991561,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304995674,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "RPG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304996622,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304996724,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304998741,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671304999946,
+                    "killerPlayfabId": "F029E4BFE212BE18",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305002733,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305005770,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305006091,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305007099,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305007299,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305011149,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305014575,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "Spas12"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305015810,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305017573,
+                    "killerPlayfabId": "F029E4BFE212BE18",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "Barrett"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305021253,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305024504,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "F029E4BFE212BE18",
+                    "victimTeam": "Red",
+                    "weaponName": "RPG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305024971,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305024987,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "N/A"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305030655,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305031289,
+                    "killerPlayfabId": "F029E4BFE212BE18",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305036276,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305036710,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "Spas12"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305038293,
+                    "killerPlayfabId": "F029E4BFE212BE18",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "Barrett"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305043018,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "F029E4BFE212BE18",
+                    "victimTeam": "Red",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305043409,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "Spas12"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305044989,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "N/A"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305045834,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305048237,
+                    "killerPlayfabId": "F029E4BFE212BE18",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305049563,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305054014,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305054447,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305059041,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "Spas12"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305061290,
+                    "killerPlayfabId": "F029E4BFE212BE18",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "Barrett"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305062449,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305063122,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305063577,
+                    "killerPlayfabId": "F029E4BFE212BE18",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "RPG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305067819,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305071320,
+                    "killerPlayfabId": "F029E4BFE212BE18",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "Barrett"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305072820,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305074943,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "Spas12"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305076973,
+                    "killerPlayfabId": "F029E4BFE212BE18",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "Barrett"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305079271,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305081722,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "RPG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305086309,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305087760,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305087843,
+                    "killerPlayfabId": "F029E4BFE212BE18",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "Barrett"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305088126,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "F029E4BFE212BE18",
+                    "victimTeam": "Red",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305093811,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305093877,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "RPG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305096545,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305096978,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "F029E4BFE212BE18",
+                    "victimTeam": "Red",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305097211,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305100444,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305100545,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305104056,
+                    "killerPlayfabId": "F029E4BFE212BE18",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305104497,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "RPG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305106433,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "F029E4BFE212BE18",
+                    "victimTeam": "Red",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "FLAG_CAP",
+                    "timestamp": 1671305107247,
+                    "cappingTeam": "Blue",
+                    "playfabId": "9DD00BA9F5AA7525"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305109273,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305109273,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305111664,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305113319,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "N/A"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305117546,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305119200,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305124150,
+                    "killerPlayfabId": "F029E4BFE212BE18",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "Barrett"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305125155,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "Spas12"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305127617,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "F029E4BFE212BE18",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305129251,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "Spas12"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305131218,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305136982,
+                    "killerPlayfabId": "F029E4BFE212BE18",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "Barrett"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305137560,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305138557,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "N/A"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305143424,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305144441,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305144524,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305150375,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305151209,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305151827,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "F029E4BFE212BE18",
+                    "victimTeam": "Red",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305153743,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "RPG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305157010,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305159968,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305161669,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "Spas12"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305164223,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305166929,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305166936,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305167506,
+                    "killerPlayfabId": "F029E4BFE212BE18",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "RPG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305171311,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "F029E4BFE212BE18",
+                    "victimTeam": "Red",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305172585,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305174093,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "Spas12"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305174449,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305178859,
+                    "killerPlayfabId": "F029E4BFE212BE18",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "RPG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305180187,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305180206,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305186159,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305186379,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305188375,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305189175,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "F029E4BFE212BE18",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305192526,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305193693,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "RPG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305194956,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "F029E4BFE212BE18",
+                    "victimTeam": "Red",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305196650,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "N/A"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305196650,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305201411,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305204551,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "RPG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305206568,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305206617,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "F029E4BFE212BE18",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305207751,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305211918,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305211952,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "N/A"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305214470,
+                    "killerPlayfabId": "F029E4BFE212BE18",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "RPG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305216719,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305220154,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305221654,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305222078,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305225315,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305227947,
+                    "killerPlayfabId": "F029E4BFE212BE18",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "Barrett"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305230628,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305231774,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305233618,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "F029E4BFE212BE18",
+                    "victimTeam": "Red",
+                    "weaponName": "Spas12"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305236384,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305237558,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305237707,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305240758,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "F029E4BFE212BE18",
+                    "victimTeam": "Red",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305243676,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305244233,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "N/A"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305246838,
+                    "killerPlayfabId": "F029E4BFE212BE18",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "FLAG_CAP",
+                    "timestamp": 1671305249163,
+                    "cappingTeam": "Blue",
+                    "playfabId": "9DD00BA9F5AA7525"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305249694,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "F029E4BFE212BE18",
+                    "victimTeam": "Red",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305250360,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305257490,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "F029E4BFE212BE18",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305257645,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305257678,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305263964,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305264081,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305266098,
+                    "killerPlayfabId": "F029E4BFE212BE18",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "RPG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305268847,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305269965,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305271282,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "FLAG_CAP",
+                    "timestamp": 1671305272419,
+                    "cappingTeam": "Red",
+                    "playfabId": "F029E4BFE212BE18"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305274217,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305274733,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "RPG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305277084,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305277668,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "Knife"
+                }
+            ],
+            "blueCaps": 2,
+            "redCaps": 1,
+            "winner": "Blue"
+        },
+        {
+            "startTime": 1671305353775,
+            "endTime": 1671305666804,
+            "mapName": "ctf_guardian",
+            "events": [
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305369848,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305369948,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305370415,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305370899,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "F029E4BFE212BE18",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305378254,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "F029E4BFE212BE18",
+                    "victimTeam": "Red",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305379487,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305380903,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305384337,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305384954,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "FLAG_CAP",
+                    "timestamp": 1671305387173,
+                    "cappingTeam": "Red",
+                    "playfabId": "EDB92702EC149828"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305387621,
+                    "killerPlayfabId": "F029E4BFE212BE18",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "RPG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305390405,
+                    "killerPlayfabId": "F029E4BFE212BE18",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "Deagles"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305392990,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "F029E4BFE212BE18",
+                    "victimTeam": "Red",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305395991,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305396958,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305399775,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305402169,
+                    "killerPlayfabId": "F029E4BFE212BE18",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "RPG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305405163,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305409106,
+                    "killerPlayfabId": "F029E4BFE212BE18",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "Deagles"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305410217,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "FLAG_CAP",
+                    "timestamp": 1671305410994,
+                    "cappingTeam": "Red",
+                    "playfabId": "F029E4BFE212BE18"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305410995,
+                    "killerPlayfabId": "F029E4BFE212BE18",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305412512,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "F029E4BFE212BE18",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305413625,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305420788,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305421021,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305421633,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305421939,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "F029E4BFE212BE18",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305428282,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305430199,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305431449,
+                    "killerPlayfabId": "F029E4BFE212BE18",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "Deagles"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305431916,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "F029E4BFE212BE18",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "FLAG_CAP",
+                    "timestamp": 1671305433602,
+                    "cappingTeam": "Blue",
+                    "playfabId": "B83C6CC780CDF96C"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305435791,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305439298,
+                    "killerPlayfabId": "F029E4BFE212BE18",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "RPG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305439433,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305440434,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305446668,
+                    "killerPlayfabId": "F029E4BFE212BE18",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "Deagles"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305450319,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305450886,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305451569,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305453570,
+                    "killerPlayfabId": "F029E4BFE212BE18",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "Deagles"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305458637,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305460071,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305463736,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "F029E4BFE212BE18",
+                    "victimTeam": "Red",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305464696,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305467178,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305470869,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "F029E4BFE212BE18",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305471315,
+                    "killerPlayfabId": "F029E4BFE212BE18",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305473664,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305473881,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "FLAG_CAP",
+                    "timestamp": 1671305475064,
+                    "cappingTeam": "Blue",
+                    "playfabId": "9DD00BA9F5AA7525"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305478562,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305481355,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305485703,
+                    "killerPlayfabId": "F029E4BFE212BE18",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "Deagles"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305486015,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305486015,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305487764,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305487766,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305493453,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "F029E4BFE212BE18",
+                    "victimTeam": "Red",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305494136,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305494941,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305497587,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305500437,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "RPG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305502938,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305505021,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "F029E4BFE212BE18",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305505389,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "RPG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305509210,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305511343,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305511393,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "Deagles"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305513177,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "F029E4BFE212BE18",
+                    "victimTeam": "Red",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "FLAG_CAP",
+                    "timestamp": 1671305518281,
+                    "cappingTeam": "Blue",
+                    "playfabId": "82FC63DE46014718"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305518361,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305519767,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305524652,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "F029E4BFE212BE18",
+                    "victimTeam": "Red",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305524654,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305528161,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "RPG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305532982,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "F029E4BFE212BE18",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305533134,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305537343,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305540544,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305540984,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305542242,
+                    "killerPlayfabId": "F029E4BFE212BE18",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305542243,
+                    "killerPlayfabId": "F029E4BFE212BE18",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305542745,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "F029E4BFE212BE18",
+                    "victimTeam": "Red",
+                    "weaponName": "RPG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305546723,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305550624,
+                    "killerPlayfabId": "F029E4BFE212BE18",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "Deagles"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305550824,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "F029E4BFE212BE18",
+                    "victimTeam": "Red",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305555509,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305557709,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305559492,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "F029E4BFE212BE18",
+                    "victimTeam": "Red",
+                    "weaponName": "RPG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305559725,
+                    "killerPlayfabId": "F029E4BFE212BE18",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "RPG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305561309,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305564693,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305566243,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305567977,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305567979,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305572178,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "F029E4BFE212BE18",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305573078,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305577362,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305579046,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305579229,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305579729,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305583304,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "F029E4BFE212BE18",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305587329,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "FLAG_CAP",
+                    "timestamp": 1671305588249,
+                    "cappingTeam": "Blue",
+                    "playfabId": "82FC63DE46014718"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305591700,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305596001,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305596650,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305600280,
+                    "killerPlayfabId": "F029E4BFE212BE18",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "Deagles"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305601673,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305606806,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305608355,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305614575,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305620307,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "F029E4BFE212BE18",
+                    "victimTeam": "Red",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305620607,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305626641,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305626807,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305630575,
+                    "killerPlayfabId": "F029E4BFE212BE18",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "RPG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305633276,
+                    "killerPlayfabId": "F029E4BFE212BE18",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "Deagles"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305637393,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305640744,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305643861,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305644871,
+                    "killerPlayfabId": "9DD00BA9F5AA7525",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "FLAG_CAP",
+                    "timestamp": 1671305646955,
+                    "cappingTeam": "Red",
+                    "playfabId": "517348F5DF244DE5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305648131,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "82FC63DE46014718",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305650390,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305651438,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "RPG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305654650,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "F029E4BFE212BE18",
+                    "victimTeam": "Red",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305659438,
+                    "killerPlayfabId": "B83C6CC780CDF96C",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "EDB92702EC149828",
+                    "victimTeam": "Red",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305661381,
+                    "killerPlayfabId": "517348F5DF244DE5",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305661768,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "517348F5DF244DE5",
+                    "victimTeam": "Red",
+                    "weaponName": "MP5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305662920,
+                    "killerPlayfabId": "F029E4BFE212BE18",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9DD00BA9F5AA7525",
+                    "victimTeam": "Blue",
+                    "weaponName": "RPG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305664271,
+                    "killerPlayfabId": "82FC63DE46014718",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "F029E4BFE212BE18",
+                    "victimTeam": "Red",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671305666619,
+                    "killerPlayfabId": "EDB92702EC149828",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "B83C6CC780CDF96C",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "FLAG_CAP",
+                    "timestamp": 1671305666725,
+                    "cappingTeam": "Blue",
+                    "playfabId": "82FC63DE46014718"
+                }
+            ],
+            "blueCaps": 5,
+            "redCaps": 3,
+            "winner": "Blue"
+        }
+    ]
+}

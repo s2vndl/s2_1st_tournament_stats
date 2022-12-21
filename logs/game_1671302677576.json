@@ -1,0 +1,1748 @@
+{
+    "gameMode": "CaptureTheFlag",
+    "redPlayers": [
+        "C19637F2290726EB",
+        "C42975C9A8E4E66B",
+        "298FD01685544F0"
+    ],
+    "bluePlayers": [
+        "D35B7050036AAD3",
+        "9AB6234BDDCE14D9",
+        "6AF4A5EF7DB4F012"
+    ],
+    "size": 6,
+    "region": "eu",
+    "server": "gs-eu-1",
+    "startTime": 1671302677576,
+    "endTime": 1671303646168,
+    "winner": "Red",
+    "totalRounds": 2,
+    "redRoundWins": 2,
+    "blueRoundWins": 0,
+    "matchQuality": 0.2516846771404171,
+    "blueWinProbability": 0.10863074775578396,
+    "redWinProbability": 0.891369252244216,
+    "rounds": [
+        {
+            "startTime": 1671302939688,
+            "endTime": 1671303254485,
+            "mapName": "ctf_cobra",
+            "events": [
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671302958444,
+                    "killerPlayfabId": "6AF4A5EF7DB4F012",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "298FD01685544F0",
+                    "victimTeam": "Red",
+                    "weaponName": "Chainsaw"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671302958722,
+                    "killerPlayfabId": "C19637F2290726EB",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9AB6234BDDCE14D9",
+                    "victimTeam": "Blue",
+                    "weaponName": "Spas12"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671302958723,
+                    "killerPlayfabId": "9AB6234BDDCE14D9",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "C19637F2290726EB",
+                    "victimTeam": "Red",
+                    "weaponName": "Deagles"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671302961497,
+                    "killerPlayfabId": "C42975C9A8E4E66B",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "6AF4A5EF7DB4F012",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671302967472,
+                    "killerPlayfabId": "9AB6234BDDCE14D9",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "C19637F2290726EB",
+                    "victimTeam": "Red",
+                    "weaponName": "Deagles"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671302972470,
+                    "killerPlayfabId": "298FD01685544F0",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9AB6234BDDCE14D9",
+                    "victimTeam": "Blue",
+                    "weaponName": "Deagles"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671302980433,
+                    "killerPlayfabId": "D35B7050036AAD3",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "C42975C9A8E4E66B",
+                    "victimTeam": "Red",
+                    "weaponName": "RocketLauncher"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671302981833,
+                    "killerPlayfabId": "298FD01685544F0",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "6AF4A5EF7DB4F012",
+                    "victimTeam": "Blue",
+                    "weaponName": "Deagles"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671302981883,
+                    "killerPlayfabId": "C19637F2290726EB",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9AB6234BDDCE14D9",
+                    "victimTeam": "Blue",
+                    "weaponName": "Spas12"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671302985427,
+                    "killerPlayfabId": "C42975C9A8E4E66B",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "D35B7050036AAD3",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671302991600,
+                    "killerPlayfabId": "C42975C9A8E4E66B",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "6AF4A5EF7DB4F012",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "FLAG_CAP",
+                    "timestamp": 1671302995122,
+                    "cappingTeam": "Red",
+                    "playfabId": "C19637F2290726EB"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671302996418,
+                    "killerPlayfabId": "C42975C9A8E4E66B",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9AB6234BDDCE14D9",
+                    "victimTeam": "Blue",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671302998036,
+                    "killerPlayfabId": "298FD01685544F0",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "D35B7050036AAD3",
+                    "victimTeam": "Blue",
+                    "weaponName": "Deagles"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303010226,
+                    "killerPlayfabId": "C19637F2290726EB",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9AB6234BDDCE14D9",
+                    "victimTeam": "Blue",
+                    "weaponName": "Spas12"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303010227,
+                    "killerPlayfabId": "C42975C9A8E4E66B",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "D35B7050036AAD3",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303013853,
+                    "killerPlayfabId": "6AF4A5EF7DB4F012",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "C19637F2290726EB",
+                    "victimTeam": "Red",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303018794,
+                    "killerPlayfabId": "6AF4A5EF7DB4F012",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "C42975C9A8E4E66B",
+                    "victimTeam": "Red",
+                    "weaponName": "Spas12"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303021902,
+                    "killerPlayfabId": "C19637F2290726EB",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9AB6234BDDCE14D9",
+                    "victimTeam": "Blue",
+                    "weaponName": "Spas12"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303026571,
+                    "killerPlayfabId": "C42975C9A8E4E66B",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "6AF4A5EF7DB4F012",
+                    "victimTeam": "Blue",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303031921,
+                    "killerPlayfabId": "C19637F2290726EB",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9AB6234BDDCE14D9",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303036923,
+                    "killerPlayfabId": "298FD01685544F0",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "D35B7050036AAD3",
+                    "victimTeam": "Blue",
+                    "weaponName": "N/A"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303036923,
+                    "killerPlayfabId": "298FD01685544F0",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "298FD01685544F0",
+                    "victimTeam": "Red",
+                    "weaponName": "N/A"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303041207,
+                    "killerPlayfabId": "9AB6234BDDCE14D9",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "C19637F2290726EB",
+                    "victimTeam": "Red",
+                    "weaponName": "Deagles"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303048552,
+                    "killerPlayfabId": "D35B7050036AAD3",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "C42975C9A8E4E66B",
+                    "victimTeam": "Red",
+                    "weaponName": "RocketLauncher"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303051102,
+                    "killerPlayfabId": "298FD01685544F0",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "D35B7050036AAD3",
+                    "victimTeam": "Blue",
+                    "weaponName": "Deagles"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303052637,
+                    "killerPlayfabId": "D35B7050036AAD3",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "C19637F2290726EB",
+                    "victimTeam": "Red",
+                    "weaponName": "RPG"
+                },
+                {
+                    "type": "FLAG_CAP",
+                    "timestamp": 1671303053220,
+                    "cappingTeam": "Blue",
+                    "playfabId": "9AB6234BDDCE14D9"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303059086,
+                    "killerPlayfabId": "C42975C9A8E4E66B",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "D35B7050036AAD3",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303060686,
+                    "killerPlayfabId": "C42975C9A8E4E66B",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9AB6234BDDCE14D9",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303060870,
+                    "killerPlayfabId": "9AB6234BDDCE14D9",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "C42975C9A8E4E66B",
+                    "victimTeam": "Red",
+                    "weaponName": "Deagles"
+                },
+                {
+                    "type": "FLAG_CAP",
+                    "timestamp": 1671303066674,
+                    "cappingTeam": "Red",
+                    "playfabId": "298FD01685544F0"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303069125,
+                    "killerPlayfabId": "D35B7050036AAD3",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "298FD01685544F0",
+                    "victimTeam": "Red",
+                    "weaponName": "RocketLauncher"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303071268,
+                    "killerPlayfabId": "9AB6234BDDCE14D9",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "C19637F2290726EB",
+                    "victimTeam": "Red",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303076600,
+                    "killerPlayfabId": "9AB6234BDDCE14D9",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "C19637F2290726EB",
+                    "victimTeam": "Red",
+                    "weaponName": "RPG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303082356,
+                    "killerPlayfabId": "C19637F2290726EB",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9AB6234BDDCE14D9",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303084486,
+                    "killerPlayfabId": "298FD01685544F0",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "6AF4A5EF7DB4F012",
+                    "victimTeam": "Blue",
+                    "weaponName": "N/A"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303084486,
+                    "killerPlayfabId": "D35B7050036AAD3",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "298FD01685544F0",
+                    "victimTeam": "Red",
+                    "weaponName": "RocketLauncher"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303090970,
+                    "killerPlayfabId": "C19637F2290726EB",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9AB6234BDDCE14D9",
+                    "victimTeam": "Blue",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303094366,
+                    "killerPlayfabId": "D35B7050036AAD3",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "C19637F2290726EB",
+                    "victimTeam": "Red",
+                    "weaponName": "RocketLauncher"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303094990,
+                    "killerPlayfabId": "C42975C9A8E4E66B",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "6AF4A5EF7DB4F012",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303103052,
+                    "killerPlayfabId": "C19637F2290726EB",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9AB6234BDDCE14D9",
+                    "victimTeam": "Blue",
+                    "weaponName": "Spas12"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303103335,
+                    "killerPlayfabId": "6AF4A5EF7DB4F012",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "298FD01685544F0",
+                    "victimTeam": "Red",
+                    "weaponName": "Chainsaw"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303105214,
+                    "killerPlayfabId": "D35B7050036AAD3",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "C19637F2290726EB",
+                    "victimTeam": "Red",
+                    "weaponName": "RocketLauncher"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303108964,
+                    "killerPlayfabId": "C42975C9A8E4E66B",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "6AF4A5EF7DB4F012",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303116733,
+                    "killerPlayfabId": "9AB6234BDDCE14D9",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "C19637F2290726EB",
+                    "victimTeam": "Red",
+                    "weaponName": "Deagles"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303122365,
+                    "killerPlayfabId": "C19637F2290726EB",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9AB6234BDDCE14D9",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303123233,
+                    "killerPlayfabId": "C42975C9A8E4E66B",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "6AF4A5EF7DB4F012",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303127599,
+                    "killerPlayfabId": "C19637F2290726EB",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9AB6234BDDCE14D9",
+                    "victimTeam": "Blue",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303127599,
+                    "killerPlayfabId": "9AB6234BDDCE14D9",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "298FD01685544F0",
+                    "victimTeam": "Red",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303129376,
+                    "killerPlayfabId": "C19637F2290726EB",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "6AF4A5EF7DB4F012",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303133588,
+                    "killerPlayfabId": "D35B7050036AAD3",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "C19637F2290726EB",
+                    "victimTeam": "Red",
+                    "weaponName": "N/A"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303138986,
+                    "killerPlayfabId": "C19637F2290726EB",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9AB6234BDDCE14D9",
+                    "victimTeam": "Blue",
+                    "weaponName": "Spas12"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303139095,
+                    "killerPlayfabId": "9AB6234BDDCE14D9",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "298FD01685544F0",
+                    "victimTeam": "Red",
+                    "weaponName": "Deagles"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303145384,
+                    "killerPlayfabId": "298FD01685544F0",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "6AF4A5EF7DB4F012",
+                    "victimTeam": "Blue",
+                    "weaponName": "Deagles"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303145893,
+                    "killerPlayfabId": "C19637F2290726EB",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9AB6234BDDCE14D9",
+                    "victimTeam": "Blue",
+                    "weaponName": "Spas12"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303150194,
+                    "killerPlayfabId": "9AB6234BDDCE14D9",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "C19637F2290726EB",
+                    "victimTeam": "Red",
+                    "weaponName": "Deagles"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303150227,
+                    "killerPlayfabId": "C19637F2290726EB",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "6AF4A5EF7DB4F012",
+                    "victimTeam": "Blue",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303159627,
+                    "killerPlayfabId": "9AB6234BDDCE14D9",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "C19637F2290726EB",
+                    "victimTeam": "Red",
+                    "weaponName": "Deagles"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303159710,
+                    "killerPlayfabId": "C19637F2290726EB",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9AB6234BDDCE14D9",
+                    "victimTeam": "Blue",
+                    "weaponName": "Spas12"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303171598,
+                    "killerPlayfabId": "298FD01685544F0",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9AB6234BDDCE14D9",
+                    "victimTeam": "Blue",
+                    "weaponName": "Deagles"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303175248,
+                    "killerPlayfabId": "6AF4A5EF7DB4F012",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "C19637F2290726EB",
+                    "victimTeam": "Red",
+                    "weaponName": "Melee"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303176883,
+                    "killerPlayfabId": "298FD01685544F0",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "6AF4A5EF7DB4F012",
+                    "victimTeam": "Blue",
+                    "weaponName": "Deagles"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303177532,
+                    "killerPlayfabId": "6AF4A5EF7DB4F012",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "C42975C9A8E4E66B",
+                    "victimTeam": "Red",
+                    "weaponName": "M79"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303183221,
+                    "killerPlayfabId": "9AB6234BDDCE14D9",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "298FD01685544F0",
+                    "victimTeam": "Red",
+                    "weaponName": "RPG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303184084,
+                    "killerPlayfabId": "C19637F2290726EB",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9AB6234BDDCE14D9",
+                    "victimTeam": "Blue",
+                    "weaponName": "Spas12"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303191635,
+                    "killerPlayfabId": "298FD01685544F0",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "6AF4A5EF7DB4F012",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303195761,
+                    "killerPlayfabId": "C19637F2290726EB",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9AB6234BDDCE14D9",
+                    "victimTeam": "Blue",
+                    "weaponName": "Spas12"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303198567,
+                    "killerPlayfabId": "6AF4A5EF7DB4F012",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "C42975C9A8E4E66B",
+                    "victimTeam": "Red",
+                    "weaponName": "Melee"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303201335,
+                    "killerPlayfabId": "C19637F2290726EB",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9AB6234BDDCE14D9",
+                    "victimTeam": "Blue",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303204629,
+                    "killerPlayfabId": "C42975C9A8E4E66B",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "6AF4A5EF7DB4F012",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303207413,
+                    "killerPlayfabId": "9AB6234BDDCE14D9",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "C19637F2290726EB",
+                    "victimTeam": "Red",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303215375,
+                    "killerPlayfabId": "C42975C9A8E4E66B",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "6AF4A5EF7DB4F012",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303217882,
+                    "killerPlayfabId": "D35B7050036AAD3",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "C19637F2290726EB",
+                    "victimTeam": "Red",
+                    "weaponName": "RocketLauncher"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303224766,
+                    "killerPlayfabId": "C42975C9A8E4E66B",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "D35B7050036AAD3",
+                    "victimTeam": "Blue",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303231034,
+                    "killerPlayfabId": "D35B7050036AAD3",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "C19637F2290726EB",
+                    "victimTeam": "Red",
+                    "weaponName": "RocketLauncher"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303233485,
+                    "killerPlayfabId": "C42975C9A8E4E66B",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "6AF4A5EF7DB4F012",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303239235,
+                    "killerPlayfabId": "D35B7050036AAD3",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "C42975C9A8E4E66B",
+                    "victimTeam": "Red",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303244409,
+                    "killerPlayfabId": "C19637F2290726EB",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9AB6234BDDCE14D9",
+                    "victimTeam": "Blue",
+                    "weaponName": "Spas12"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303244637,
+                    "killerPlayfabId": "C42975C9A8E4E66B",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "6AF4A5EF7DB4F012",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303245535,
+                    "killerPlayfabId": "9AB6234BDDCE14D9",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "C42975C9A8E4E66B",
+                    "victimTeam": "Red",
+                    "weaponName": "RGD5"
+                }
+            ],
+            "blueCaps": 1,
+            "redCaps": 2,
+            "winner": "Red"
+        },
+        {
+            "startTime": 1671303331087,
+            "endTime": 1671303646168,
+            "mapName": "ctf_rotten",
+            "events": [
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303347332,
+                    "killerPlayfabId": "C42975C9A8E4E66B",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "6AF4A5EF7DB4F012",
+                    "victimTeam": "Blue",
+                    "weaponName": "SteyrAUG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303351762,
+                    "killerPlayfabId": "9AB6234BDDCE14D9",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "298FD01685544F0",
+                    "victimTeam": "Red",
+                    "weaponName": "Deagles"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303352395,
+                    "killerPlayfabId": "D35B7050036AAD3",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "C42975C9A8E4E66B",
+                    "victimTeam": "Red",
+                    "weaponName": "RocketLauncher"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303356079,
+                    "killerPlayfabId": "C19637F2290726EB",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9AB6234BDDCE14D9",
+                    "victimTeam": "Blue",
+                    "weaponName": "Spas12"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303360498,
+                    "killerPlayfabId": "D35B7050036AAD3",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "C19637F2290726EB",
+                    "victimTeam": "Red",
+                    "weaponName": "RocketLauncher"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303362362,
+                    "killerPlayfabId": "C42975C9A8E4E66B",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "6AF4A5EF7DB4F012",
+                    "victimTeam": "Blue",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303363709,
+                    "killerPlayfabId": "D35B7050036AAD3",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "298FD01685544F0",
+                    "victimTeam": "Red",
+                    "weaponName": "RPG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303364066,
+                    "killerPlayfabId": "C42975C9A8E4E66B",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "D35B7050036AAD3",
+                    "victimTeam": "Blue",
+                    "weaponName": "SteyrAUG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303367320,
+                    "killerPlayfabId": "9AB6234BDDCE14D9",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "C19637F2290726EB",
+                    "victimTeam": "Red",
+                    "weaponName": "Melee"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303373373,
+                    "killerPlayfabId": "6AF4A5EF7DB4F012",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "C19637F2290726EB",
+                    "victimTeam": "Red",
+                    "weaponName": "Chainsaw"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303374004,
+                    "killerPlayfabId": "C42975C9A8E4E66B",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9AB6234BDDCE14D9",
+                    "victimTeam": "Blue",
+                    "weaponName": "SteyrAUG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303374262,
+                    "killerPlayfabId": "D35B7050036AAD3",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "C42975C9A8E4E66B",
+                    "victimTeam": "Red",
+                    "weaponName": "RocketLauncher"
+                },
+                {
+                    "type": "FLAG_CAP",
+                    "timestamp": 1671303375995,
+                    "cappingTeam": "Blue",
+                    "playfabId": "D35B7050036AAD3"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303378400,
+                    "killerPlayfabId": "C19637F2290726EB",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "6AF4A5EF7DB4F012",
+                    "victimTeam": "Blue",
+                    "weaponName": "Spas12"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303381244,
+                    "killerPlayfabId": "9AB6234BDDCE14D9",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "298FD01685544F0",
+                    "victimTeam": "Red",
+                    "weaponName": "Deagles"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303384877,
+                    "killerPlayfabId": "C42975C9A8E4E66B",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "6AF4A5EF7DB4F012",
+                    "victimTeam": "Blue",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303386116,
+                    "killerPlayfabId": "9AB6234BDDCE14D9",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "C42975C9A8E4E66B",
+                    "victimTeam": "Red",
+                    "weaponName": "Deagles"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303389231,
+                    "killerPlayfabId": "9AB6234BDDCE14D9",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "C19637F2290726EB",
+                    "victimTeam": "Red",
+                    "weaponName": "Deagles"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303392282,
+                    "killerPlayfabId": "9AB6234BDDCE14D9",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "298FD01685544F0",
+                    "victimTeam": "Red",
+                    "weaponName": "Deagles"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303393582,
+                    "killerPlayfabId": "D35B7050036AAD3",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "C42975C9A8E4E66B",
+                    "victimTeam": "Red",
+                    "weaponName": "RPG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303394924,
+                    "killerPlayfabId": "C19637F2290726EB",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9AB6234BDDCE14D9",
+                    "victimTeam": "Blue",
+                    "weaponName": "Spas12"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303395741,
+                    "killerPlayfabId": "C19637F2290726EB",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "D35B7050036AAD3",
+                    "victimTeam": "Blue",
+                    "weaponName": "Spas12"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303401417,
+                    "killerPlayfabId": "D35B7050036AAD3",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "C19637F2290726EB",
+                    "victimTeam": "Red",
+                    "weaponName": "RocketLauncher"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303402755,
+                    "killerPlayfabId": "C42975C9A8E4E66B",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "6AF4A5EF7DB4F012",
+                    "victimTeam": "Blue",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303404005,
+                    "killerPlayfabId": "298FD01685544F0",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9AB6234BDDCE14D9",
+                    "victimTeam": "Blue",
+                    "weaponName": "Deagles"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303407606,
+                    "killerPlayfabId": "C42975C9A8E4E66B",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "D35B7050036AAD3",
+                    "victimTeam": "Blue",
+                    "weaponName": "SteyrAUG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303408991,
+                    "killerPlayfabId": "9AB6234BDDCE14D9",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "C42975C9A8E4E66B",
+                    "victimTeam": "Red",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303409007,
+                    "killerPlayfabId": "C19637F2290726EB",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "6AF4A5EF7DB4F012",
+                    "victimTeam": "Blue",
+                    "weaponName": "Spas12"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303409490,
+                    "killerPlayfabId": "6AF4A5EF7DB4F012",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "C19637F2290726EB",
+                    "victimTeam": "Red",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303409824,
+                    "killerPlayfabId": "9AB6234BDDCE14D9",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "298FD01685544F0",
+                    "victimTeam": "Red",
+                    "weaponName": "RPG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303414893,
+                    "killerPlayfabId": "C19637F2290726EB",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9AB6234BDDCE14D9",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303421958,
+                    "killerPlayfabId": "9AB6234BDDCE14D9",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "C42975C9A8E4E66B",
+                    "victimTeam": "Red",
+                    "weaponName": "Deagles"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303422748,
+                    "killerPlayfabId": "298FD01685544F0",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "D35B7050036AAD3",
+                    "victimTeam": "Blue",
+                    "weaponName": "Deagles"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303426256,
+                    "killerPlayfabId": "298FD01685544F0",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9AB6234BDDCE14D9",
+                    "victimTeam": "Blue",
+                    "weaponName": "Deagles"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303430483,
+                    "killerPlayfabId": "D35B7050036AAD3",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "C19637F2290726EB",
+                    "victimTeam": "Red",
+                    "weaponName": "RPG"
+                },
+                {
+                    "type": "FLAG_CAP",
+                    "timestamp": 1671303434391,
+                    "cappingTeam": "Red",
+                    "playfabId": "298FD01685544F0"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303436732,
+                    "killerPlayfabId": "6AF4A5EF7DB4F012",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "C42975C9A8E4E66B",
+                    "victimTeam": "Red",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303437199,
+                    "killerPlayfabId": "9AB6234BDDCE14D9",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "C19637F2290726EB",
+                    "victimTeam": "Red",
+                    "weaponName": "Deagles"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303437708,
+                    "killerPlayfabId": "9AB6234BDDCE14D9",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "298FD01685544F0",
+                    "victimTeam": "Red",
+                    "weaponName": "Deagles"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303443303,
+                    "killerPlayfabId": "C42975C9A8E4E66B",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9AB6234BDDCE14D9",
+                    "victimTeam": "Blue",
+                    "weaponName": "SteyrAUG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303445264,
+                    "killerPlayfabId": "298FD01685544F0",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "D35B7050036AAD3",
+                    "victimTeam": "Blue",
+                    "weaponName": "Deagles"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303445927,
+                    "killerPlayfabId": "C19637F2290726EB",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "6AF4A5EF7DB4F012",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303450319,
+                    "killerPlayfabId": "D35B7050036AAD3",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "C42975C9A8E4E66B",
+                    "victimTeam": "Red",
+                    "weaponName": "RocketLauncher"
+                },
+                {
+                    "type": "FLAG_CAP",
+                    "timestamp": 1671303452922,
+                    "cappingTeam": "Red",
+                    "playfabId": "C19637F2290726EB"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303456616,
+                    "killerPlayfabId": "298FD01685544F0",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9AB6234BDDCE14D9",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303456618,
+                    "killerPlayfabId": "C19637F2290726EB",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "D35B7050036AAD3",
+                    "victimTeam": "Blue",
+                    "weaponName": "Spas12"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303456978,
+                    "killerPlayfabId": "D35B7050036AAD3",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "C19637F2290726EB",
+                    "victimTeam": "Red",
+                    "weaponName": "RPG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303458903,
+                    "killerPlayfabId": "6AF4A5EF7DB4F012",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "298FD01685544F0",
+                    "victimTeam": "Red",
+                    "weaponName": "Chainsaw"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303459670,
+                    "killerPlayfabId": "C42975C9A8E4E66B",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "6AF4A5EF7DB4F012",
+                    "victimTeam": "Blue",
+                    "weaponName": "SteyrAUG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303467067,
+                    "killerPlayfabId": "C42975C9A8E4E66B",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9AB6234BDDCE14D9",
+                    "victimTeam": "Blue",
+                    "weaponName": "SteyrAUG"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303467184,
+                    "killerPlayfabId": "9AB6234BDDCE14D9",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "C42975C9A8E4E66B",
+                    "victimTeam": "Red",
+                    "weaponName": "Deagles"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303472564,
+                    "killerPlayfabId": "6AF4A5EF7DB4F012",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "298FD01685544F0",
+                    "victimTeam": "Red",
+                    "weaponName": "Melee"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303475315,
+                    "killerPlayfabId": "C42975C9A8E4E66B",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "D35B7050036AAD3",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303478198,
+                    "killerPlayfabId": "9AB6234BDDCE14D9",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "C42975C9A8E4E66B",
+                    "victimTeam": "Red",
+                    "weaponName": "Deagles"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303481465,
+                    "killerPlayfabId": "9AB6234BDDCE14D9",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "298FD01685544F0",
+                    "victimTeam": "Red",
+                    "weaponName": "Deagles"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303482370,
+                    "killerPlayfabId": "C19637F2290726EB",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9AB6234BDDCE14D9",
+                    "victimTeam": "Blue",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303490261,
+                    "killerPlayfabId": "298FD01685544F0",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "6AF4A5EF7DB4F012",
+                    "victimTeam": "Blue",
+                    "weaponName": "Deagles"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303490734,
+                    "killerPlayfabId": "9AB6234BDDCE14D9",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "298FD01685544F0",
+                    "victimTeam": "Red",
+                    "weaponName": "Deagles"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303491237,
+                    "killerPlayfabId": "C42975C9A8E4E66B",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "D35B7050036AAD3",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303494260,
+                    "killerPlayfabId": "C19637F2290726EB",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9AB6234BDDCE14D9",
+                    "victimTeam": "Blue",
+                    "weaponName": "Spas12"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303500346,
+                    "killerPlayfabId": "C19637F2290726EB",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "D35B7050036AAD3",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303502542,
+                    "killerPlayfabId": "9AB6234BDDCE14D9",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "298FD01685544F0",
+                    "victimTeam": "Red",
+                    "weaponName": "Deagles"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303504934,
+                    "killerPlayfabId": "C19637F2290726EB",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "6AF4A5EF7DB4F012",
+                    "victimTeam": "Blue",
+                    "weaponName": "Spas12"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303508544,
+                    "killerPlayfabId": "C42975C9A8E4E66B",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9AB6234BDDCE14D9",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303515742,
+                    "killerPlayfabId": "298FD01685544F0",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "D35B7050036AAD3",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303516097,
+                    "killerPlayfabId": "9AB6234BDDCE14D9",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "298FD01685544F0",
+                    "victimTeam": "Red",
+                    "weaponName": "Deagles"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303517644,
+                    "killerPlayfabId": "C42975C9A8E4E66B",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9AB6234BDDCE14D9",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303520177,
+                    "killerPlayfabId": "6AF4A5EF7DB4F012",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "C19637F2290726EB",
+                    "victimTeam": "Red",
+                    "weaponName": "Spas12"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303520244,
+                    "killerPlayfabId": "C19637F2290726EB",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "6AF4A5EF7DB4F012",
+                    "victimTeam": "Blue",
+                    "weaponName": "Spas12"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303527545,
+                    "killerPlayfabId": "D35B7050036AAD3",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "298FD01685544F0",
+                    "victimTeam": "Red",
+                    "weaponName": "RocketLauncher"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303529079,
+                    "killerPlayfabId": "C42975C9A8E4E66B",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "6AF4A5EF7DB4F012",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303533305,
+                    "killerPlayfabId": "C19637F2290726EB",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9AB6234BDDCE14D9",
+                    "victimTeam": "Blue",
+                    "weaponName": "Spas12"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303534439,
+                    "killerPlayfabId": "D35B7050036AAD3",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "C42975C9A8E4E66B",
+                    "victimTeam": "Red",
+                    "weaponName": "RocketLauncher"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303539022,
+                    "killerPlayfabId": "9AB6234BDDCE14D9",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "C19637F2290726EB",
+                    "victimTeam": "Red",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303543818,
+                    "killerPlayfabId": "C42975C9A8E4E66B",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "6AF4A5EF7DB4F012",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303547530,
+                    "killerPlayfabId": "C42975C9A8E4E66B",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9AB6234BDDCE14D9",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303547631,
+                    "killerPlayfabId": "D35B7050036AAD3",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "298FD01685544F0",
+                    "victimTeam": "Red",
+                    "weaponName": "RocketLauncher"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303553576,
+                    "killerPlayfabId": "C19637F2290726EB",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "D35B7050036AAD3",
+                    "victimTeam": "Blue",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303557257,
+                    "killerPlayfabId": "C42975C9A8E4E66B",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "6AF4A5EF7DB4F012",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303558896,
+                    "killerPlayfabId": "C42975C9A8E4E66B",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9AB6234BDDCE14D9",
+                    "victimTeam": "Blue",
+                    "weaponName": "Deagles"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303567762,
+                    "killerPlayfabId": "D35B7050036AAD3",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "C42975C9A8E4E66B",
+                    "victimTeam": "Red",
+                    "weaponName": "RocketLauncher"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303570013,
+                    "killerPlayfabId": "C19637F2290726EB",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "6AF4A5EF7DB4F012",
+                    "victimTeam": "Blue",
+                    "weaponName": "Spas12"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303575758,
+                    "killerPlayfabId": "9AB6234BDDCE14D9",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "C19637F2290726EB",
+                    "victimTeam": "Red",
+                    "weaponName": "RPG"
+                },
+                {
+                    "type": "FLAG_CAP",
+                    "timestamp": 1671303576117,
+                    "cappingTeam": "Blue",
+                    "playfabId": "D35B7050036AAD3"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303577680,
+                    "killerPlayfabId": "9AB6234BDDCE14D9",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "298FD01685544F0",
+                    "victimTeam": "Red",
+                    "weaponName": "Deagles"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303579030,
+                    "killerPlayfabId": "9AB6234BDDCE14D9",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "C42975C9A8E4E66B",
+                    "victimTeam": "Red",
+                    "weaponName": "Deagles"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303585266,
+                    "killerPlayfabId": "D35B7050036AAD3",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "C19637F2290726EB",
+                    "victimTeam": "Red",
+                    "weaponName": "RocketLauncher"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303585300,
+                    "killerPlayfabId": "298FD01685544F0",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9AB6234BDDCE14D9",
+                    "victimTeam": "Blue",
+                    "weaponName": "Deagles"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303591329,
+                    "killerPlayfabId": "6AF4A5EF7DB4F012",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "298FD01685544F0",
+                    "victimTeam": "Red",
+                    "weaponName": "M79"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303591429,
+                    "killerPlayfabId": "9AB6234BDDCE14D9",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "C42975C9A8E4E66B",
+                    "victimTeam": "Red",
+                    "weaponName": "N/A"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303595115,
+                    "killerPlayfabId": "C19637F2290726EB",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "D35B7050036AAD3",
+                    "victimTeam": "Blue",
+                    "weaponName": "Knife"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303599944,
+                    "killerPlayfabId": "9AB6234BDDCE14D9",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "298FD01685544F0",
+                    "victimTeam": "Red",
+                    "weaponName": "RPG"
+                },
+                {
+                    "type": "FLAG_CAP",
+                    "timestamp": 1671303603290,
+                    "cappingTeam": "Red",
+                    "playfabId": "C19637F2290726EB"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303604264,
+                    "killerPlayfabId": "C42975C9A8E4E66B",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9AB6234BDDCE14D9",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303607121,
+                    "killerPlayfabId": "6AF4A5EF7DB4F012",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "C19637F2290726EB",
+                    "victimTeam": "Red",
+                    "weaponName": "Chainsaw"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303607123,
+                    "killerPlayfabId": "298FD01685544F0",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "D35B7050036AAD3",
+                    "victimTeam": "Blue",
+                    "weaponName": "Deagles"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303611054,
+                    "killerPlayfabId": "9AB6234BDDCE14D9",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "C42975C9A8E4E66B",
+                    "victimTeam": "Red",
+                    "weaponName": "Deagles"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303613337,
+                    "killerPlayfabId": "C19637F2290726EB",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "6AF4A5EF7DB4F012",
+                    "victimTeam": "Blue",
+                    "weaponName": "Spas12"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303615539,
+                    "killerPlayfabId": "D35B7050036AAD3",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "C19637F2290726EB",
+                    "victimTeam": "Red",
+                    "weaponName": "RocketLauncher"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303616854,
+                    "killerPlayfabId": "298FD01685544F0",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "D35B7050036AAD3",
+                    "victimTeam": "Blue",
+                    "weaponName": "Deagles"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303616867,
+                    "killerPlayfabId": "C42975C9A8E4E66B",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9AB6234BDDCE14D9",
+                    "victimTeam": "Blue",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303622823,
+                    "killerPlayfabId": "6AF4A5EF7DB4F012",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "298FD01685544F0",
+                    "victimTeam": "Red",
+                    "weaponName": "M79"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303623077,
+                    "killerPlayfabId": "C42975C9A8E4E66B",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "6AF4A5EF7DB4F012",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303627641,
+                    "killerPlayfabId": "C19637F2290726EB",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9AB6234BDDCE14D9",
+                    "victimTeam": "Blue",
+                    "weaponName": "Spas12"
+                },
+                {
+                    "type": "FLAG_CAP",
+                    "timestamp": 1671303630377,
+                    "cappingTeam": "Red",
+                    "playfabId": "C42975C9A8E4E66B"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303631943,
+                    "killerPlayfabId": "C19637F2290726EB",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "D35B7050036AAD3",
+                    "victimTeam": "Blue",
+                    "weaponName": "Spas12"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303633544,
+                    "killerPlayfabId": "C19637F2290726EB",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "6AF4A5EF7DB4F012",
+                    "victimTeam": "Blue",
+                    "weaponName": "Spas12"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303639017,
+                    "killerPlayfabId": "C19637F2290726EB",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "9AB6234BDDCE14D9",
+                    "victimTeam": "Blue",
+                    "weaponName": "Spas12"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303640150,
+                    "killerPlayfabId": "D35B7050036AAD3",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "C19637F2290726EB",
+                    "victimTeam": "Red",
+                    "weaponName": "RGD5"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303640734,
+                    "killerPlayfabId": "D35B7050036AAD3",
+                    "killerTeam": "Blue",
+                    "victimPlayfabId": "298FD01685544F0",
+                    "victimTeam": "Red",
+                    "weaponName": "RocketLauncher"
+                },
+                {
+                    "type": "PLAYER_KILL",
+                    "timestamp": 1671303642351,
+                    "killerPlayfabId": "C42975C9A8E4E66B",
+                    "killerTeam": "Red",
+                    "victimPlayfabId": "D35B7050036AAD3",
+                    "victimTeam": "Blue",
+                    "weaponName": "Kalashnikov"
+                }
+            ],
+            "blueCaps": 2,
+            "redCaps": 4,
+            "winner": "Red"
+        }
+    ]
+}
