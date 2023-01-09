@@ -8,5 +8,5 @@ cd "$SCRIPT_DIR"
 python3 -m venv venv
 source venv/bin/activate
 which python
-pip install -r requirements.txt
-ls *.ipynb | xargs -I I papermill I I 
+python -vm pip install -r requirements.txt
+ls *.ipynb | xargs -I I papermill I I
