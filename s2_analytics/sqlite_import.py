@@ -1,3 +1,4 @@
+import atexit
 import os
 import json
 from datetime import datetime
@@ -13,7 +14,16 @@ CREATE TABLE event_cap ('game', 'round', 'mapName', 'timestamp', 'cappingTeam', 
 """
 
 
+def _register_cleanup(sqlite_path):
+    def delete_if_exists(path):
+        if exists(path):
+            os.remove(path)
+    atexit.register(delete_if_exists, sqlite_path)
+
+
 def import_games(logs_dir, sqlite_path):
+    _register_cleanup(sqlite_path)
+
     logs = [f for f in listdir(logs_dir) if isfile(join(logs_dir, f))]
     games = []
     for log in logs:

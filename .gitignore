@@ -1,6 +1,7 @@
 *.iml
 .pytest_cache
 *.pyc
+/.ipynb_checkpoints/
 update.sh
 /.idea/
 /venv/
