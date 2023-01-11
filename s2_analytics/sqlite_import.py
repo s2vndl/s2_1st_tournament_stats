@@ -1,7 +1,7 @@
 import atexit
 import os
 import json
-from datetime import datetime
+from datetime import datetime, timedelta
 
 from os import listdir
 from os.path import isfile, join, exists
@@ -21,7 +21,8 @@ def _register_cleanup(sqlite_path):
     atexit.register(delete_if_exists, sqlite_path)
 
 
-def import_games(logs_dir, sqlite_path):
+def import_games(logs_dir: str, sqlite_path: str, period_days: int):
+    start_date = datetime.today() - timedelta(days=period_days)
     _register_cleanup(sqlite_path)
 
     logs = [f for f in listdir(logs_dir) if isfile(join(logs_dir, f))]
@@ -42,12 +43,17 @@ def import_games(logs_dir, sqlite_path):
 
     supported_playlist_code = ["CTF-Standard-4", "CTF-Standard-6", "CTF-Standard-8"]
     for game in games:
+
+        game_date = datetime.utcfromtimestamp(game["startTime"] / 1000)
+        if game_date < start_date:
+            continue
+
         if game["playlistCode"] not in supported_playlist_code:
             continue
         game["redRoundWins"] = game["teamRoundWins"]["Red"]
         game["blueRoundWins"] = game["teamRoundWins"]["Blue"]
         game["winner"] = game["result"]["winner"]
-        game["date"] = datetime.utcfromtimestamp(game["startTime"] / 1000).strftime('%Y-%m-%d')
+        game["date"] = game_date.strftime('%Y-%m-%d')
         cur.execute(
             'insert into game values (:startTime, :date, :playlistCode, :redRoundWins, :blueRoundWins, :winner)', game)
         for round_no, round in enumerate(game["rounds"]):
