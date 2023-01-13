@@ -1,0 +1,199 @@
+{
+  "playlistCode": "CTF-Standard-6",
+  "gameMode": "CaptureTheFlag",
+  "size": 2,
+  "players": [
+    {
+      "displayName": "vndl",
+      "playfabId": "7CCE15D959A12E91",
+      "team": "Blue",
+      "kills": 8,
+      "deaths": 11,
+      "kd": 0.7272727272727273,
+      "oldRating": {
+        "numGamesPlayedInPlaylist": 402,
+        "mu": 56.895617046567054,
+        "sigma": 5.893837395498703,
+        "lowerSkillEstimate": 39.21410486007095,
+        "tier": "GOLD_III",
+        "formattedTier": "Gold III",
+        "tierNumber": 9,
+        "tierImageUrl": "http://placeholder"
+      },
+      "newRating": {
+        "numGamesPlayedInPlaylist": 403,
+        "mu": 54.95832275953275,
+        "sigma": 5.916999661092354,
+        "lowerSkillEstimate": 37.20732377625569,
+        "tier": "GOLD_III",
+        "formattedTier": "Gold III",
+        "tierNumber": 9,
+        "tierImageUrl": "http://placeholder"
+      }
+    },
+    {
+      "playfabId": "8C8580A8023E3C41",
+      "team": "Red",
+      "kills": 21,
+      "deaths": 20,
+      "kd": 1.05,
+      "oldRating": {
+        "numGamesPlayedInPlaylist": 3,
+        "mu": 44.501889782577045,
+        "sigma": 9.804139027370486,
+        "lowerSkillEstimate": 15.089472700465588,
+        "tier": "UNRANKED",
+        "formattedTier": "Unranked",
+        "tierNumber": 0,
+        "tierImageUrl": "http://placeholder"
+      },
+      "newRating": {
+        "numGamesPlayedInPlaylist": 4,
+        "mu": 49.60906869502731,
+        "sigma": 9.027469273161,
+        "lowerSkillEstimate": 22.526660875544312,
+        "tier": "UNRANKED",
+        "formattedTier": "Unranked",
+        "tierNumber": 0,
+        "tierImageUrl": "http://placeholder"
+      }
+    }
+  ],
+  "teams": [
+    "Blue",
+    "Red"
+  ],
+  "region": "EU",
+  "server": "gs-eu-2",
+  "startTime": 1673564249000,
+  "endTime": 1673564602482,
+  "result": {
+    "isTie": false,
+    "winner": "Red"
+  },
+  "totalRounds": 1,
+  "teamWinProbabilities": {
+    "Red": 0.38839434686013535,
+    "Blue": 0.6116056531398646
+  },
+  "teamRoundWins": {
+    "Blue": 1,
+    "Red": 0
+  },
+  "matchQuality": 0.5034282868653599,
+  "rounds": [
+    {
+      "startTime": 1673564296797,
+      "endTime": 1673564552013,
+      "mapName": "ctf_x",
+      "events": [
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1673564310905,
+          "killerPlayfabId": "C19637F2290726EB",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "85D4CB1D1C2A72CD",
+          "victimTeam": "Red",
+          "weaponName": "RGD5"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1673564311973,
+          "killerPlayfabId": "C19637F2290726EB",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "8C8580A8023E3C41",
+          "victimTeam": "Red",
+          "weaponName": "Spas12"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1673564314110,
+          "killerPlayfabId": "6446A9422BE1BD7D",
+          "killerTeam": "Red",
+          "victimPlayfabId": "924A515947815DE1",
+          "victimTeam": "Blue",
+          "weaponName": "MP5"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1673564314677,
+          "killerPlayfabId": "C19637F2290726EB",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "6446A9422BE1BD7D",
+          "victimTeam": "Red",
+          "weaponName": "Knife"
+        },
+        {
+          "type": "FLAG_CAP",
+          "timestamp": 1673564527881,
+          "cappingTeam": "Blue",
+          "playfabId": "924A515947815DE1"
+        }
+      ],
+      "blueCaps": 1,
+      "redCaps": 0,
+      "result": {
+        "winner": "Blue",
+        "isTie": false
+      },
+      "playerKillsAndDeaths": {
+        "7CCE15D959A12E91": {
+          "kills": 8,
+          "deaths": 11
+        },
+        "C19637F2290726EB": {
+          "kills": 21,
+          "deaths": 16
+        },
+        "924A515947815DE1": {
+          "kills": 12,
+          "deaths": 14
+        },
+        "8C8580A8023E3C41": {
+          "kills": 21,
+          "deaths": 20
+        },
+        "6446A9422BE1BD7D": {
+          "kills": 15,
+          "deaths": 15
+        },
+        "85D4CB1D1C2A72CD": {
+          "kills": 5,
+          "deaths": 6
+        }
+      }
+    }
+  ],
+  "teamNames": {
+    "Blue": "Blue",
+    "Red": "Red"
+  },
+  "gameForfeitedWithRemainingTeam": "Red",
+  "playerKillsAndDeaths": {
+    "7CCE15D959A12E91": {
+      "kills": 8,
+      "deaths": 11
+    },
+    "C19637F2290726EB": {
+      "kills": 21,
+      "deaths": 16
+    },
+    "924A515947815DE1": {
+      "kills": 12,
+      "deaths": 14
+    },
+    "8C8580A8023E3C41": {
+      "kills": 21,
+      "deaths": 20
+    },
+    "6446A9422BE1BD7D": {
+      "kills": 15,
+      "deaths": 15
+    },
+    "85D4CB1D1C2A72CD": {
+      "kills": 5,
+      "deaths": 6
+    }
+  },
+  "gameNumberInPlaylist": 2675
+}
