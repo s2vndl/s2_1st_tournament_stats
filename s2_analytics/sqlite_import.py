@@ -1,3 +1,7 @@
+import tempfile
+import uuid
+from typing import Union
+
 import atexit
 import os
 import json
@@ -18,13 +22,15 @@ def _register_cleanup(sqlite_path):
     atexit.register(delete_if_exists, sqlite_path)
 
 
-def import_games(logs_dir: str, sqlite_path: str, period_days: int):
+def import_games(logs_dir: str, sqlite_path: Union[str, None] = None, period_days: int = 60):
     game_importer = GameImporter()
     game_importer.import_games(logs_dir, sqlite_path, period_days)
     return game_importer.con, game_importer.con.cursor()
 
 
-def _prepare_sqlite_db(sqlite_path):
+def _prepare_sqlite_db(sqlite_path: Union[None, str]):
+    if sqlite_path is None:
+        sqlite_path = tempfile.gettempdir() + f"/s2_analytics_{uuid.uuid4()}.sqlite"
     if exists(sqlite_path):
         os.remove(sqlite_path)
     con = sqlite3.connect(sqlite_path)
@@ -46,7 +52,7 @@ class GameImporter:
         self.cur = None
         self.con = None
 
-    def import_games(self, logs_dir: str, sqlite_path: str, period_days):
+    def import_games(self, logs_dir: str, sqlite_path: Union[str, None] = None, period_days: int = 60):
         games = _read_games_json(logs_dir)
         self.con = _prepare_sqlite_db(sqlite_path)
         self.cur = self.con.cursor()

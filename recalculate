@@ -6,6 +6,5 @@ SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 cd "$SCRIPT_DIR"
 python3 -m venv venv
 source venv/bin/activate
-which python
-python -m pip install -r requirements.txt
+python -m pip install -qr requirements.txt
 ls *.ipynb | xargs -I I papermill --no-progress-bar --log-level ERROR I I
