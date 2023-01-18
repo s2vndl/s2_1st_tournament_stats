@@ -1,8 +1,9 @@
 site_name: Soldat2 stats
 site_url: https://s2stats.github.io/
+repo_url: https://github.com/example/repository/
 theme: readthedocs
-docs_dir: markdown
-
+docs_dir: build/markdown
+site_dir: docs
 nav:
   - index.md
   - stats_maps_trends.md

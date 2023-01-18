@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://s2stats.github.io/</loc>
+         <lastmod>2023-01-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://s2stats.github.io/stats_maps_trends/</loc>
+         <lastmod>2023-01-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://s2stats.github.io/stats_ranked/</loc>
+         <lastmod>2023-01-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://s2stats.github.io/stats_tournament/</loc>
+         <lastmod>2023-01-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://s2stats.github.io/stats_weapon_usage_trends/</loc>
+         <lastmod>2023-01-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://s2stats.github.io/stats_weapon_usage_trends_v2/</loc>
+         <lastmod>2023-01-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+</urlset>

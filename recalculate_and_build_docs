@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+set -o errexit
+
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+
+cd "$SCRIPT_DIR"
+
+rm -rf build
+rm -rf docs/
+mkdir -p build/data
+mkdir -p build/markdown
+mkdir -p build/notebooks
+mkdir -p docs
+cp index.md build/markdown/
+
+python3 -m venv venv
+source venv/bin/activate
+python -m pip install -qr requirements.txt
+ls *.ipynb | xargs -I I papermill --no-progress-bar --log-level ERROR I build/notebooks/I
+jupyter nbconvert --to markdown --output-dir=build/markdown build/notebooks/*.ipynb --no-input --log-level ERROR
+
+mkdocs build
+cp -r build/data docs
