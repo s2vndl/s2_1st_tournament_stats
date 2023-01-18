@@ -1,6 +1,6 @@
 site_name: Soldat2 stats
-site_url: https://s2stats.github.io/
-repo_url: https://github.com/example/repository/
+site_url: https://s2vndl.github.io/s2stats/docs/
+repo_url: https://github.com/s2vndl/s2stats/
 theme: readthedocs
 docs_dir: build/markdown
 site_dir: docs
