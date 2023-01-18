@@ -1,0 +1,12 @@
+site_name: Soldat2 stats
+site_url: https://s2stats.github.io/
+theme: readthedocs
+docs_dir: markdown
+
+nav:
+  - index.md
+  - stats_maps_trends.md
+  - stats_weapon_usage_trends_v2.md
+  - stats_weapon_usage_trends.md
+  - stats_ranked.md
+  - stats_tournament.md

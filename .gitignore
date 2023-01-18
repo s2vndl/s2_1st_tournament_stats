@@ -5,3 +5,6 @@
 update.sh
 /.idea/
 /venv/
+/markdown/
+/data/
+/site/

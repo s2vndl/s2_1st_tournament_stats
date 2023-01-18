@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+set -o errexit
+
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+
+cd "$SCRIPT_DIR"
+python3 -m venv venv
+source venv/bin/activate
+#python -m pip install -qr requirements.txt
+#ls *.ipynb | xargs -I I papermill --no-progress-bar --log-level ERROR I I
+#jupyter nbconvert --to markdown --output-dir=markdown *.ipynb --no-input
+
+git worktree remove site -f || :
+rm -rf site/
+rm -rf markdown/data
+
+# create a 'site' directory checked out to the gh-pages branch
+git worktree add -B gh-pages site origin/gh-pages
+mkdocs build
+cd site
+current_branch=$(git symbolic-ref --short -q HEAD)
+if [ "$current_branch" != "gh-pages" ]; then
+  echo "Expected site folder to be on gh-pages branch."
+  exit 1
+fi
+git add . && git commit -m "Update gh-pages"
