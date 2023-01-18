@@ -19,4 +19,4 @@ python -m pip install -qr requirements.txt
 ls *.ipynb | xargs -I I papermill --no-progress-bar --log-level ERROR I build/notebooks/I
 jupyter nbconvert --to markdown --output-dir=build/markdown build/notebooks/*.ipynb --no-input --log-level ERROR
 
-mkdocs build | grep -V INFO
+mkdocs build 2> >(grep -ive '^INFO' >&2)
