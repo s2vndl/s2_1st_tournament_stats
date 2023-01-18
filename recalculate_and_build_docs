@@ -11,7 +11,7 @@ mkdir -p build/data
 mkdir -p build/markdown
 mkdir -p build/notebooks
 mkdir -p docs
-cp index.md build/markdown/
+cp README.md build/markdown/index.md
 
 python3 -m venv venv
 source venv/bin/activate
@@ -19,5 +19,5 @@ python -m pip install -qr requirements.txt
 ls *.ipynb | xargs -I I papermill --no-progress-bar --log-level ERROR I build/notebooks/I
 jupyter nbconvert --to markdown --output-dir=build/markdown build/notebooks/*.ipynb --no-input --log-level ERROR
 
-mkdocs build
+mkdocs build | grep -V INFO
 cp -r build/data docs
