@@ -6,9 +6,9 @@ SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 cd "$SCRIPT_DIR"
 
 rm -rf build
-rm -rf docs/
+rm -rf docs
+mkdir -p build/markdown/data
 mkdir -p build/data
-mkdir -p build/markdown
 mkdir -p build/notebooks
 mkdir -p docs
 cp README.md build/markdown/index.md
@@ -20,4 +20,3 @@ ls *.ipynb | xargs -I I papermill --no-progress-bar --log-level ERROR I build/no
 jupyter nbconvert --to markdown --output-dir=build/markdown build/notebooks/*.ipynb --no-input --log-level ERROR
 
 mkdocs build | grep -V INFO
-cp -r build/data docs
