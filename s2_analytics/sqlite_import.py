@@ -1,3 +1,4 @@
+import re
 import tempfile
 import uuid
 from typing import Union
@@ -38,10 +39,17 @@ def _prepare_sqlite_db(sqlite_path: Union[None, str]):
     return con
 
 
-def _read_games_json(logs_dir):
+def _read_games_json(logs_dir, start_timestamp: datetime):
     logs = [f for f in listdir(logs_dir) if isfile(join(logs_dir, f))]
     games = []
     for log in logs:
+        match = re.match("^game_([0-9]{13}).json", log)
+        if not match:
+            continue
+        timestamp = int(match.group(1))
+        game_start_time = datetime.utcfromtimestamp(timestamp / 1000)
+        if game_start_time < start_timestamp:
+            continue
         with open(logs_dir + "/" + log, "r") as f:
             games.append(json.load(f))
     return games
@@ -53,20 +61,16 @@ class GameImporter:
         self.con = None
 
     def import_games(self, logs_dir: str, sqlite_path: Union[str, None] = None, period_days: int = 60):
-        games = _read_games_json(logs_dir)
+        start_date = datetime.today() - timedelta(days=period_days)
+        games = _read_games_json(logs_dir, start_date)
         self.con = _prepare_sqlite_db(sqlite_path)
         self.cur = self.con.cursor()
 
-        start_date = datetime.today() - timedelta(days=period_days)
         self._create_tables()
 
         supported_playlist_code = ["CTF-Standard-4", "CTF-Standard-6", "CTF-Standard-8"]
         for game in games:
-
             game_date = datetime.utcfromtimestamp(game["startTime"] / 1000)
-            if game_date < start_date:
-                continue
-
             if game["playlistCode"] not in supported_playlist_code:
                 continue
             game["redRoundWins"] = game["teamRoundWins"]["Red"]
