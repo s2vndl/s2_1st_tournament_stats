@@ -11,9 +11,11 @@ TIME_LIMIT_SECONDS = 2
 
 def test_import_cant_be_too_long():
     start = datetime.datetime.now().timestamp()
-    import_games(SCRIPT_DIR + "/logs_ranked/", period_days=90, processors=[ObjectCollector()])
+    collector = ObjectCollector()
+    import_games(SCRIPT_DIR + "/logs_ranked/", period_days=5, processors=[collector])
     end = datetime.datetime.now().timestamp()
 
+    assert len(collector.games) > 0
     assert end - start < TIME_LIMIT_SECONDS
 
 
