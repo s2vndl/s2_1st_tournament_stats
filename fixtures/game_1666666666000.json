@@ -77,7 +77,7 @@
     "Blue": 0.6116056531398646
   },
   "teamRoundWins": {
-    "Blue": 1,
+    "Blue": 2,
     "Red": 0
   },
   "matchQuality": 0.5034282868653599,
@@ -94,34 +94,7 @@
           "killerTeam": "Blue",
           "victimPlayfabId": "85D4CB1D1C2A72CD",
           "victimTeam": "Red",
-          "weaponName": "RGD5"
-        },
-        {
-          "type": "PLAYER_KILL",
-          "timestamp": 1673564311973,
-          "killerPlayfabId": "C19637F2290726EB",
-          "killerTeam": "Blue",
-          "victimPlayfabId": "8C8580A8023E3C41",
-          "victimTeam": "Red",
-          "weaponName": "Spas12"
-        },
-        {
-          "type": "PLAYER_KILL",
-          "timestamp": 1673564314110,
-          "killerPlayfabId": "6446A9422BE1BD7D",
-          "killerTeam": "Red",
-          "victimPlayfabId": "924A515947815DE1",
-          "victimTeam": "Blue",
-          "weaponName": "MP5"
-        },
-        {
-          "type": "PLAYER_KILL",
-          "timestamp": 1673564314677,
-          "killerPlayfabId": "C19637F2290726EB",
-          "killerTeam": "Blue",
-          "victimPlayfabId": "6446A9422BE1BD7D",
-          "victimTeam": "Red",
-          "weaponName": "Knife"
+          "weaponName": "Barrett"
         },
         {
           "type": "FLAG_CAP",
@@ -141,25 +114,56 @@
           "kills": 8,
           "deaths": 11
         },
-        "C19637F2290726EB": {
+        "8C8580A8023E3C41": {
           "kills": 21,
-          "deaths": 16
+          "deaths": 20
+        }
+      }
+    },
+    {
+      "startTime": 1673564298797,
+      "endTime": 1673564554013,
+      "mapName": "ctf_ash",
+      "events": [
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1673564312905,
+          "killerPlayfabId": "C19637F2290726EB",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "85D4CB1D1C2A72CD",
+          "victimTeam": "Red",
+          "weaponName": "Rheinmetall"
         },
-        "924A515947815DE1": {
-          "kills": 12,
-          "deaths": 14
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1673564313105,
+          "killerPlayfabId": "C19637F2290726EB",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "85D4CB1D1C2A72CD",
+          "victimTeam": "Red",
+          "weaponName": "Barrett"
+        },
+        {
+          "type": "FLAG_CAP",
+          "timestamp": 1673564529881,
+          "cappingTeam": "Blue",
+          "playfabId": "924A515947815DE1"
+        }
+      ],
+      "blueCaps": 1,
+      "redCaps": 0,
+      "result": {
+        "winner": "Blue",
+        "isTie": false
+      },
+      "playerKillsAndDeaths": {
+        "7CCE15D959A12E91": {
+          "kills": 8,
+          "deaths": 11
         },
         "8C8580A8023E3C41": {
           "kills": 21,
           "deaths": 20
-        },
-        "6446A9422BE1BD7D": {
-          "kills": 15,
-          "deaths": 15
-        },
-        "85D4CB1D1C2A72CD": {
-          "kills": 5,
-          "deaths": 6
         }
       }
     }
@@ -174,25 +178,9 @@
       "kills": 8,
       "deaths": 11
     },
-    "C19637F2290726EB": {
-      "kills": 21,
-      "deaths": 16
-    },
-    "924A515947815DE1": {
-      "kills": 12,
-      "deaths": 14
-    },
     "8C8580A8023E3C41": {
       "kills": 21,
       "deaths": 20
-    },
-    "6446A9422BE1BD7D": {
-      "kills": 15,
-      "deaths": 15
-    },
-    "85D4CB1D1C2A72CD": {
-      "kills": 5,
-      "deaths": 6
     }
   },
   "gameNumberInPlaylist": 2675

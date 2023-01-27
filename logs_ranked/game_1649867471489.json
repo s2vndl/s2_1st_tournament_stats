@@ -1,1 +1,1599 @@
-{"startTime":1649867471489,"endTime":1649868089289,"playlistCode":"CTF-Standard-6","region":null,"server":null,"gameMode":"CaptureTheFlag","size":6,"teams":["Blue","Red"],"players":[{"displayName":"RoMeK","playfabId":"2C9D540DAF680EBE","team":"Blue","kills":45,"deaths":16,"kd":2.8125,"oldRating":{"numGamesPlayedInPlaylist":0,"mu":50,"sigma":16.666666666666668,"lowerSkillEstimate":0,"tier":"UNRANKED","formattedTier":"Unranked","tierNumber":0,"tierImageUrl":"http://placeholder"},"newRating":{"numGamesPlayedInPlaylist":1,"mu":56.03072523554908,"sigma":15.83115450076206,"lowerSkillEstimate":8.537261733262895,"tier":"UNRANKED","formattedTier":"Unranked","tierNumber":0,"tierImageUrl":"http://placeholder"}},{"displayName":"Paul Keating","playfabId":"B019842C7B66C3BF","team":"Blue","kills":18,"deaths":17,"kd":1.0588235294117647,"oldRating":{"numGamesPlayedInPlaylist":1,"mu":44.57655388497479,"sigma":15.881861193501196,"lowerSkillEstimate":-3.0690296955287977,"tier":"UNRANKED","formattedTier":"Unranked","tierNumber":0,"tierImageUrl":"http://placeholder"},"newRating":{"numGamesPlayedInPlaylist":2,"mu":50.05818847772592,"sigma":15.17508734553889,"lowerSkillEstimate":4.532926441109254,"tier":"UNRANKED","formattedTier":"Unranked","tierNumber":0,"tierImageUrl":"http://placeholder"}},{"displayName":"DreaGa","playfabId":"A411D9862AAAA76D","team":"Blue","kills":24,"deaths":16,"kd":1.5,"oldRating":{"numGamesPlayedInPlaylist":0,"mu":50,"sigma":16.666666666666668,"lowerSkillEstimate":0,"tier":"UNRANKED","formattedTier":"Unranked","tierNumber":0,"tierImageUrl":"http://placeholder"},"newRating":{"numGamesPlayedInPlaylist":1,"mu":56.030725235549085,"sigma":15.83115450076206,"lowerSkillEstimate":8.537261733262902,"tier":"UNRANKED","formattedTier":"Unranked","tierNumber":0,"tierImageUrl":"http://placeholder"}},{"displayName":"Rattle","playfabId":"EF34F66EBE1952FC","team":"Red","kills":17,"deaths":31,"kd":0.5483870967741935,"oldRating":{"numGamesPlayedInPlaylist":0,"mu":50,"sigma":16.666666666666668,"lowerSkillEstimate":0,"tier":"UNRANKED","formattedTier":"Unranked","tierNumber":0,"tierImageUrl":"http://placeholder"},"newRating":{"numGamesPlayedInPlaylist":1,"mu":43.96927476445092,"sigma":15.831154500762063,"lowerSkillEstimate":-3.524188737835267,"tier":"UNRANKED","formattedTier":"Unranked","tierNumber":0,"tierImageUrl":"http://placeholder"}},{"displayName":"Maz","playfabId":"24C14B5C0AC03EFC","team":"Red","kills":15,"deaths":28,"kd":0.5357142857142857,"oldRating":{"numGamesPlayedInPlaylist":0,"mu":50,"sigma":16.666666666666668,"lowerSkillEstimate":0,"tier":"UNRANKED","formattedTier":"Unranked","tierNumber":0,"tierImageUrl":"http://placeholder"},"newRating":{"numGamesPlayedInPlaylist":1,"mu":43.96927476445092,"sigma":15.831154500762063,"lowerSkillEstimate":-3.524188737835267,"tier":"UNRANKED","formattedTier":"Unranked","tierNumber":0,"tierImageUrl":"http://placeholder"}},{"displayName":"Lanik","playfabId":"7125F38A51FE8E27","team":"Red","kills":17,"deaths":28,"kd":0.6071428571428571,"oldRating":{"numGamesPlayedInPlaylist":0,"mu":50,"sigma":16.666666666666668,"lowerSkillEstimate":0,"tier":"UNRANKED","formattedTier":"Unranked","tierNumber":0,"tierImageUrl":"http://placeholder"},"newRating":{"numGamesPlayedInPlaylist":1,"mu":43.96927476445092,"sigma":15.831154500762063,"lowerSkillEstimate":-3.524188737835267,"tier":"UNRANKED","formattedTier":"Unranked","tierNumber":0,"tierImageUrl":"http://placeholder"}}],"result":{"isTie":false,"winner":"Blue"},"matchQuality":0.2422540606320062,"teamWinProbabilities":{"Blue":0.4483544026876174,"Red":0.5516455973123826},"teamRoundWins":{"Blue":2,"Red":0},"totalRounds":2,"rounds":[{"startTime":1649867503680,"endTime":1649867818529,"mapName":"ctf_hormone","events":[{"type":"PLAYER_KILL","timestamp":1649867521231,"killerPlayfabId":"2C9D540DAF680EBE","killerTeam":"Blue","victimPlayfabId":"EF34F66EBE1952FC","victimTeam":"Red","weaponName":"SteyrAUG"},{"type":"PLAYER_KILL","timestamp":1649867522165,"killerPlayfabId":"24C14B5C0AC03EFC","killerTeam":"Red","victimPlayfabId":"B019842C7B66C3BF","victimTeam":"Blue","weaponName":"Barrett"},{"type":"PLAYER_KILL","timestamp":1649867522647,"killerPlayfabId":"B019842C7B66C3BF","killerTeam":"Blue","victimPlayfabId":"24C14B5C0AC03EFC","victimTeam":"Red","weaponName":"MP5"},{"type":"PLAYER_KILL","timestamp":1649867526355,"killerPlayfabId":"7125F38A51FE8E27","killerTeam":"Red","victimPlayfabId":"2C9D540DAF680EBE","victimTeam":"Blue","weaponName":"RocketLauncher"},{"type":"PLAYER_KILL","timestamp":1649867532904,"killerPlayfabId":"A411D9862AAAA76D","killerTeam":"Blue","victimPlayfabId":"EF34F66EBE1952FC","victimTeam":"Red","weaponName":"Knife"},{"type":"PLAYER_KILL","timestamp":1649867536388,"killerPlayfabId":"2C9D540DAF680EBE","killerTeam":"Blue","victimPlayfabId":"24C14B5C0AC03EFC","victimTeam":"Red","weaponName":"SteyrAUG"},{"type":"PLAYER_KILL","timestamp":1649867541421,"killerPlayfabId":"2C9D540DAF680EBE","killerTeam":"Blue","victimPlayfabId":"EF34F66EBE1952FC","victimTeam":"Red","weaponName":"SteyrAUG"},{"type":"PLAYER_KILL","timestamp":1649867543588,"killerPlayfabId":"2C9D540DAF680EBE","killerTeam":"Blue","victimPlayfabId":"7125F38A51FE8E27","victimTeam":"Red","weaponName":"SteyrAUG"},{"type":"PLAYER_KILL","timestamp":1649867547322,"killerPlayfabId":"B019842C7B66C3BF","killerTeam":"Blue","victimPlayfabId":"24C14B5C0AC03EFC","victimTeam":"Red","weaponName":"MP5"},{"type":"PLAYER_KILL","timestamp":1649867547538,"killerPlayfabId":"2C9D540DAF680EBE","killerTeam":"Blue","victimPlayfabId":"EF34F66EBE1952FC","victimTeam":"Red","weaponName":"Knife"},{"type":"FLAG_CAP","timestamp":1649867548348,"cappingTeam":"Blue","playfabId":"A411D9862AAAA76D"},{"type":"PLAYER_KILL","timestamp":1649867554007,"killerPlayfabId":"2C9D540DAF680EBE","killerTeam":"Blue","victimPlayfabId":"7125F38A51FE8E27","victimTeam":"Red","weaponName":"SteyrAUG"},{"type":"PLAYER_KILL","timestamp":1649867557638,"killerPlayfabId":"EF34F66EBE1952FC","killerTeam":"Red","victimPlayfabId":"2C9D540DAF680EBE","victimTeam":"Blue","weaponName":"Dragunov"},{"type":"PLAYER_KILL","timestamp":1649867561938,"killerPlayfabId":"B019842C7B66C3BF","killerTeam":"Blue","victimPlayfabId":"24C14B5C0AC03EFC","victimTeam":"Red","weaponName":"MP5"},{"type":"PLAYER_KILL","timestamp":1649867569523,"killerPlayfabId":"7125F38A51FE8E27","killerTeam":"Red","victimPlayfabId":"A411D9862AAAA76D","victimTeam":"Blue","weaponName":"RGD5"},{"type":"PLAYER_KILL","timestamp":1649867569773,"killerPlayfabId":"2C9D540DAF680EBE","killerTeam":"Blue","victimPlayfabId":"EF34F66EBE1952FC","victimTeam":"Red","weaponName":"SteyrAUG"},{"type":"PLAYER_KILL","timestamp":1649867575906,"killerPlayfabId":"24C14B5C0AC03EFC","killerTeam":"Red","victimPlayfabId":"2C9D540DAF680EBE","victimTeam":"Blue","weaponName":"Barrett"},{"type":"PLAYER_KILL","timestamp":1649867579089,"killerPlayfabId":"B019842C7B66C3BF","killerTeam":"Blue","victimPlayfabId":"24C14B5C0AC03EFC","victimTeam":"Red","weaponName":"N/A"},{"type":"PLAYER_KILL","timestamp":1649867584822,"killerPlayfabId":"2C9D540DAF680EBE","killerTeam":"Blue","victimPlayfabId":"EF34F66EBE1952FC","victimTeam":"Red","weaponName":"SteyrAUG"},{"type":"PLAYER_KILL","timestamp":1649867584939,"killerPlayfabId":"A411D9862AAAA76D","killerTeam":"Blue","victimPlayfabId":"7125F38A51FE8E27","victimTeam":"Red","weaponName":"SteyrAUG"},{"type":"PLAYER_KILL","timestamp":1649867590789,"killerPlayfabId":"24C14B5C0AC03EFC","killerTeam":"Red","victimPlayfabId":"A411D9862AAAA76D","victimTeam":"Blue","weaponName":"Barrett"},{"type":"PLAYER_KILL","timestamp":1649867593173,"killerPlayfabId":"2C9D540DAF680EBE","killerTeam":"Blue","victimPlayfabId":"EF34F66EBE1952FC","victimTeam":"Red","weaponName":"SteyrAUG"},{"type":"PLAYER_KILL","timestamp":1649867594856,"killerPlayfabId":"2C9D540DAF680EBE","killerTeam":"Blue","victimPlayfabId":"7125F38A51FE8E27","victimTeam":"Red","weaponName":"SteyrAUG"},{"type":"FLAG_CAP","timestamp":1649867596264,"cappingTeam":"Blue","playfabId":"B019842C7B66C3BF"},{"type":"PLAYER_KILL","timestamp":1649867603305,"killerPlayfabId":"EF34F66EBE1952FC","killerTeam":"Red","victimPlayfabId":"B019842C7B66C3BF","victimTeam":"Blue","weaponName":"Spas12"},{"type":"PLAYER_KILL","timestamp":1649867603405,"killerPlayfabId":"2C9D540DAF680EBE","killerTeam":"Blue","victimPlayfabId":"EF34F66EBE1952FC","victimTeam":"Red","weaponName":"SteyrAUG"},{"type":"PLAYER_KILL","timestamp":1649867604041,"killerPlayfabId":"A411D9862AAAA76D","killerTeam":"Blue","victimPlayfabId":"24C14B5C0AC03EFC","victimTeam":"Red","weaponName":"SteyrAUG"},{"type":"PLAYER_KILL","timestamp":1649867608073,"killerPlayfabId":"7125F38A51FE8E27","killerTeam":"Red","victimPlayfabId":"2C9D540DAF680EBE","victimTeam":"Blue","weaponName":"SteyrAUG"},{"type":"PLAYER_KILL","timestamp":1649867611690,"killerPlayfabId":"EF34F66EBE1952FC","killerTeam":"Red","victimPlayfabId":"A411D9862AAAA76D","victimTeam":"Blue","weaponName":"Spas12"},{"type":"PLAYER_KILL","timestamp":1649867616440,"killerPlayfabId":"2C9D540DAF680EBE","killerTeam":"Blue","victimPlayfabId":"EF34F66EBE1952FC","victimTeam":"Red","weaponName":"SteyrAUG"},{"type":"PLAYER_KILL","timestamp":1649867618441,"killerPlayfabId":"2C9D540DAF680EBE","killerTeam":"Blue","victimPlayfabId":"7125F38A51FE8E27","victimTeam":"Red","weaponName":"Knife"},{"type":"PLAYER_KILL","timestamp":1649867618741,"killerPlayfabId":"24C14B5C0AC03EFC","killerTeam":"Red","victimPlayfabId":"B019842C7B66C3BF","victimTeam":"Blue","weaponName":"Barrett"},{"type":"PLAYER_KILL","timestamp":1649867626541,"killerPlayfabId":"2C9D540DAF680EBE","killerTeam":"Blue","victimPlayfabId":"24C14B5C0AC03EFC","victimTeam":"Red","weaponName":"SteyrAUG"},{"type":"PLAYER_KILL","timestamp":1649867630442,"killerPlayfabId":"EF34F66EBE1952FC","killerTeam":"Red","victimPlayfabId":"A411D9862AAAA76D","victimTeam":"Blue","weaponName":"RGD5"},{"type":"PLAYER_KILL","timestamp":1649867630609,"killerPlayfabId":"A411D9862AAAA76D","killerTeam":"Blue","victimPlayfabId":"EF34F66EBE1952FC","victimTeam":"Red","weaponName":"RGD5"},{"type":"PLAYER_KILL","timestamp":1649867631109,"killerPlayfabId":"B019842C7B66C3BF","killerTeam":"Blue","victimPlayfabId":"7125F38A51FE8E27","victimTeam":"Red","weaponName":"RGD5"},{"type":"PLAYER_KILL","timestamp":1649867635341,"killerPlayfabId":"2C9D540DAF680EBE","killerTeam":"Blue","victimPlayfabId":"24C14B5C0AC03EFC","victimTeam":"Red","weaponName":"SteyrAUG"},{"type":"PLAYER_KILL","timestamp":1649867640975,"killerPlayfabId":"2C9D540DAF680EBE","killerTeam":"Blue","victimPlayfabId":"EF34F66EBE1952FC","victimTeam":"Red","weaponName":"SteyrAUG"},{"type":"PLAYER_KILL","timestamp":1649867641742,"killerPlayfabId":"7125F38A51FE8E27","killerTeam":"Red","victimPlayfabId":"2C9D540DAF680EBE","victimTeam":"Blue","weaponName":"MP5"},{"type":"PLAYER_KILL","timestamp":1649867641792,"killerPlayfabId":"7125F38A51FE8E27","killerTeam":"Red","victimPlayfabId":"B019842C7B66C3BF","victimTeam":"Blue","weaponName":"RGD5"},{"type":"PLAYER_KILL","timestamp":1649867646275,"killerPlayfabId":"A411D9862AAAA76D","killerTeam":"Blue","victimPlayfabId":"7125F38A51FE8E27","victimTeam":"Red","weaponName":"Kalashnikov"},{"type":"PLAYER_KILL","timestamp":1649867646323,"killerPlayfabId":"24C14B5C0AC03EFC","killerTeam":"Red","victimPlayfabId":"A411D9862AAAA76D","victimTeam":"Blue","weaponName":"Barrett"},{"type":"PLAYER_KILL","timestamp":1649867657092,"killerPlayfabId":"2C9D540DAF680EBE","killerTeam":"Blue","victimPlayfabId":"24C14B5C0AC03EFC","victimTeam":"Red","weaponName":"SteyrAUG"},{"type":"PLAYER_KILL","timestamp":1649867657908,"killerPlayfabId":"EF34F66EBE1952FC","killerTeam":"Red","victimPlayfabId":"B019842C7B66C3BF","victimTeam":"Blue","weaponName":"Spas12"},{"type":"PLAYER_KILL","timestamp":1649867658492,"killerPlayfabId":"A411D9862AAAA76D","killerTeam":"Blue","victimPlayfabId":"EF34F66EBE1952FC","victimTeam":"Red","weaponName":"Kalashnikov"},{"type":"PLAYER_KILL","timestamp":1649867658608,"killerPlayfabId":"7125F38A51FE8E27","killerTeam":"Red","victimPlayfabId":"2C9D540DAF680EBE","victimTeam":"Blue","weaponName":"MP5"},{"type":"PLAYER_KILL","timestamp":1649867668509,"killerPlayfabId":"2C9D540DAF680EBE","killerTeam":"Blue","victimPlayfabId":"24C14B5C0AC03EFC","victimTeam":"Red","weaponName":"RGD5"},{"type":"PLAYER_KILL","timestamp":1649867676926,"killerPlayfabId":"A411D9862AAAA76D","killerTeam":"Blue","victimPlayfabId":"EF34F66EBE1952FC","victimTeam":"Red","weaponName":"Kalashnikov"},{"type":"PLAYER_KILL","timestamp":1649867678060,"killerPlayfabId":"B019842C7B66C3BF","killerTeam":"Blue","victimPlayfabId":"24C14B5C0AC03EFC","victimTeam":"Red","weaponName":"MP5"},{"type":"PLAYER_KILL","timestamp":1649867678393,"killerPlayfabId":"2C9D540DAF680EBE","killerTeam":"Blue","victimPlayfabId":"7125F38A51FE8E27","victimTeam":"Red","weaponName":"SteyrAUG"},{"type":"FLAG_CAP","timestamp":1649867683101,"cappingTeam":"Blue","playfabId":"B019842C7B66C3BF"},{"type":"PLAYER_KILL","timestamp":1649867685595,"killerPlayfabId":"A411D9862AAAA76D","killerTeam":"Blue","victimPlayfabId":"EF34F66EBE1952FC","victimTeam":"Red","weaponName":"Kalashnikov"},{"type":"PLAYER_KILL","timestamp":1649867689045,"killerPlayfabId":"2C9D540DAF680EBE","killerTeam":"Blue","victimPlayfabId":"7125F38A51FE8E27","victimTeam":"Red","weaponName":"SteyrAUG"},{"type":"PLAYER_KILL","timestamp":1649867692612,"killerPlayfabId":"2C9D540DAF680EBE","killerTeam":"Blue","victimPlayfabId":"24C14B5C0AC03EFC","victimTeam":"Red","weaponName":"SteyrAUG"},{"type":"PLAYER_KILL","timestamp":1649867696563,"killerPlayfabId":"EF34F66EBE1952FC","killerTeam":"Red","victimPlayfabId":"2C9D540DAF680EBE","victimTeam":"Blue","weaponName":"Spas12"},{"type":"PLAYER_KILL","timestamp":1649867704230,"killerPlayfabId":"7125F38A51FE8E27","killerTeam":"Red","victimPlayfabId":"A411D9862AAAA76D","victimTeam":"Blue","weaponName":"Spas12"},{"type":"PLAYER_KILL","timestamp":1649867706565,"killerPlayfabId":"2C9D540DAF680EBE","killerTeam":"Blue","victimPlayfabId":"7125F38A51FE8E27","victimTeam":"Red","weaponName":"SteyrAUG"},{"type":"PLAYER_KILL","timestamp":1649867708131,"killerPlayfabId":"B019842C7B66C3BF","killerTeam":"Blue","victimPlayfabId":"24C14B5C0AC03EFC","victimTeam":"Red","weaponName":"MP5"},{"type":"PLAYER_KILL","timestamp":1649867709580,"killerPlayfabId":"EF34F66EBE1952FC","killerTeam":"Red","victimPlayfabId":"B019842C7B66C3BF","victimTeam":"Blue","weaponName":"Spas12"},{"type":"PLAYER_KILL","timestamp":1649867709680,"killerPlayfabId":"B019842C7B66C3BF","killerTeam":"Blue","victimPlayfabId":"EF34F66EBE1952FC","victimTeam":"Red","weaponName":"MP5"},{"type":"PLAYER_KILL","timestamp":1649867718147,"killerPlayfabId":"EF34F66EBE1952FC","killerTeam":"Red","victimPlayfabId":"2C9D540DAF680EBE","victimTeam":"Blue","weaponName":"Spas12"},{"type":"PLAYER_KILL","timestamp":1649867718215,"killerPlayfabId":"A411D9862AAAA76D","killerTeam":"Blue","victimPlayfabId":"24C14B5C0AC03EFC","victimTeam":"Red","weaponName":"RGD5"},{"type":"PLAYER_KILL","timestamp":1649867720599,"killerPlayfabId":"A411D9862AAAA76D","killerTeam":"Blue","victimPlayfabId":"EF34F66EBE1952FC","victimTeam":"Red","weaponName":"Kalashnikov"},{"type":"PLAYER_KILL","timestamp":1649867724747,"killerPlayfabId":"B019842C7B66C3BF","killerTeam":"Blue","victimPlayfabId":"24C14B5C0AC03EFC","victimTeam":"Red","weaponName":"Knife"},{"type":"PLAYER_KILL","timestamp":1649867725714,"killerPlayfabId":"2C9D540DAF680EBE","killerTeam":"Blue","victimPlayfabId":"7125F38A51FE8E27","victimTeam":"Red","weaponName":"RGD5"},{"type":"PLAYER_KILL","timestamp":1649867725864,"killerPlayfabId":"7125F38A51FE8E27","killerTeam":"Red","victimPlayfabId":"2C9D540DAF680EBE","victimTeam":"Blue","weaponName":"N/A"},{"type":"FLAG_CAP","timestamp":1649867732356,"cappingTeam":"Blue","playfabId":"B019842C7B66C3BF"},{"type":"PLAYER_KILL","timestamp":1649867733114,"killerPlayfabId":"7125F38A51FE8E27","killerTeam":"Red","victimPlayfabId":"B019842C7B66C3BF","victimTeam":"Blue","weaponName":"RGD5"},{"type":"PLAYER_KILL","timestamp":1649867738391,"killerPlayfabId":"2C9D540DAF680EBE","killerTeam":"Blue","victimPlayfabId":"7125F38A51FE8E27","victimTeam":"Red","weaponName":"SteyrAUG"},{"type":"PLAYER_KILL","timestamp":1649867745517,"killerPlayfabId":"24C14B5C0AC03EFC","killerTeam":"Red","victimPlayfabId":"2C9D540DAF680EBE","victimTeam":"Blue","weaponName":"Barrett"},{"type":"PLAYER_KILL","timestamp":1649867746417,"killerPlayfabId":"B019842C7B66C3BF","killerTeam":"Blue","victimPlayfabId":"24C14B5C0AC03EFC","victimTeam":"Red","weaponName":"MP5"},{"type":"PLAYER_KILL","timestamp":1649867755884,"killerPlayfabId":"EF34F66EBE1952FC","killerTeam":"Red","victimPlayfabId":"B019842C7B66C3BF","victimTeam":"Blue","weaponName":"MP5"},{"type":"PLAYER_KILL","timestamp":1649867759024,"killerPlayfabId":"A411D9862AAAA76D","killerTeam":"Blue","victimPlayfabId":"EF34F66EBE1952FC","victimTeam":"Red","weaponName":"Kalashnikov"},{"type":"PLAYER_KILL","timestamp":1649867762317,"killerPlayfabId":"7125F38A51FE8E27","killerTeam":"Red","victimPlayfabId":"2C9D540DAF680EBE","victimTeam":"Blue","weaponName":"Spas12"},{"type":"PLAYER_KILL","timestamp":1649867765818,"killerPlayfabId":"24C14B5C0AC03EFC","killerTeam":"Red","victimPlayfabId":"B019842C7B66C3BF","victimTeam":"Blue","weaponName":"Barrett"},{"type":"PLAYER_KILL","timestamp":1649867766784,"killerPlayfabId":"EF34F66EBE1952FC","killerTeam":"Red","victimPlayfabId":"A411D9862AAAA76D","victimTeam":"Blue","weaponName":"Minigun"},{"type":"PLAYER_KILL","timestamp":1649867769101,"killerPlayfabId":"2C9D540DAF680EBE","killerTeam":"Blue","victimPlayfabId":"7125F38A51FE8E27","victimTeam":"Red","weaponName":"RGD5"},{"type":"PLAYER_KILL","timestamp":1649867778134,"killerPlayfabId":"B019842C7B66C3BF","killerTeam":"Blue","victimPlayfabId":"24C14B5C0AC03EFC","victimTeam":"Red","weaponName":"RGD5"},{"type":"PLAYER_KILL","timestamp":1649867778792,"killerPlayfabId":"2C9D540DAF680EBE","killerTeam":"Blue","victimPlayfabId":"EF34F66EBE1952FC","victimTeam":"Red","weaponName":"SteyrAUG"},{"type":"PLAYER_KILL","timestamp":1649867779467,"killerPlayfabId":"A411D9862AAAA76D","killerTeam":"Blue","victimPlayfabId":"7125F38A51FE8E27","victimTeam":"Red","weaponName":"SteyrAUG"},{"type":"PLAYER_KILL","timestamp":1649867786120,"killerPlayfabId":"B019842C7B66C3BF","killerTeam":"Blue","victimPlayfabId":"24C14B5C0AC03EFC","victimTeam":"Red","weaponName":"Deagles"},{"type":"PLAYER_KILL","timestamp":1649867787570,"killerPlayfabId":"7125F38A51FE8E27","killerTeam":"Red","victimPlayfabId":"B019842C7B66C3BF","victimTeam":"Blue","weaponName":"Spas12"},{"type":"PLAYER_KILL","timestamp":1649867790837,"killerPlayfabId":"A411D9862AAAA76D","killerTeam":"Blue","victimPlayfabId":"EF34F66EBE1952FC","victimTeam":"Red","weaponName":"SteyrAUG"},{"type":"PLAYER_KILL","timestamp":1649867791337,"killerPlayfabId":"7125F38A51FE8E27","killerTeam":"Red","victimPlayfabId":"A411D9862AAAA76D","victimTeam":"Blue","weaponName":"Spas12"},{"type":"PLAYER_KILL","timestamp":1649867796805,"killerPlayfabId":"24C14B5C0AC03EFC","killerTeam":"Red","victimPlayfabId":"B019842C7B66C3BF","victimTeam":"Blue","weaponName":"Barrett"},{"type":"PLAYER_KILL","timestamp":1649867797139,"killerPlayfabId":"B019842C7B66C3BF","killerTeam":"Blue","victimPlayfabId":"24C14B5C0AC03EFC","victimTeam":"Red","weaponName":"Deagles"},{"type":"PLAYER_KILL","timestamp":1649867804271,"killerPlayfabId":"A411D9862AAAA76D","killerTeam":"Blue","victimPlayfabId":"EF34F66EBE1952FC","victimTeam":"Red","weaponName":"RGD5"},{"type":"PLAYER_KILL","timestamp":1649867804438,"killerPlayfabId":"EF34F66EBE1952FC","killerTeam":"Red","victimPlayfabId":"A411D9862AAAA76D","victimTeam":"Blue","weaponName":"Rheinmetall"},{"type":"PLAYER_KILL","timestamp":1649867811589,"killerPlayfabId":"B019842C7B66C3BF","killerTeam":"Blue","victimPlayfabId":"7125F38A51FE8E27","victimTeam":"Red","weaponName":"Deagles"},{"type":"PLAYER_KILL","timestamp":1649867811679,"killerPlayfabId":"7125F38A51FE8E27","killerTeam":"Red","victimPlayfabId":"B019842C7B66C3BF","victimTeam":"Blue","weaponName":"RGD5"},{"type":"PLAYER_KILL","timestamp":1649867815044,"killerPlayfabId":"EF34F66EBE1952FC","killerTeam":"Red","victimPlayfabId":"2C9D540DAF680EBE","victimTeam":"Blue","weaponName":"Rheinmetall"}],"result":{"isTie":false,"winner":"Blue"},"blueCaps":4,"redCaps":0,"playerKillsAndDeaths":{"2C9D540DAF680EBE":{"kills":26,"deaths":12},"B019842C7B66C3BF":{"kills":14,"deaths":12},"A411D9862AAAA76D":{"kills":14,"deaths":9},"EF34F66EBE1952FC":{"kills":12,"deaths":20},"24C14B5C0AC03EFC":{"kills":8,"deaths":19},"7125F38A51FE8E27":{"kills":13,"deaths":15}}},{"startTime":1649867833933,"endTime":1649868089289,"mapName":"ctf_crossfire","events":[{"type":"PLAYER_KILL","timestamp":1649867852691,"killerPlayfabId":"24C14B5C0AC03EFC","killerTeam":"Red","victimPlayfabId":"A411D9862AAAA76D","victimTeam":"Blue","weaponName":"Barrett"},{"type":"PLAYER_KILL","timestamp":1649867860025,"killerPlayfabId":"2C9D540DAF680EBE","killerTeam":"Blue","victimPlayfabId":"7125F38A51FE8E27","victimTeam":"Red","weaponName":"SteyrAUG"},{"type":"PLAYER_KILL","timestamp":1649867863828,"killerPlayfabId":"A411D9862AAAA76D","killerTeam":"Blue","victimPlayfabId":"24C14B5C0AC03EFC","victimTeam":"Red","weaponName":"SteyrAUG"},{"type":"PLAYER_KILL","timestamp":1649867868041,"killerPlayfabId":"A411D9862AAAA76D","killerTeam":"Blue","victimPlayfabId":"EF34F66EBE1952FC","victimTeam":"Red","weaponName":"SteyrAUG"},{"type":"FLAG_CAP","timestamp":1649867868666,"cappingTeam":"Blue","playfabId":"2C9D540DAF680EBE"},{"type":"PLAYER_KILL","timestamp":1649867872761,"killerPlayfabId":"2C9D540DAF680EBE","killerTeam":"Blue","victimPlayfabId":"7125F38A51FE8E27","victimTeam":"Red","weaponName":"SteyrAUG"},{"type":"PLAYER_KILL","timestamp":1649867875644,"killerPlayfabId":"A411D9862AAAA76D","killerTeam":"Blue","victimPlayfabId":"EF34F66EBE1952FC","victimTeam":"Red","weaponName":"RGD5"},{"type":"PLAYER_KILL","timestamp":1649867880744,"killerPlayfabId":"2C9D540DAF680EBE","killerTeam":"Blue","victimPlayfabId":"24C14B5C0AC03EFC","victimTeam":"Red","weaponName":"RGD5"},{"type":"PLAYER_KILL","timestamp":1649867900349,"killerPlayfabId":"7125F38A51FE8E27","killerTeam":"Red","victimPlayfabId":"2C9D540DAF680EBE","victimTeam":"Blue","weaponName":"M79"},{"type":"PLAYER_KILL","timestamp":1649867900449,"killerPlayfabId":"2C9D540DAF680EBE","killerTeam":"Blue","victimPlayfabId":"7125F38A51FE8E27","victimTeam":"Red","weaponName":"SteyrAUG"},{"type":"PLAYER_KILL","timestamp":1649867909701,"killerPlayfabId":"2C9D540DAF680EBE","killerTeam":"Blue","victimPlayfabId":"EF34F66EBE1952FC","victimTeam":"Red","weaponName":"SteyrAUG"},{"type":"PLAYER_KILL","timestamp":1649867917683,"killerPlayfabId":"7125F38A51FE8E27","killerTeam":"Red","victimPlayfabId":"A411D9862AAAA76D","victimTeam":"Blue","weaponName":"Knife"},{"type":"PLAYER_KILL","timestamp":1649867921200,"killerPlayfabId":"2C9D540DAF680EBE","killerTeam":"Blue","victimPlayfabId":"7125F38A51FE8E27","victimTeam":"Red","weaponName":"SteyrAUG"},{"type":"PLAYER_KILL","timestamp":1649867930883,"killerPlayfabId":"A411D9862AAAA76D","killerTeam":"Blue","victimPlayfabId":"EF34F66EBE1952FC","victimTeam":"Red","weaponName":"SteyrAUG"},{"type":"PLAYER_KILL","timestamp":1649867938416,"killerPlayfabId":"7125F38A51FE8E27","killerTeam":"Red","victimPlayfabId":"2C9D540DAF680EBE","victimTeam":"Blue","weaponName":"RGD5"},{"type":"PLAYER_KILL","timestamp":1649867941883,"killerPlayfabId":"EF34F66EBE1952FC","killerTeam":"Red","victimPlayfabId":"A411D9862AAAA76D","victimTeam":"Blue","weaponName":"RGD5"},{"type":"FLAG_CAP","timestamp":1649867944275,"cappingTeam":"Red","playfabId":"24C14B5C0AC03EFC"},{"type":"PLAYER_KILL","timestamp":1649867944601,"killerPlayfabId":"EF34F66EBE1952FC","killerTeam":"Red","victimPlayfabId":"2C9D540DAF680EBE","victimTeam":"Blue","weaponName":"Knife"},{"type":"FLAG_CAP","timestamp":1649867953710,"cappingTeam":"Red","playfabId":"7125F38A51FE8E27"},{"type":"PLAYER_KILL","timestamp":1649867953938,"killerPlayfabId":"24C14B5C0AC03EFC","killerTeam":"Red","victimPlayfabId":"A411D9862AAAA76D","victimTeam":"Blue","weaponName":"Barrett"},{"type":"PLAYER_KILL","timestamp":1649867954420,"killerPlayfabId":"2C9D540DAF680EBE","killerTeam":"Blue","victimPlayfabId":"EF34F66EBE1952FC","victimTeam":"Red","weaponName":"SteyrAUG"},{"type":"PLAYER_KILL","timestamp":1649867966605,"killerPlayfabId":"2C9D540DAF680EBE","killerTeam":"Blue","victimPlayfabId":"24C14B5C0AC03EFC","victimTeam":"Red","weaponName":"SteyrAUG"},{"type":"PLAYER_KILL","timestamp":1649867968303,"killerPlayfabId":"A411D9862AAAA76D","killerTeam":"Blue","victimPlayfabId":"EF34F66EBE1952FC","victimTeam":"Red","weaponName":"SteyrAUG"},{"type":"PLAYER_KILL","timestamp":1649867968503,"killerPlayfabId":"B019842C7B66C3BF","killerTeam":"Blue","victimPlayfabId":"7125F38A51FE8E27","victimTeam":"Red","weaponName":"Deagles"},{"type":"FLAG_CAP","timestamp":1649867973445,"cappingTeam":"Blue","playfabId":"2C9D540DAF680EBE"},{"type":"PLAYER_KILL","timestamp":1649867974887,"killerPlayfabId":"B019842C7B66C3BF","killerTeam":"Blue","victimPlayfabId":"24C14B5C0AC03EFC","victimTeam":"Red","weaponName":"Deagles"},{"type":"PLAYER_KILL","timestamp":1649867978439,"killerPlayfabId":"2C9D540DAF680EBE","killerTeam":"Blue","victimPlayfabId":"7125F38A51FE8E27","victimTeam":"Red","weaponName":"SteyrAUG"},{"type":"PLAYER_KILL","timestamp":1649867984806,"killerPlayfabId":"2C9D540DAF680EBE","killerTeam":"Blue","victimPlayfabId":"7125F38A51FE8E27","victimTeam":"Red","weaponName":"Knife"},{"type":"PLAYER_KILL","timestamp":1649867991173,"killerPlayfabId":"EF34F66EBE1952FC","killerTeam":"Red","victimPlayfabId":"B019842C7B66C3BF","victimTeam":"Blue","weaponName":"Dragunov"},{"type":"PLAYER_KILL","timestamp":1649867991706,"killerPlayfabId":"A411D9862AAAA76D","killerTeam":"Blue","victimPlayfabId":"EF34F66EBE1952FC","victimTeam":"Red","weaponName":"SteyrAUG"},{"type":"PLAYER_KILL","timestamp":1649867996497,"killerPlayfabId":"2C9D540DAF680EBE","killerTeam":"Blue","victimPlayfabId":"24C14B5C0AC03EFC","victimTeam":"Red","weaponName":"SteyrAUG"},{"type":"PLAYER_KILL","timestamp":1649868000939,"killerPlayfabId":"7125F38A51FE8E27","killerTeam":"Red","victimPlayfabId":"A411D9862AAAA76D","victimTeam":"Blue","weaponName":"M79"},{"type":"PLAYER_KILL","timestamp":1649868002889,"killerPlayfabId":"EF34F66EBE1952FC","killerTeam":"Red","victimPlayfabId":"B019842C7B66C3BF","victimTeam":"Blue","weaponName":"Dragunov"},{"type":"PLAYER_KILL","timestamp":1649868003690,"killerPlayfabId":"2C9D540DAF680EBE","killerTeam":"Blue","victimPlayfabId":"7125F38A51FE8E27","victimTeam":"Red","weaponName":"SteyrAUG"},{"type":"PLAYER_KILL","timestamp":1649868011174,"killerPlayfabId":"2C9D540DAF680EBE","killerTeam":"Blue","victimPlayfabId":"EF34F66EBE1952FC","victimTeam":"Red","weaponName":"SteyrAUG"},{"type":"FLAG_CAP","timestamp":1649868014515,"cappingTeam":"Blue","playfabId":"2C9D540DAF680EBE"},{"type":"PLAYER_KILL","timestamp":1649868023609,"killerPlayfabId":"2C9D540DAF680EBE","killerTeam":"Blue","victimPlayfabId":"7125F38A51FE8E27","victimTeam":"Red","weaponName":"SteyrAUG"},{"type":"PLAYER_KILL","timestamp":1649868026508,"killerPlayfabId":"24C14B5C0AC03EFC","killerTeam":"Red","victimPlayfabId":"A411D9862AAAA76D","victimTeam":"Blue","weaponName":"Knife"},{"type":"PLAYER_KILL","timestamp":1649868032492,"killerPlayfabId":"B019842C7B66C3BF","killerTeam":"Blue","victimPlayfabId":"7125F38A51FE8E27","victimTeam":"Red","weaponName":"Deagles"},{"type":"PLAYER_KILL","timestamp":1649868035859,"killerPlayfabId":"24C14B5C0AC03EFC","killerTeam":"Red","victimPlayfabId":"B019842C7B66C3BF","victimTeam":"Blue","weaponName":"Knife"},{"type":"PLAYER_KILL","timestamp":1649868036558,"killerPlayfabId":"2C9D540DAF680EBE","killerTeam":"Blue","victimPlayfabId":"EF34F66EBE1952FC","victimTeam":"Red","weaponName":"SteyrAUG"},{"type":"PLAYER_KILL","timestamp":1649868041492,"killerPlayfabId":"2C9D540DAF680EBE","killerTeam":"Blue","victimPlayfabId":"24C14B5C0AC03EFC","victimTeam":"Red","weaponName":"SteyrAUG"},{"type":"PLAYER_KILL","timestamp":1649868041758,"killerPlayfabId":"24C14B5C0AC03EFC","killerTeam":"Red","victimPlayfabId":"2C9D540DAF680EBE","victimTeam":"Blue","weaponName":"Knife"},{"type":"PLAYER_KILL","timestamp":1649868044577,"killerPlayfabId":"B019842C7B66C3BF","killerTeam":"Blue","victimPlayfabId":"7125F38A51FE8E27","victimTeam":"Red","weaponName":"Deagles"},{"type":"FLAG_CAP","timestamp":1649868044999,"cappingTeam":"Blue","playfabId":"A411D9862AAAA76D"},{"type":"PLAYER_KILL","timestamp":1649868048815,"killerPlayfabId":"2C9D540DAF680EBE","killerTeam":"Blue","victimPlayfabId":"EF34F66EBE1952FC","victimTeam":"Red","weaponName":"N/A"},{"type":"PLAYER_KILL","timestamp":1649868054963,"killerPlayfabId":"24C14B5C0AC03EFC","killerTeam":"Red","victimPlayfabId":"B019842C7B66C3BF","victimTeam":"Blue","weaponName":"Barrett"},{"type":"PLAYER_KILL","timestamp":1649868060003,"killerPlayfabId":"2C9D540DAF680EBE","killerTeam":"Blue","victimPlayfabId":"7125F38A51FE8E27","victimTeam":"Red","weaponName":"SteyrAUG"},{"type":"PLAYER_KILL","timestamp":1649868065220,"killerPlayfabId":"A411D9862AAAA76D","killerTeam":"Blue","victimPlayfabId":"24C14B5C0AC03EFC","victimTeam":"Red","weaponName":"RGD5"},{"type":"PLAYER_KILL","timestamp":1649868075903,"killerPlayfabId":"2C9D540DAF680EBE","killerTeam":"Blue","victimPlayfabId":"24C14B5C0AC03EFC","victimTeam":"Red","weaponName":"SteyrAUG"},{"type":"PLAYER_KILL","timestamp":1649868077003,"killerPlayfabId":"A411D9862AAAA76D","killerTeam":"Blue","victimPlayfabId":"7125F38A51FE8E27","victimTeam":"Red","weaponName":"SteyrAUG"},{"type":"PLAYER_KILL","timestamp":1649868079753,"killerPlayfabId":"A411D9862AAAA76D","killerTeam":"Blue","victimPlayfabId":"EF34F66EBE1952FC","victimTeam":"Red","weaponName":"SteyrAUG"},{"type":"PLAYER_KILL","timestamp":1649868086753,"killerPlayfabId":"24C14B5C0AC03EFC","killerTeam":"Red","victimPlayfabId":"B019842C7B66C3BF","victimTeam":"Blue","weaponName":"Knife"},{"type":"PLAYER_KILL","timestamp":1649868087856,"killerPlayfabId":"A411D9862AAAA76D","killerTeam":"Blue","victimPlayfabId":"24C14B5C0AC03EFC","victimTeam":"Red","weaponName":"SteyrAUG"},{"type":"PLAYER_KILL","timestamp":1649868089239,"killerPlayfabId":"EF34F66EBE1952FC","killerTeam":"Red","victimPlayfabId":"A411D9862AAAA76D","victimTeam":"Blue","weaponName":"Dragunov"},{"type":"FLAG_CAP","timestamp":1649868089263,"cappingTeam":"Blue","playfabId":"2C9D540DAF680EBE"}],"result":{"isTie":false,"winner":"Blue"},"blueCaps":5,"redCaps":2,"playerKillsAndDeaths":{"2C9D540DAF680EBE":{"kills":19,"deaths":4},"B019842C7B66C3BF":{"kills":4,"deaths":5},"A411D9862AAAA76D":{"kills":10,"deaths":7},"EF34F66EBE1952FC":{"kills":5,"deaths":11},"24C14B5C0AC03EFC":{"kills":7,"deaths":9},"7125F38A51FE8E27":{"kills":4,"deaths":13}}}],"teamNames":{"Blue":"Blue","Red":"Red"},"gameForfeitedWithRemainingTeam":null,"playerKillsAndDeaths":{"2C9D540DAF680EBE":{"kills":45,"deaths":16},"B019842C7B66C3BF":{"kills":18,"deaths":17},"A411D9862AAAA76D":{"kills":24,"deaths":16},"EF34F66EBE1952FC":{"kills":17,"deaths":31},"24C14B5C0AC03EFC":{"kills":15,"deaths":28},"7125F38A51FE8E27":{"kills":17,"deaths":28}},"gameNumberInPlaylist":2}
+{
+  "startTime": 1649867471489,
+  "endTime": 1649868089289,
+  "playlistCode": "CTF-Standard-6",
+  "region": null,
+  "server": null,
+  "gameMode": "CaptureTheFlag",
+  "size": 6,
+  "teams": [
+    "Blue",
+    "Red"
+  ],
+  "players": [
+    {
+      "displayName": "RoMeK",
+      "playfabId": "2C9D540DAF680EBE",
+      "team": "Blue",
+      "kills": 45,
+      "deaths": 16,
+      "kd": 2.8125,
+      "oldRating": {
+        "numGamesPlayedInPlaylist": 0,
+        "mu": 50,
+        "sigma": 16.666666666666668,
+        "lowerSkillEstimate": 0,
+        "tier": "UNRANKED",
+        "formattedTier": "Unranked",
+        "tierNumber": 0,
+        "tierImageUrl": "http://placeholder"
+      },
+      "newRating": {
+        "numGamesPlayedInPlaylist": 1,
+        "mu": 56.03072523554908,
+        "sigma": 15.83115450076206,
+        "lowerSkillEstimate": 8.537261733262895,
+        "tier": "UNRANKED",
+        "formattedTier": "Unranked",
+        "tierNumber": 0,
+        "tierImageUrl": "http://placeholder"
+      }
+    },
+    {
+      "displayName": "Paul Keating",
+      "playfabId": "B019842C7B66C3BF",
+      "team": "Blue",
+      "kills": 18,
+      "deaths": 17,
+      "kd": 1.0588235294117647,
+      "oldRating": {
+        "numGamesPlayedInPlaylist": 1,
+        "mu": 44.57655388497479,
+        "sigma": 15.881861193501196,
+        "lowerSkillEstimate": -3.0690296955287977,
+        "tier": "UNRANKED",
+        "formattedTier": "Unranked",
+        "tierNumber": 0,
+        "tierImageUrl": "http://placeholder"
+      },
+      "newRating": {
+        "numGamesPlayedInPlaylist": 2,
+        "mu": 50.05818847772592,
+        "sigma": 15.17508734553889,
+        "lowerSkillEstimate": 4.532926441109254,
+        "tier": "UNRANKED",
+        "formattedTier": "Unranked",
+        "tierNumber": 0,
+        "tierImageUrl": "http://placeholder"
+      }
+    },
+    {
+      "displayName": "DreaGa",
+      "playfabId": "A411D9862AAAA76D",
+      "team": "Blue",
+      "kills": 24,
+      "deaths": 16,
+      "kd": 1.5,
+      "oldRating": {
+        "numGamesPlayedInPlaylist": 0,
+        "mu": 50,
+        "sigma": 16.666666666666668,
+        "lowerSkillEstimate": 0,
+        "tier": "UNRANKED",
+        "formattedTier": "Unranked",
+        "tierNumber": 0,
+        "tierImageUrl": "http://placeholder"
+      },
+      "newRating": {
+        "numGamesPlayedInPlaylist": 1,
+        "mu": 56.030725235549085,
+        "sigma": 15.83115450076206,
+        "lowerSkillEstimate": 8.537261733262902,
+        "tier": "UNRANKED",
+        "formattedTier": "Unranked",
+        "tierNumber": 0,
+        "tierImageUrl": "http://placeholder"
+      }
+    },
+    {
+      "displayName": "Rattle",
+      "playfabId": "EF34F66EBE1952FC",
+      "team": "Red",
+      "kills": 17,
+      "deaths": 31,
+      "kd": 0.5483870967741935,
+      "oldRating": {
+        "numGamesPlayedInPlaylist": 0,
+        "mu": 50,
+        "sigma": 16.666666666666668,
+        "lowerSkillEstimate": 0,
+        "tier": "UNRANKED",
+        "formattedTier": "Unranked",
+        "tierNumber": 0,
+        "tierImageUrl": "http://placeholder"
+      },
+      "newRating": {
+        "numGamesPlayedInPlaylist": 1,
+        "mu": 43.96927476445092,
+        "sigma": 15.831154500762063,
+        "lowerSkillEstimate": -3.524188737835267,
+        "tier": "UNRANKED",
+        "formattedTier": "Unranked",
+        "tierNumber": 0,
+        "tierImageUrl": "http://placeholder"
+      }
+    },
+    {
+      "displayName": "Maz",
+      "playfabId": "24C14B5C0AC03EFC",
+      "team": "Red",
+      "kills": 15,
+      "deaths": 28,
+      "kd": 0.5357142857142857,
+      "oldRating": {
+        "numGamesPlayedInPlaylist": 0,
+        "mu": 50,
+        "sigma": 16.666666666666668,
+        "lowerSkillEstimate": 0,
+        "tier": "UNRANKED",
+        "formattedTier": "Unranked",
+        "tierNumber": 0,
+        "tierImageUrl": "http://placeholder"
+      },
+      "newRating": {
+        "numGamesPlayedInPlaylist": 1,
+        "mu": 43.96927476445092,
+        "sigma": 15.831154500762063,
+        "lowerSkillEstimate": -3.524188737835267,
+        "tier": "UNRANKED",
+        "formattedTier": "Unranked",
+        "tierNumber": 0,
+        "tierImageUrl": "http://placeholder"
+      }
+    },
+    {
+      "displayName": "Lanik",
+      "playfabId": "7125F38A51FE8E27",
+      "team": "Red",
+      "kills": 17,
+      "deaths": 28,
+      "kd": 0.6071428571428571,
+      "oldRating": {
+        "numGamesPlayedInPlaylist": 0,
+        "mu": 50,
+        "sigma": 16.666666666666668,
+        "lowerSkillEstimate": 0,
+        "tier": "UNRANKED",
+        "formattedTier": "Unranked",
+        "tierNumber": 0,
+        "tierImageUrl": "http://placeholder"
+      },
+      "newRating": {
+        "numGamesPlayedInPlaylist": 1,
+        "mu": 43.96927476445092,
+        "sigma": 15.831154500762063,
+        "lowerSkillEstimate": -3.524188737835267,
+        "tier": "UNRANKED",
+        "formattedTier": "Unranked",
+        "tierNumber": 0,
+        "tierImageUrl": "http://placeholder"
+      }
+    }
+  ],
+  "result": {
+    "isTie": false,
+    "winner": "Blue"
+  },
+  "matchQuality": 0.2422540606320062,
+  "teamWinProbabilities": {
+    "Blue": 0.4483544026876174,
+    "Red": 0.5516455973123826
+  },
+  "teamRoundWins": {
+    "Blue": 2,
+    "Red": 0
+  },
+  "totalRounds": 2,
+  "rounds": [
+    {
+      "startTime": 1649867503680,
+      "endTime": 1649867818529,
+      "mapName": "ctf_hormone",
+      "events": [
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867521231,
+          "killerPlayfabId": "2C9D540DAF680EBE",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "EF34F66EBE1952FC",
+          "victimTeam": "Red",
+          "weaponName": "SteyrAUG"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867522165,
+          "killerPlayfabId": "24C14B5C0AC03EFC",
+          "killerTeam": "Red",
+          "victimPlayfabId": "B019842C7B66C3BF",
+          "victimTeam": "Blue",
+          "weaponName": "Barrett"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867522647,
+          "killerPlayfabId": "B019842C7B66C3BF",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "24C14B5C0AC03EFC",
+          "victimTeam": "Red",
+          "weaponName": "MP5"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867526355,
+          "killerPlayfabId": "7125F38A51FE8E27",
+          "killerTeam": "Red",
+          "victimPlayfabId": "2C9D540DAF680EBE",
+          "victimTeam": "Blue",
+          "weaponName": "RocketLauncher"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867532904,
+          "killerPlayfabId": "A411D9862AAAA76D",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "EF34F66EBE1952FC",
+          "victimTeam": "Red",
+          "weaponName": "Knife"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867536388,
+          "killerPlayfabId": "2C9D540DAF680EBE",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "24C14B5C0AC03EFC",
+          "victimTeam": "Red",
+          "weaponName": "SteyrAUG"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867541421,
+          "killerPlayfabId": "2C9D540DAF680EBE",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "EF34F66EBE1952FC",
+          "victimTeam": "Red",
+          "weaponName": "SteyrAUG"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867543588,
+          "killerPlayfabId": "2C9D540DAF680EBE",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "7125F38A51FE8E27",
+          "victimTeam": "Red",
+          "weaponName": "SteyrAUG"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867547322,
+          "killerPlayfabId": "B019842C7B66C3BF",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "24C14B5C0AC03EFC",
+          "victimTeam": "Red",
+          "weaponName": "MP5"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867547538,
+          "killerPlayfabId": "2C9D540DAF680EBE",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "EF34F66EBE1952FC",
+          "victimTeam": "Red",
+          "weaponName": "Knife"
+        },
+        {
+          "type": "FLAG_CAP",
+          "timestamp": 1649867548348,
+          "cappingTeam": "Blue",
+          "playfabId": "A411D9862AAAA76D"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867554007,
+          "killerPlayfabId": "2C9D540DAF680EBE",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "7125F38A51FE8E27",
+          "victimTeam": "Red",
+          "weaponName": "SteyrAUG"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867557638,
+          "killerPlayfabId": "EF34F66EBE1952FC",
+          "killerTeam": "Red",
+          "victimPlayfabId": "2C9D540DAF680EBE",
+          "victimTeam": "Blue",
+          "weaponName": "Dragunov"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867561938,
+          "killerPlayfabId": "B019842C7B66C3BF",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "24C14B5C0AC03EFC",
+          "victimTeam": "Red",
+          "weaponName": "MP5"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867569523,
+          "killerPlayfabId": "7125F38A51FE8E27",
+          "killerTeam": "Red",
+          "victimPlayfabId": "A411D9862AAAA76D",
+          "victimTeam": "Blue",
+          "weaponName": "RGD5"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867569773,
+          "killerPlayfabId": "2C9D540DAF680EBE",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "EF34F66EBE1952FC",
+          "victimTeam": "Red",
+          "weaponName": "SteyrAUG"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867575906,
+          "killerPlayfabId": "24C14B5C0AC03EFC",
+          "killerTeam": "Red",
+          "victimPlayfabId": "2C9D540DAF680EBE",
+          "victimTeam": "Blue",
+          "weaponName": "Barrett"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867579089,
+          "killerPlayfabId": "B019842C7B66C3BF",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "24C14B5C0AC03EFC",
+          "victimTeam": "Red",
+          "weaponName": "N/A"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867584822,
+          "killerPlayfabId": "2C9D540DAF680EBE",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "EF34F66EBE1952FC",
+          "victimTeam": "Red",
+          "weaponName": "SteyrAUG"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867584939,
+          "killerPlayfabId": "A411D9862AAAA76D",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "7125F38A51FE8E27",
+          "victimTeam": "Red",
+          "weaponName": "SteyrAUG"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867590789,
+          "killerPlayfabId": "24C14B5C0AC03EFC",
+          "killerTeam": "Red",
+          "victimPlayfabId": "A411D9862AAAA76D",
+          "victimTeam": "Blue",
+          "weaponName": "Barrett"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867593173,
+          "killerPlayfabId": "2C9D540DAF680EBE",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "EF34F66EBE1952FC",
+          "victimTeam": "Red",
+          "weaponName": "SteyrAUG"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867594856,
+          "killerPlayfabId": "2C9D540DAF680EBE",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "7125F38A51FE8E27",
+          "victimTeam": "Red",
+          "weaponName": "SteyrAUG"
+        },
+        {
+          "type": "FLAG_CAP",
+          "timestamp": 1649867596264,
+          "cappingTeam": "Blue",
+          "playfabId": "B019842C7B66C3BF"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867603305,
+          "killerPlayfabId": "EF34F66EBE1952FC",
+          "killerTeam": "Red",
+          "victimPlayfabId": "B019842C7B66C3BF",
+          "victimTeam": "Blue",
+          "weaponName": "Spas12"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867603405,
+          "killerPlayfabId": "2C9D540DAF680EBE",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "EF34F66EBE1952FC",
+          "victimTeam": "Red",
+          "weaponName": "SteyrAUG"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867604041,
+          "killerPlayfabId": "A411D9862AAAA76D",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "24C14B5C0AC03EFC",
+          "victimTeam": "Red",
+          "weaponName": "SteyrAUG"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867608073,
+          "killerPlayfabId": "7125F38A51FE8E27",
+          "killerTeam": "Red",
+          "victimPlayfabId": "2C9D540DAF680EBE",
+          "victimTeam": "Blue",
+          "weaponName": "SteyrAUG"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867611690,
+          "killerPlayfabId": "EF34F66EBE1952FC",
+          "killerTeam": "Red",
+          "victimPlayfabId": "A411D9862AAAA76D",
+          "victimTeam": "Blue",
+          "weaponName": "Spas12"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867616440,
+          "killerPlayfabId": "2C9D540DAF680EBE",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "EF34F66EBE1952FC",
+          "victimTeam": "Red",
+          "weaponName": "SteyrAUG"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867618441,
+          "killerPlayfabId": "2C9D540DAF680EBE",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "7125F38A51FE8E27",
+          "victimTeam": "Red",
+          "weaponName": "Knife"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867618741,
+          "killerPlayfabId": "24C14B5C0AC03EFC",
+          "killerTeam": "Red",
+          "victimPlayfabId": "B019842C7B66C3BF",
+          "victimTeam": "Blue",
+          "weaponName": "Barrett"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867626541,
+          "killerPlayfabId": "2C9D540DAF680EBE",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "24C14B5C0AC03EFC",
+          "victimTeam": "Red",
+          "weaponName": "SteyrAUG"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867630442,
+          "killerPlayfabId": "EF34F66EBE1952FC",
+          "killerTeam": "Red",
+          "victimPlayfabId": "A411D9862AAAA76D",
+          "victimTeam": "Blue",
+          "weaponName": "RGD5"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867630609,
+          "killerPlayfabId": "A411D9862AAAA76D",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "EF34F66EBE1952FC",
+          "victimTeam": "Red",
+          "weaponName": "RGD5"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867631109,
+          "killerPlayfabId": "B019842C7B66C3BF",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "7125F38A51FE8E27",
+          "victimTeam": "Red",
+          "weaponName": "RGD5"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867635341,
+          "killerPlayfabId": "2C9D540DAF680EBE",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "24C14B5C0AC03EFC",
+          "victimTeam": "Red",
+          "weaponName": "SteyrAUG"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867640975,
+          "killerPlayfabId": "2C9D540DAF680EBE",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "EF34F66EBE1952FC",
+          "victimTeam": "Red",
+          "weaponName": "SteyrAUG"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867641742,
+          "killerPlayfabId": "7125F38A51FE8E27",
+          "killerTeam": "Red",
+          "victimPlayfabId": "2C9D540DAF680EBE",
+          "victimTeam": "Blue",
+          "weaponName": "MP5"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867641792,
+          "killerPlayfabId": "7125F38A51FE8E27",
+          "killerTeam": "Red",
+          "victimPlayfabId": "B019842C7B66C3BF",
+          "victimTeam": "Blue",
+          "weaponName": "RGD5"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867646275,
+          "killerPlayfabId": "A411D9862AAAA76D",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "7125F38A51FE8E27",
+          "victimTeam": "Red",
+          "weaponName": "Kalashnikov"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867646323,
+          "killerPlayfabId": "24C14B5C0AC03EFC",
+          "killerTeam": "Red",
+          "victimPlayfabId": "A411D9862AAAA76D",
+          "victimTeam": "Blue",
+          "weaponName": "Barrett"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867657092,
+          "killerPlayfabId": "2C9D540DAF680EBE",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "24C14B5C0AC03EFC",
+          "victimTeam": "Red",
+          "weaponName": "SteyrAUG"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867657908,
+          "killerPlayfabId": "EF34F66EBE1952FC",
+          "killerTeam": "Red",
+          "victimPlayfabId": "B019842C7B66C3BF",
+          "victimTeam": "Blue",
+          "weaponName": "Spas12"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867658492,
+          "killerPlayfabId": "A411D9862AAAA76D",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "EF34F66EBE1952FC",
+          "victimTeam": "Red",
+          "weaponName": "Kalashnikov"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867658608,
+          "killerPlayfabId": "7125F38A51FE8E27",
+          "killerTeam": "Red",
+          "victimPlayfabId": "2C9D540DAF680EBE",
+          "victimTeam": "Blue",
+          "weaponName": "MP5"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867668509,
+          "killerPlayfabId": "2C9D540DAF680EBE",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "24C14B5C0AC03EFC",
+          "victimTeam": "Red",
+          "weaponName": "RGD5"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867676926,
+          "killerPlayfabId": "A411D9862AAAA76D",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "EF34F66EBE1952FC",
+          "victimTeam": "Red",
+          "weaponName": "Kalashnikov"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867678060,
+          "killerPlayfabId": "B019842C7B66C3BF",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "24C14B5C0AC03EFC",
+          "victimTeam": "Red",
+          "weaponName": "MP5"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867678393,
+          "killerPlayfabId": "2C9D540DAF680EBE",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "7125F38A51FE8E27",
+          "victimTeam": "Red",
+          "weaponName": "SteyrAUG"
+        },
+        {
+          "type": "FLAG_CAP",
+          "timestamp": 1649867683101,
+          "cappingTeam": "Blue",
+          "playfabId": "B019842C7B66C3BF"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867685595,
+          "killerPlayfabId": "A411D9862AAAA76D",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "EF34F66EBE1952FC",
+          "victimTeam": "Red",
+          "weaponName": "Kalashnikov"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867689045,
+          "killerPlayfabId": "2C9D540DAF680EBE",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "7125F38A51FE8E27",
+          "victimTeam": "Red",
+          "weaponName": "SteyrAUG"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867692612,
+          "killerPlayfabId": "2C9D540DAF680EBE",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "24C14B5C0AC03EFC",
+          "victimTeam": "Red",
+          "weaponName": "SteyrAUG"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867696563,
+          "killerPlayfabId": "EF34F66EBE1952FC",
+          "killerTeam": "Red",
+          "victimPlayfabId": "2C9D540DAF680EBE",
+          "victimTeam": "Blue",
+          "weaponName": "Spas12"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867704230,
+          "killerPlayfabId": "7125F38A51FE8E27",
+          "killerTeam": "Red",
+          "victimPlayfabId": "A411D9862AAAA76D",
+          "victimTeam": "Blue",
+          "weaponName": "Spas12"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867706565,
+          "killerPlayfabId": "2C9D540DAF680EBE",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "7125F38A51FE8E27",
+          "victimTeam": "Red",
+          "weaponName": "SteyrAUG"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867708131,
+          "killerPlayfabId": "B019842C7B66C3BF",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "24C14B5C0AC03EFC",
+          "victimTeam": "Red",
+          "weaponName": "MP5"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867709580,
+          "killerPlayfabId": "EF34F66EBE1952FC",
+          "killerTeam": "Red",
+          "victimPlayfabId": "B019842C7B66C3BF",
+          "victimTeam": "Blue",
+          "weaponName": "Spas12"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867709680,
+          "killerPlayfabId": "B019842C7B66C3BF",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "EF34F66EBE1952FC",
+          "victimTeam": "Red",
+          "weaponName": "MP5"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867718147,
+          "killerPlayfabId": "EF34F66EBE1952FC",
+          "killerTeam": "Red",
+          "victimPlayfabId": "2C9D540DAF680EBE",
+          "victimTeam": "Blue",
+          "weaponName": "Spas12"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867718215,
+          "killerPlayfabId": "A411D9862AAAA76D",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "24C14B5C0AC03EFC",
+          "victimTeam": "Red",
+          "weaponName": "RGD5"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867720599,
+          "killerPlayfabId": "A411D9862AAAA76D",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "EF34F66EBE1952FC",
+          "victimTeam": "Red",
+          "weaponName": "Kalashnikov"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867724747,
+          "killerPlayfabId": "B019842C7B66C3BF",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "24C14B5C0AC03EFC",
+          "victimTeam": "Red",
+          "weaponName": "Knife"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867725714,
+          "killerPlayfabId": "2C9D540DAF680EBE",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "7125F38A51FE8E27",
+          "victimTeam": "Red",
+          "weaponName": "RGD5"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867725864,
+          "killerPlayfabId": "7125F38A51FE8E27",
+          "killerTeam": "Red",
+          "victimPlayfabId": "2C9D540DAF680EBE",
+          "victimTeam": "Blue",
+          "weaponName": "N/A"
+        },
+        {
+          "type": "FLAG_CAP",
+          "timestamp": 1649867732356,
+          "cappingTeam": "Blue",
+          "playfabId": "B019842C7B66C3BF"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867733114,
+          "killerPlayfabId": "7125F38A51FE8E27",
+          "killerTeam": "Red",
+          "victimPlayfabId": "B019842C7B66C3BF",
+          "victimTeam": "Blue",
+          "weaponName": "RGD5"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867738391,
+          "killerPlayfabId": "2C9D540DAF680EBE",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "7125F38A51FE8E27",
+          "victimTeam": "Red",
+          "weaponName": "SteyrAUG"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867745517,
+          "killerPlayfabId": "24C14B5C0AC03EFC",
+          "killerTeam": "Red",
+          "victimPlayfabId": "2C9D540DAF680EBE",
+          "victimTeam": "Blue",
+          "weaponName": "Barrett"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867746417,
+          "killerPlayfabId": "B019842C7B66C3BF",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "24C14B5C0AC03EFC",
+          "victimTeam": "Red",
+          "weaponName": "MP5"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867755884,
+          "killerPlayfabId": "EF34F66EBE1952FC",
+          "killerTeam": "Red",
+          "victimPlayfabId": "B019842C7B66C3BF",
+          "victimTeam": "Blue",
+          "weaponName": "MP5"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867759024,
+          "killerPlayfabId": "A411D9862AAAA76D",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "EF34F66EBE1952FC",
+          "victimTeam": "Red",
+          "weaponName": "Kalashnikov"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867762317,
+          "killerPlayfabId": "7125F38A51FE8E27",
+          "killerTeam": "Red",
+          "victimPlayfabId": "2C9D540DAF680EBE",
+          "victimTeam": "Blue",
+          "weaponName": "Spas12"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867765818,
+          "killerPlayfabId": "24C14B5C0AC03EFC",
+          "killerTeam": "Red",
+          "victimPlayfabId": "B019842C7B66C3BF",
+          "victimTeam": "Blue",
+          "weaponName": "Barrett"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867766784,
+          "killerPlayfabId": "EF34F66EBE1952FC",
+          "killerTeam": "Red",
+          "victimPlayfabId": "A411D9862AAAA76D",
+          "victimTeam": "Blue",
+          "weaponName": "Minigun"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867769101,
+          "killerPlayfabId": "2C9D540DAF680EBE",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "7125F38A51FE8E27",
+          "victimTeam": "Red",
+          "weaponName": "RGD5"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867778134,
+          "killerPlayfabId": "B019842C7B66C3BF",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "24C14B5C0AC03EFC",
+          "victimTeam": "Red",
+          "weaponName": "RGD5"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867778792,
+          "killerPlayfabId": "2C9D540DAF680EBE",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "EF34F66EBE1952FC",
+          "victimTeam": "Red",
+          "weaponName": "SteyrAUG"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867779467,
+          "killerPlayfabId": "A411D9862AAAA76D",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "7125F38A51FE8E27",
+          "victimTeam": "Red",
+          "weaponName": "SteyrAUG"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867786120,
+          "killerPlayfabId": "B019842C7B66C3BF",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "24C14B5C0AC03EFC",
+          "victimTeam": "Red",
+          "weaponName": "Deagles"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867787570,
+          "killerPlayfabId": "7125F38A51FE8E27",
+          "killerTeam": "Red",
+          "victimPlayfabId": "B019842C7B66C3BF",
+          "victimTeam": "Blue",
+          "weaponName": "Spas12"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867790837,
+          "killerPlayfabId": "A411D9862AAAA76D",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "EF34F66EBE1952FC",
+          "victimTeam": "Red",
+          "weaponName": "SteyrAUG"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867791337,
+          "killerPlayfabId": "7125F38A51FE8E27",
+          "killerTeam": "Red",
+          "victimPlayfabId": "A411D9862AAAA76D",
+          "victimTeam": "Blue",
+          "weaponName": "Spas12"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867796805,
+          "killerPlayfabId": "24C14B5C0AC03EFC",
+          "killerTeam": "Red",
+          "victimPlayfabId": "B019842C7B66C3BF",
+          "victimTeam": "Blue",
+          "weaponName": "Barrett"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867797139,
+          "killerPlayfabId": "B019842C7B66C3BF",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "24C14B5C0AC03EFC",
+          "victimTeam": "Red",
+          "weaponName": "Deagles"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867804271,
+          "killerPlayfabId": "A411D9862AAAA76D",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "EF34F66EBE1952FC",
+          "victimTeam": "Red",
+          "weaponName": "RGD5"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867804438,
+          "killerPlayfabId": "EF34F66EBE1952FC",
+          "killerTeam": "Red",
+          "victimPlayfabId": "A411D9862AAAA76D",
+          "victimTeam": "Blue",
+          "weaponName": "Rheinmetall"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867811589,
+          "killerPlayfabId": "B019842C7B66C3BF",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "7125F38A51FE8E27",
+          "victimTeam": "Red",
+          "weaponName": "Deagles"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867811679,
+          "killerPlayfabId": "7125F38A51FE8E27",
+          "killerTeam": "Red",
+          "victimPlayfabId": "B019842C7B66C3BF",
+          "victimTeam": "Blue",
+          "weaponName": "RGD5"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867815044,
+          "killerPlayfabId": "EF34F66EBE1952FC",
+          "killerTeam": "Red",
+          "victimPlayfabId": "2C9D540DAF680EBE",
+          "victimTeam": "Blue",
+          "weaponName": "Rheinmetall"
+        }
+      ],
+      "result": {
+        "isTie": false,
+        "winner": "Blue"
+      },
+      "blueCaps": 4,
+      "redCaps": 0,
+      "playerKillsAndDeaths": {
+        "2C9D540DAF680EBE": {
+          "kills": 26,
+          "deaths": 12
+        },
+        "B019842C7B66C3BF": {
+          "kills": 14,
+          "deaths": 12
+        },
+        "A411D9862AAAA76D": {
+          "kills": 14,
+          "deaths": 9
+        },
+        "EF34F66EBE1952FC": {
+          "kills": 12,
+          "deaths": 20
+        },
+        "24C14B5C0AC03EFC": {
+          "kills": 8,
+          "deaths": 19
+        },
+        "7125F38A51FE8E27": {
+          "kills": 13,
+          "deaths": 15
+        }
+      }
+    },
+    {
+      "startTime": 1649867833933,
+      "endTime": 1649868089289,
+      "mapName": "ctf_crossfire",
+      "events": [
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867852691,
+          "killerPlayfabId": "24C14B5C0AC03EFC",
+          "killerTeam": "Red",
+          "victimPlayfabId": "A411D9862AAAA76D",
+          "victimTeam": "Blue",
+          "weaponName": "Barrett"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867860025,
+          "killerPlayfabId": "2C9D540DAF680EBE",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "7125F38A51FE8E27",
+          "victimTeam": "Red",
+          "weaponName": "SteyrAUG"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867863828,
+          "killerPlayfabId": "A411D9862AAAA76D",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "24C14B5C0AC03EFC",
+          "victimTeam": "Red",
+          "weaponName": "SteyrAUG"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867868041,
+          "killerPlayfabId": "A411D9862AAAA76D",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "EF34F66EBE1952FC",
+          "victimTeam": "Red",
+          "weaponName": "SteyrAUG"
+        },
+        {
+          "type": "FLAG_CAP",
+          "timestamp": 1649867868666,
+          "cappingTeam": "Blue",
+          "playfabId": "2C9D540DAF680EBE"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867872761,
+          "killerPlayfabId": "2C9D540DAF680EBE",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "7125F38A51FE8E27",
+          "victimTeam": "Red",
+          "weaponName": "SteyrAUG"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867875644,
+          "killerPlayfabId": "A411D9862AAAA76D",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "EF34F66EBE1952FC",
+          "victimTeam": "Red",
+          "weaponName": "RGD5"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867880744,
+          "killerPlayfabId": "2C9D540DAF680EBE",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "24C14B5C0AC03EFC",
+          "victimTeam": "Red",
+          "weaponName": "RGD5"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867900349,
+          "killerPlayfabId": "7125F38A51FE8E27",
+          "killerTeam": "Red",
+          "victimPlayfabId": "2C9D540DAF680EBE",
+          "victimTeam": "Blue",
+          "weaponName": "M79"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867900449,
+          "killerPlayfabId": "2C9D540DAF680EBE",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "7125F38A51FE8E27",
+          "victimTeam": "Red",
+          "weaponName": "SteyrAUG"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867909701,
+          "killerPlayfabId": "2C9D540DAF680EBE",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "EF34F66EBE1952FC",
+          "victimTeam": "Red",
+          "weaponName": "SteyrAUG"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867917683,
+          "killerPlayfabId": "7125F38A51FE8E27",
+          "killerTeam": "Red",
+          "victimPlayfabId": "A411D9862AAAA76D",
+          "victimTeam": "Blue",
+          "weaponName": "Knife"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867921200,
+          "killerPlayfabId": "2C9D540DAF680EBE",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "7125F38A51FE8E27",
+          "victimTeam": "Red",
+          "weaponName": "SteyrAUG"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867930883,
+          "killerPlayfabId": "A411D9862AAAA76D",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "EF34F66EBE1952FC",
+          "victimTeam": "Red",
+          "weaponName": "SteyrAUG"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867938416,
+          "killerPlayfabId": "7125F38A51FE8E27",
+          "killerTeam": "Red",
+          "victimPlayfabId": "2C9D540DAF680EBE",
+          "victimTeam": "Blue",
+          "weaponName": "RGD5"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867941883,
+          "killerPlayfabId": "EF34F66EBE1952FC",
+          "killerTeam": "Red",
+          "victimPlayfabId": "A411D9862AAAA76D",
+          "victimTeam": "Blue",
+          "weaponName": "RGD5"
+        },
+        {
+          "type": "FLAG_CAP",
+          "timestamp": 1649867944275,
+          "cappingTeam": "Red",
+          "playfabId": "24C14B5C0AC03EFC"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867944601,
+          "killerPlayfabId": "EF34F66EBE1952FC",
+          "killerTeam": "Red",
+          "victimPlayfabId": "2C9D540DAF680EBE",
+          "victimTeam": "Blue",
+          "weaponName": "Knife"
+        },
+        {
+          "type": "FLAG_CAP",
+          "timestamp": 1649867953710,
+          "cappingTeam": "Red",
+          "playfabId": "7125F38A51FE8E27"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867953938,
+          "killerPlayfabId": "24C14B5C0AC03EFC",
+          "killerTeam": "Red",
+          "victimPlayfabId": "A411D9862AAAA76D",
+          "victimTeam": "Blue",
+          "weaponName": "Barrett"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867954420,
+          "killerPlayfabId": "2C9D540DAF680EBE",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "EF34F66EBE1952FC",
+          "victimTeam": "Red",
+          "weaponName": "SteyrAUG"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867966605,
+          "killerPlayfabId": "2C9D540DAF680EBE",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "24C14B5C0AC03EFC",
+          "victimTeam": "Red",
+          "weaponName": "SteyrAUG"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867968303,
+          "killerPlayfabId": "A411D9862AAAA76D",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "EF34F66EBE1952FC",
+          "victimTeam": "Red",
+          "weaponName": "SteyrAUG"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867968503,
+          "killerPlayfabId": "B019842C7B66C3BF",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "7125F38A51FE8E27",
+          "victimTeam": "Red",
+          "weaponName": "Deagles"
+        },
+        {
+          "type": "FLAG_CAP",
+          "timestamp": 1649867973445,
+          "cappingTeam": "Blue",
+          "playfabId": "2C9D540DAF680EBE"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867974887,
+          "killerPlayfabId": "B019842C7B66C3BF",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "24C14B5C0AC03EFC",
+          "victimTeam": "Red",
+          "weaponName": "Deagles"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867978439,
+          "killerPlayfabId": "2C9D540DAF680EBE",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "7125F38A51FE8E27",
+          "victimTeam": "Red",
+          "weaponName": "SteyrAUG"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867984806,
+          "killerPlayfabId": "2C9D540DAF680EBE",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "7125F38A51FE8E27",
+          "victimTeam": "Red",
+          "weaponName": "Knife"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867991173,
+          "killerPlayfabId": "EF34F66EBE1952FC",
+          "killerTeam": "Red",
+          "victimPlayfabId": "B019842C7B66C3BF",
+          "victimTeam": "Blue",
+          "weaponName": "Dragunov"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867991706,
+          "killerPlayfabId": "A411D9862AAAA76D",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "EF34F66EBE1952FC",
+          "victimTeam": "Red",
+          "weaponName": "SteyrAUG"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649867996497,
+          "killerPlayfabId": "2C9D540DAF680EBE",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "24C14B5C0AC03EFC",
+          "victimTeam": "Red",
+          "weaponName": "SteyrAUG"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649868000939,
+          "killerPlayfabId": "7125F38A51FE8E27",
+          "killerTeam": "Red",
+          "victimPlayfabId": "A411D9862AAAA76D",
+          "victimTeam": "Blue",
+          "weaponName": "M79"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649868002889,
+          "killerPlayfabId": "EF34F66EBE1952FC",
+          "killerTeam": "Red",
+          "victimPlayfabId": "B019842C7B66C3BF",
+          "victimTeam": "Blue",
+          "weaponName": "Dragunov"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649868003690,
+          "killerPlayfabId": "2C9D540DAF680EBE",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "7125F38A51FE8E27",
+          "victimTeam": "Red",
+          "weaponName": "SteyrAUG"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649868011174,
+          "killerPlayfabId": "2C9D540DAF680EBE",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "EF34F66EBE1952FC",
+          "victimTeam": "Red",
+          "weaponName": "SteyrAUG"
+        },
+        {
+          "type": "FLAG_CAP",
+          "timestamp": 1649868014515,
+          "cappingTeam": "Blue",
+          "playfabId": "2C9D540DAF680EBE"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649868023609,
+          "killerPlayfabId": "2C9D540DAF680EBE",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "7125F38A51FE8E27",
+          "victimTeam": "Red",
+          "weaponName": "SteyrAUG"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649868026508,
+          "killerPlayfabId": "24C14B5C0AC03EFC",
+          "killerTeam": "Red",
+          "victimPlayfabId": "A411D9862AAAA76D",
+          "victimTeam": "Blue",
+          "weaponName": "Knife"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649868032492,
+          "killerPlayfabId": "B019842C7B66C3BF",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "7125F38A51FE8E27",
+          "victimTeam": "Red",
+          "weaponName": "Deagles"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649868035859,
+          "killerPlayfabId": "24C14B5C0AC03EFC",
+          "killerTeam": "Red",
+          "victimPlayfabId": "B019842C7B66C3BF",
+          "victimTeam": "Blue",
+          "weaponName": "Knife"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649868036558,
+          "killerPlayfabId": "2C9D540DAF680EBE",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "EF34F66EBE1952FC",
+          "victimTeam": "Red",
+          "weaponName": "SteyrAUG"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649868041492,
+          "killerPlayfabId": "2C9D540DAF680EBE",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "24C14B5C0AC03EFC",
+          "victimTeam": "Red",
+          "weaponName": "SteyrAUG"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649868041758,
+          "killerPlayfabId": "24C14B5C0AC03EFC",
+          "killerTeam": "Red",
+          "victimPlayfabId": "2C9D540DAF680EBE",
+          "victimTeam": "Blue",
+          "weaponName": "Knife"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649868044577,
+          "killerPlayfabId": "B019842C7B66C3BF",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "7125F38A51FE8E27",
+          "victimTeam": "Red",
+          "weaponName": "Deagles"
+        },
+        {
+          "type": "FLAG_CAP",
+          "timestamp": 1649868044999,
+          "cappingTeam": "Blue",
+          "playfabId": "A411D9862AAAA76D"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649868048815,
+          "killerPlayfabId": "2C9D540DAF680EBE",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "EF34F66EBE1952FC",
+          "victimTeam": "Red",
+          "weaponName": "N/A"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649868054963,
+          "killerPlayfabId": "24C14B5C0AC03EFC",
+          "killerTeam": "Red",
+          "victimPlayfabId": "B019842C7B66C3BF",
+          "victimTeam": "Blue",
+          "weaponName": "Barrett"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649868060003,
+          "killerPlayfabId": "2C9D540DAF680EBE",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "7125F38A51FE8E27",
+          "victimTeam": "Red",
+          "weaponName": "SteyrAUG"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649868065220,
+          "killerPlayfabId": "A411D9862AAAA76D",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "24C14B5C0AC03EFC",
+          "victimTeam": "Red",
+          "weaponName": "RGD5"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649868075903,
+          "killerPlayfabId": "2C9D540DAF680EBE",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "24C14B5C0AC03EFC",
+          "victimTeam": "Red",
+          "weaponName": "SteyrAUG"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649868077003,
+          "killerPlayfabId": "A411D9862AAAA76D",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "7125F38A51FE8E27",
+          "victimTeam": "Red",
+          "weaponName": "SteyrAUG"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649868079753,
+          "killerPlayfabId": "A411D9862AAAA76D",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "EF34F66EBE1952FC",
+          "victimTeam": "Red",
+          "weaponName": "SteyrAUG"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649868086753,
+          "killerPlayfabId": "24C14B5C0AC03EFC",
+          "killerTeam": "Red",
+          "victimPlayfabId": "B019842C7B66C3BF",
+          "victimTeam": "Blue",
+          "weaponName": "Knife"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649868087856,
+          "killerPlayfabId": "A411D9862AAAA76D",
+          "killerTeam": "Blue",
+          "victimPlayfabId": "24C14B5C0AC03EFC",
+          "victimTeam": "Red",
+          "weaponName": "SteyrAUG"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1649868089239,
+          "killerPlayfabId": "EF34F66EBE1952FC",
+          "killerTeam": "Red",
+          "victimPlayfabId": "A411D9862AAAA76D",
+          "victimTeam": "Blue",
+          "weaponName": "Dragunov"
+        },
+        {
+          "type": "FLAG_CAP",
+          "timestamp": 1649868089263,
+          "cappingTeam": "Blue",
+          "playfabId": "2C9D540DAF680EBE"
+        }
+      ],
+      "result": {
+        "isTie": false,
+        "winner": "Blue"
+      },
+      "blueCaps": 5,
+      "redCaps": 2,
+      "playerKillsAndDeaths": {
+        "2C9D540DAF680EBE": {
+          "kills": 19,
+          "deaths": 4
+        },
+        "B019842C7B66C3BF": {
+          "kills": 4,
+          "deaths": 5
+        },
+        "A411D9862AAAA76D": {
+          "kills": 10,
+          "deaths": 7
+        },
+        "EF34F66EBE1952FC": {
+          "kills": 5,
+          "deaths": 11
+        },
+        "24C14B5C0AC03EFC": {
+          "kills": 7,
+          "deaths": 9
+        },
+        "7125F38A51FE8E27": {
+          "kills": 4,
+          "deaths": 13
+        }
+      }
+    }
+  ],
+  "teamNames": {
+    "Blue": "Blue",
+    "Red": "Red"
+  },
+  "gameForfeitedWithRemainingTeam": null,
+  "playerKillsAndDeaths": {
+    "2C9D540DAF680EBE": {
+      "kills": 45,
+      "deaths": 16
+    },
+    "B019842C7B66C3BF": {
+      "kills": 18,
+      "deaths": 17
+    },
+    "A411D9862AAAA76D": {
+      "kills": 24,
+      "deaths": 16
+    },
+    "EF34F66EBE1952FC": {
+      "kills": 17,
+      "deaths": 31
+    },
+    "24C14B5C0AC03EFC": {
+      "kills": 15,
+      "deaths": 28
+    },
+    "7125F38A51FE8E27": {
+      "kills": 17,
+      "deaths": 28
+    }
+  },
+  "gameNumberInPlaylist": 2
+}

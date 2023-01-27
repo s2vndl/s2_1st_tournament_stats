@@ -1,9 +1,12 @@
-from .fris_analyzer import FriWeaponUsageAnalyzer
+from io import StringIO
+from os.path import dirname, abspath
 
+import pandas as pd
+from pandas import Series, Timestamp
 
-def _add_kills(detector: FriWeaponUsageAnalyzer, weapon: str, kill_count: int):
-    for i in range(0, kill_count):
-        detector.process_kill(weapon)
+from .constants import WEAPONS_PRIMARY
+from .fris_analyzer import FriWeaponUsageAnalyzer, FriWeaponUsageCollector
+from .importer import import_games
 
 
 class TestFrisPlayerRoundAnalyzer:
@@ -70,3 +73,41 @@ class TestFrisPlayerRoundAnalyzer:
         sut.process_kill(self.player2, "mp5")
         sut.process_kill(self.player2, "knife")
         assert sum(sut.report().values()) == 4
+
+
+def _date(iso_string) -> Timestamp:
+    return Timestamp.fromisoformat(iso_string)
+
+
+class TestImportWithAnalyzer:
+    def test_collects_kills_and_analyzes_them(self):
+        collector = FriWeaponUsageCollector().init()
+        import_games(dirname(abspath(__file__)) + "/../fixtures/", period_days=99999, processors=[collector])
+
+        actual = collector.get_data(['Barrett', 'Deagles', 'Rheinmetall'], 99999)[["weapon", "date", "usage"]]
+        expected = """
+        weapon,date,usage
+        Barrett,2023-01-12,74.99999999999999
+        Deagles,2023-01-12,0.0
+        Rheinmetall,2023-01-12,25.0
+        """
+        self.assert_dataframes_equal(expected, actual)
+
+        actual = collector.get_data(['Barrett', 'Deagles'], 99999)[["weapon", "date", "usage"]]
+        expected = """
+        weapon,date,usage
+        Barrett,2023-01-12,100
+        Deagles,2023-01-12,0.0
+        """
+        self.assert_dataframes_equal(expected, actual)
+
+    def test_full_dataset(self):
+        collector = FriWeaponUsageCollector().init()
+        import_games(dirname(abspath(__file__)) + "/../logs_ranked/", period_days=90, processors=[collector])
+        data = collector.get_data(WEAPONS_PRIMARY, 21)
+        pass
+
+    def assert_dataframes_equal(self, expected, actual):
+        expected = "\n".join([x.strip() for x in expected.split("\n")])
+        expected_dataframe = pd.read_csv(StringIO(expected), parse_dates=["date"])
+        assert expected_dataframe.to_dict() == actual.to_dict()
