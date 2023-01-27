@@ -16,6 +16,6 @@ def test_building_sqlite_db():
                  processors=[collector])
     con = collector.connection
     assert 1 == con.cursor().execute("select count(*) from game").fetchone()[0]
-    assert 1 == con.cursor().execute("select count(*) from round").fetchone()[0]
-    assert 1 == con.cursor().execute("select count(*) from event_kill").fetchone()[0]
-    assert 1 == con.cursor().execute("select count(*) from event_cap").fetchone()[0]
+    assert 2 == con.cursor().execute("select count(*) from round").fetchone()[0]
+    assert 3 == con.cursor().execute("select count(*) from event_kill").fetchone()[0]
+    assert 2 == con.cursor().execute("select count(*) from event_cap").fetchone()[0]
