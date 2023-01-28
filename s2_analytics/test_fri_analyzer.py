@@ -2,7 +2,7 @@ from io import StringIO
 from os.path import dirname, abspath
 
 import pandas as pd
-from pandas import Series, Timestamp
+from pandas import Timestamp
 
 from .constants import WEAPONS_PRIMARY
 from .fris_analyzer import FriWeaponUsageAnalyzer, FriWeaponUsageCollector

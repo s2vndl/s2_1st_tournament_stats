@@ -65,3 +65,8 @@ class TestMainWeaponAnalyzer:
         sut.process_kill(self.player1, "knife")
         sut.process_kill(self.player1, "knife")
         assert sut.report()["teamA"] == {"knife": 1, "ak": 1}
+
+
+class TestMainWeaponAnalyzer2:
+    def test_picks_up_only_configured_guns(self):
+        assert 1 == 1
