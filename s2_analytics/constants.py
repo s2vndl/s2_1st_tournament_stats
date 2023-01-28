@@ -1,3 +1,5 @@
+import datetime
+
 WEAPONS_PRIMARY = [
     "Deagles",
     "MP5",
@@ -25,3 +27,7 @@ WEAPONS_OTHER = [
     "RGD5",
 ]
 WEAPONS = WEAPONS_PRIMARY + WEAPONS_SECONDARY + WEAPONS_OTHER
+
+WEAPON_MODS_DATES = [
+    datetime.datetime(2022, 12, 28),
+]
