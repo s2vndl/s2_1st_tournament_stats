@@ -13,10 +13,7 @@ mkdir -p build/notebooks
 mkdir -p docs
 cp README.md build/markdown/index.md
 
-python3 -m venv venv
-source venv/bin/activate
-python -m pip install -qr requirements.txt
-ls *.ipynb | xargs -I I papermill --no-progress-bar --log-level ERROR I build/notebooks/I
-jupyter nbconvert --to markdown --output-dir=build/markdown build/notebooks/*.ipynb --no-input --log-level ERROR
+ls *.ipynb | xargs -I QQ poetry run papermill --log-level WARNING --execution-timeout 20 QQ build/notebooks/QQ
+poetry run jupyter nbconvert --to markdown --output-dir=build/markdown build/notebooks/*.ipynb --no-input --log-level ERROR
 
 mkdocs build 2> >(grep -ive '^INFO' >&2)
