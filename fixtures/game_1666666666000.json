@@ -5,7 +5,7 @@
   "players": [
     {
       "displayName": "vndl",
-      "playfabId": "7CCE15D959A12E91",
+      "playfabId": "C19637F2290726EB",
       "team": "Blue",
       "kills": 8,
       "deaths": 11,
@@ -32,7 +32,8 @@
       }
     },
     {
-      "playfabId": "8C8580A8023E3C41",
+      "displayName": "enemy",
+      "playfabId": "85D4CB1D1C2A72CD",
       "team": "Red",
       "kills": 21,
       "deaths": 20,
@@ -69,7 +70,7 @@
   "endTime": 1673564602482,
   "result": {
     "isTie": false,
-    "winner": "Red"
+    "winner": "Blue"
   },
   "totalRounds": 1,
   "teamWinProbabilities": {
@@ -100,7 +101,7 @@
           "type": "FLAG_CAP",
           "timestamp": 1673564527881,
           "cappingTeam": "Blue",
-          "playfabId": "924A515947815DE1"
+          "playfabId": "C19637F2290726EB"
         }
       ],
       "blueCaps": 1,
@@ -147,7 +148,7 @@
           "type": "FLAG_CAP",
           "timestamp": 1673564529881,
           "cappingTeam": "Blue",
-          "playfabId": "924A515947815DE1"
+          "playfabId": "C19637F2290726EB"
         }
       ],
       "blueCaps": 1,

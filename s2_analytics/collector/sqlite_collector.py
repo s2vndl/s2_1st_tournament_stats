@@ -7,13 +7,13 @@ from typing import List, Union
 
 import atexit
 
-from s2_analytics.importer import GameData, GameProcessor, RoundData, EventKill, EventFlagCap, EventProcessor, \
+from s2_analytics.importer import GameDetails, GameProcessor, RoundData, EventKill, EventFlagCap, EventProcessor, \
     RoundProcessor, EventData
 
 
 class SqliteCollector(GameProcessor, RoundProcessor, EventProcessor):
     def __init__(self, sqlite_path: Union[None, str] = None):
-        self.games: List[GameData] = []
+        self.games: List[GameDetails] = []
         self.rounds: List[RoundData] = []
         self.events: List[EventData] = []
         self.sqlite_path = sqlite_path
@@ -54,14 +54,14 @@ class SqliteCollector(GameProcessor, RoundProcessor, EventProcessor):
 
         atexit.register(delete_if_exists, sqlite_path)
 
-    def process_game(self, game: GameData):
+    def process_game(self, game: GameDetails):
         self.cursor.execute("""
                 insert into game 
                     values (:startTime, :date, :playlistCode, :scoreRed, :scoreBlue, :winner)
             """, {"startTime": game.id, "date": game.date_iso, "playlistCode": game.playlistCode,
                   "scoreRed": game.score_red, "scoreBlue": game.score_blue, "winner": game.winner})
 
-    def process_round(self, round: RoundData, game: GameData):
+    def process_round(self, round: RoundData, game: GameDetails):
         self.round_id += 1
         self.cursor.execute("""
                 insert into round 
@@ -72,7 +72,7 @@ class SqliteCollector(GameProcessor, RoundProcessor, EventProcessor):
                   "blueCaps": round.score_blue, "redCaps": round.score_red,
                   "winner": round.winner})
 
-    def process_event(self, event: EventData, round: RoundData, game: GameData):
+    def process_event(self, event: EventData, round: RoundData, game: GameDetails):
         if isinstance(event, EventKill):
             self.cursor.execute("""
                 insert into event_kill 
@@ -92,7 +92,8 @@ class SqliteCollector(GameProcessor, RoundProcessor, EventProcessor):
                                 {
                                     "game": game.id, "round": round.game_id, "map":round.map, "timestamp": event.timestamp,
                                     "date": event.date_iso, "team": event.capping_team,
-                                    "player": event.capping_player_id, "millisSinceStart": event.millis_since_start
+                                    "player": event.capping_player_id,
+                                    "millisSinceStart": (event.timestamp.timestamp()-round.start_time.timestamp())*1000
                                 })
 
     def finalize_game_processing(self):

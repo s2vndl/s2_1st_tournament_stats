@@ -3,18 +3,18 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://s2vndl.github.io/s2stats/docs/stats_weapon_usage_trends/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://s2vndl.github.io/s2stats/docs/stats_feature_correlation/" />
       <link rel="shortcut icon" href="../img/favicon.ico" />
-    <title>Weapon usage trends v1 - Soldat2 stats</title>
+    <title>Feature correlation - Soldat2 stats</title>
     <link rel="stylesheet" href="../css/theme.css" />
     <link rel="stylesheet" href="../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
     
       <script>
         // Current page data
-        var mkdocs_page_name = "Weapon usage trends v1";
-        var mkdocs_page_input_path = "stats_weapon_usage_trends.md";
-        var mkdocs_page_url = "/s2stats/docs/stats_weapon_usage_trends/";
+        var mkdocs_page_name = "Feature correlation";
+        var mkdocs_page_input_path = "stats_feature_correlation.md";
+        var mkdocs_page_url = "/s2stats/docs/stats_feature_correlation/";
       </script>
     
     <script src="../js/jquery-3.6.0.min.js" defer></script>
@@ -52,16 +52,8 @@
                 <li class="toctree-l1"><a class="reference internal" href="../stats_weapon_usage_trends_v2/">Weapon usage trends v2</a>
                 </li>
               </ul>
-              <ul class="current">
-                <li class="toctree-l1 current"><a class="reference internal current" href="./">Weapon usage trends v1</a>
-    <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#data-summary">Data summary</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#weapon-usage-trends">Weapon usage trends</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#kill-counts-in-last-7-days">Kill counts in last 7 days</a>
-    </li>
-    </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../stats_weapon_usage_trends/">Weapon usage trends v1</a>
                 </li>
               </ul>
               <ul>
@@ -86,7 +78,7 @@
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href=".." class="icon icon-home" alt="Docs"></a> &raquo;</li>
-      <li>Weapon usage trends v1</li>
+      <li>Feature correlation</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -95,103 +87,14 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="weapon-usage-trends-v1">Weapon usage trends v1</h1>
-<p>Calculations are based on kill count which is biased towards those getting more kills. Other guns like m79 might be discounted here while they have more utility (ie boost) besides getting kills.</p>
+                <h1 id="feature-correlation">Feature correlation</h1>
+<p>Correlation between main weapon used and various "features" of the round on different maps</p>
 <h2 id="data-summary">Data summary</h2>
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>first_game_start_time</th>
-      <th>last_game_start_time</th>
-      <th>games_count</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>2022-11-28 22:03:51</td>
-      <td>2023-01-25 00:15:10</td>
-      <td>680</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>playlistCode</th>
-      <th>games_count</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>CTF-Standard-4</td>
-      <td>22</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>CTF-Standard-6</td>
-      <td>652</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>CTF-Standard-8</td>
-      <td>6</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-<h2 id="weapon-usage-trends">Weapon usage trends</h2>
-<p>Chart data: <a href="../data/wu_ra_21_avg.csv">csv</a></p>
-<pre><code>57
-</code></pre>
-<p><img alt="png" src="../stats_weapon_usage_trends_files/stats_weapon_usage_trends_6_2.png" /></p>
-<p>Chart data: <a href="../data/wu_ra_7_avg.csv">csv</a></p>
-<pre><code>15
-</code></pre>
-<p><img alt="png" src="../stats_weapon_usage_trends_files/stats_weapon_usage_trends_7_2.png" /></p>
-<h2 id="kill-counts-in-last-7-days">Kill counts in last 7 days</h2>
-<p><img alt="png" src="../stats_weapon_usage_trends_files/stats_weapon_usage_trends_9_0.png" /></p>
+<h2 id="feature-correlation_1">Feature correlation</h2>
+<p><img alt="png" src="../stats_feature_correlation_files/stats_feature_correlation_6_0.png" /></p>
               
             </div>
           </div><footer>
-    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
-        <a href="../stats_weapon_usage_trends_v2/" class="btn btn-neutral float-left" title="Weapon usage trends v2"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-        <a href="../stats_ranked/" class="btn btn-neutral float-right" title="Ranked games">Next <span class="icon icon-circle-arrow-right"></span></a>
-    </div>
 
   <hr/>
 
@@ -213,10 +116,6 @@
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
-      <span><a href="../stats_weapon_usage_trends_v2/" style="color: #fcfcfc">&laquo; Previous</a></span>
-    
-    
-      <span><a href="../stats_ranked/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>

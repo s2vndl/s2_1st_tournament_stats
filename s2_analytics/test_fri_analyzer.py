@@ -7,6 +7,7 @@ from pandas import Timestamp
 from .constants import WEAPONS_PRIMARY
 from .fris_analyzer import FriWeaponUsageAnalyzer, FriWeaponUsageCollector
 from .importer import import_games
+from .test_assertions import assert_dataframes_equal
 
 
 class TestFrisPlayerRoundAnalyzer:
@@ -84,30 +85,48 @@ class TestImportWithAnalyzer:
         collector = FriWeaponUsageCollector().init()
         import_games(dirname(abspath(__file__)) + "/../fixtures/", period_days=99999, processors=[collector])
 
-        actual = collector.get_data(['Barrett', 'Deagles', 'Rheinmetall'], 99999)[["weapon", "date", "usage"]]
+        actual = collector.get_data(['Barrett', 'Deagles', 'Rheinmetall'], 99999, 1, 99999)[["weapon", "date", "usage"]]
         expected = """
         weapon,date,usage
         Barrett,2023-01-12,74.99999999999999
         Deagles,2023-01-12,0.0
         Rheinmetall,2023-01-12,25.0
         """
-        self.assert_dataframes_equal(expected, actual)
+        assert_dataframes_equal(expected, actual)
 
-        actual = collector.get_data(['Barrett', 'Deagles'], 99999)[["weapon", "date", "usage"]]
+        actual = collector.get_data(['Barrett', 'Deagles'], 9999, 1, 9999)[["weapon", "date", "usage"]]
         expected = """
         weapon,date,usage
         Barrett,2023-01-12,100
         Deagles,2023-01-12,0.0
         """
-        self.assert_dataframes_equal(expected, actual)
+        assert_dataframes_equal(expected, actual)
+
+    def test_rolling_average(self):
+        collector = FriWeaponUsageCollector().init()
+        import_games(dirname(abspath(__file__)) + "/../fixtures/", period_days=99999, processors=[collector])
+
+        actual = collector.get_data(['Barrett', 'Deagles', 'Rheinmetall'], 2, 1, 10)[["weapon", "date", "usage"]]
+        expected = """
+            weapon,date,usage
+            Barrett,2023-01-12,74.99999999999999
+            Deagles,2023-01-12,0.0
+            Rheinmetall,2023-01-12,25.0
+            """
+        assert_dataframes_equal(expected, actual)
+
+        actual = collector.get_data(['Barrett', 'Deagles'], 9999, 1, 9999)[["weapon", "date", "usage"]]
+        expected = """
+            weapon,date,usage
+            Barrett,2023-01-12,100
+            Deagles,2023-01-12,0.0
+            """
+        assert_dataframes_equal(expected, actual)
 
     def test_full_dataset(self):
         collector = FriWeaponUsageCollector().init()
         import_games(dirname(abspath(__file__)) + "/../logs_ranked/", period_days=90, processors=[collector])
-        data = collector.get_data(WEAPONS_PRIMARY, 21)
-        pass
+        data = collector.get_data(WEAPONS_PRIMARY, 21, 5, 21 * 3 + 5)
+        pass  # does not throw anything
 
-    def assert_dataframes_equal(self, expected, actual):
-        expected = "\n".join([x.strip() for x in expected.split("\n")])
-        expected_dataframe = pd.read_csv(StringIO(expected), parse_dates=["date"])
-        assert expected_dataframe.to_dict() == actual.to_dict()
+

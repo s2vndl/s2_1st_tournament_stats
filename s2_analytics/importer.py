@@ -1,19 +1,22 @@
 import json
 import re
+from collections import defaultdict
 from dataclasses import dataclass
 from datetime import datetime, timedelta
 from os import listdir
-from os.path import isfile, join
-from typing import Union, Protocol, List
+from os.path import isfile, join, exists
+from typing import Union, Protocol, List, Callable
 
 
 @dataclass
-class GameData:
+class GameDetails:
     id: int
     start_time: datetime
     playlistCode: str
-    score_red: int
     score_blue: int
+    score_red: int
+    teams: dict[str, list[str]]
+    match_quality: float
 
     @property
     def date_iso(self) -> str:
@@ -26,17 +29,12 @@ class GameData:
         return "Red" if self.score_red > self.score_blue else "Blue"
 
 
-class EventData(Protocol):
-    pass
-
-
 @dataclass
 class RoundData:
     game_id: int
     number: int
     map: str
     start_time: datetime
-    start_millis: int
     end_time: datetime
     score_blue: int
     score_red: int
@@ -52,27 +50,28 @@ class RoundData:
         return "Red" if self.score_red > self.score_blue else "Blue"
 
     @property
+    def is_tie(self) -> bool:
+        return self.score_red == self.score_blue
+
+    @property
     def id(self) -> str:
         return f"{self.game_id}-{self.number}"
 
 
 class GameProcessor(Protocol):
-    def process_game(self, game: GameData):
+    def process_game(self, game: GameDetails):
         ...
-
-    def finalize_game_processing(self):
-        pass
 
 
 class RoundProcessor(Protocol):
-    def process_round(self, round: RoundData, game: GameData):
+    def process_round(self, round: RoundData, game: GameDetails):
         ...
 
 
 class EventProcessor(Protocol):
     timestamp: datetime
 
-    def process_event(self, event: EventData, round: RoundData, game: GameData):
+    def process_event(self, event: "EventData", round: RoundData, game: GameDetails):
         ...
 
 
@@ -80,8 +79,11 @@ class FullProcessor(GameProcessor, RoundProcessor, EventProcessor):
     pass
 
 
+Processor = Union[GameProcessor, RoundProcessor, EventProcessor]
+
+
 @dataclass
-class EventKill(EventData):
+class EventKill:
     game_id: int
     round_num: int
     timestamp: datetime
@@ -97,11 +99,10 @@ class EventKill(EventData):
 
 
 @dataclass
-class EventFlagCap(EventData):
+class EventFlagCap:
     game_id: int
     round_num: int
     timestamp: datetime
-    millis_since_start: int
     capping_player_id: str
     capping_team: str
 
@@ -110,60 +111,89 @@ class EventFlagCap(EventData):
         return self.timestamp.strftime('%Y-%m-%d')
 
 
+EventData = Union[EventFlagCap, EventKill]
+RoundsEventData = List[List[EventData]]
+
+
+@dataclass
+class Game:
+    details: GameDetails
+    rounds: List[RoundData]
+    events_by_round: RoundsEventData
+
+    @property
+    def team_round_wins(self):
+        return {"Blue": self.details.score_blue,
+                "Red": self.details.score_red}
+
+    @property
+    def players(self):
+        players = []
+        for team, team_players in self.details.teams.items():
+            for tp in team_players:
+                players.append({"displayName": tp, "playfabId": tp, "team": team})
+        return players
+
+
 def import_games(logs_dir: str, period_days: int = 60,
-                 processors: List[Union[GameProcessor, EventProcessor, RoundProcessor]] = None) -> List[GameData]:
-
-    def has_method(obj, method):
-        return callable(getattr(obj, method, None))
-
-    game_processors = [p for p in processors if has_method(p, "process_game")]
-    round_processors = [p for p in processors if has_method(p, "process_round")]
-    event_processors = [p for p in processors if has_method(p, "process_event")]
-
-    game_importer = GameImporter(game_processors, round_processors, event_processors)
-    return game_importer.import_games(logs_dir, period_days)
+                 processors: List[Union[GameProcessor, EventProcessor, RoundProcessor]] = None):
+    game_importer = JsonGameReader(processors)
+    game_importer.read_games(logs_dir, period_days)
 
 
-class GameImporter:
-    def __init__(self, game_processors: List[GameProcessor], round_processors: List[RoundProcessor],
-                 event_processors: List[EventProcessor]):
-        self.game_processors = game_processors
-        self.round_processors = round_processors
-        self.event_processors = event_processors
+def has_method(obj, method):
+    return callable(getattr(obj, method, None))
 
-    def import_games(self, logs_dir: str, period_days: int = 60) -> List[GameData]:
-        start_date = datetime.today() - timedelta(days=period_days)
+
+class JsonGameReader:
+    def __init__(self, processors: list[Union[GameProcessor, RoundProcessor, EventProcessor]] = None,
+                 game_filter: Callable[[Game], bool] = None):
+        self.game_filter = game_filter if game_filter is not None else lambda g: True
+        if processors is None:
+            processors = []
+        self.game_processors = [p for p in processors if has_method(p, "process_game")]
+        self.round_processors = [p for p in processors if has_method(p, "process_round")]
+        self.event_processors = [p for p in processors if has_method(p, "process_event")]
+
+    def read_games(self, logs_dir: str, period_days: int = 60, start_date: datetime=None):
+        if start_date is None:
+            start_date = datetime.today() - timedelta(days=period_days)
         games = self._read_games_json(logs_dir, start_date)
 
-        supported_playlist_code = ["CTF-Standard-4", "CTF-Standard-6", "CTF-Standard-8"]
-        result = []
         for gameData in games:
-            if gameData['playlistCode'] not in supported_playlist_code:
-                continue
+            self.decode_game_json(gameData)
+
+    def decode_game_json(self, game_data_or_filepath: Union[dict, str]):
+        if isinstance(game_data_or_filepath, str):
+            game_data = self._read_json_file(game_data_or_filepath)
+        else:
+            game_data = game_data_or_filepath
+
+        if game_data['playlistCode'] in ["CTF-Standard-4", "CTF-Standard-6", "CTF-Standard-8"]:
             try:
-                game = self._decode_game(gameData)
+                game = self._decode_game(game_data)
+                if self.game_filter(game):
+                    for i, round_data in enumerate(game_data["rounds"]):
+                        round = self._decode_round(i + 1, round_data, game)
+
+                        for event_data in round_data["events"]:
+                            for processor in self.event_processors:
+                                processor.process_event(self._decode_event(event_data, round, game), round, game)
+
+                        for processor in self.round_processors:
+                            processor.process_round(round, game)
+
+                    for processor in self.game_processors:
+                        processor.process_game(game)
             except NotImplementedError as e:
                 print(e)
-                continue
 
-
-            for i, round_data in enumerate(gameData["rounds"]):
-                round = self._decode_round(i, round_data, game)
-
-                for event_data in round_data["events"]:
-                    for processor in self.event_processors:
-                        processor.process_event(self._decode_event(event_data, round, game), round, game)
-
-                for processor in self.round_processors:
-                    processor.process_round(round, game)
-
-            result.append(game)
-            for processor in self.game_processors:
-                processor.process_game(game)
-        for processor in self.game_processors:
-            processor.finalize_game_processing()
-
-        return result
+    def _read_json_file(self, json_data_or_file_path):
+        if not exists(json_data_or_file_path):
+            raise ValueError(f"file not found: `{json_data_or_file_path}`")
+        with open(json_data_or_file_path, "r") as f:
+            content = json.load(f)
+        return content
 
     def _read_games_json(self, logs_dir, start_timestamp: datetime):
         logs = [f for f in listdir(logs_dir) if isfile(join(logs_dir, f))]
@@ -173,19 +203,20 @@ class GameImporter:
             if not match:
                 continue
             timestamp = int(match.group(1))
-            game_start_time = self._js_millis_to_datetime(timestamp)
+            game_start_time = datetime.utcfromtimestamp(timestamp / 1000)
             if game_start_time < start_timestamp:
                 continue
             with open(logs_dir + "/" + log, "r") as f:
                 games.append(json.load(f))
         return games
 
-    def _decode_event(self, data: dict, round: RoundData, game: GameData) -> EventData:
+    def _decode_event(self, data: dict, round: RoundData, game: GameDetails) -> EventData:
         if data["type"] == "PLAYER_KILL":
+            value = data["timestamp"]
             return EventKill(
                 game.id,
                 round.number,
-                self._js_millis_to_datetime(data["timestamp"]),
+                datetime.utcfromtimestamp(value / 1000),
                 data["killerPlayfabId"],
                 data["killerTeam"],
                 data["victimPlayfabId"],
@@ -196,25 +227,20 @@ class GameImporter:
             return EventFlagCap(
                 game.id,
                 round.number,
-                self._js_millis_to_datetime(data["timestamp"]),
-                data["timestamp"] - round.start_millis,
+                datetime.utcfromtimestamp(data["timestamp"] / 1000),
                 data["playfabId"],
                 data["cappingTeam"],
             )
 
-    def _js_millis_to_datetime(self, value):
-        return datetime.utcfromtimestamp(value / 1000)
-
-    def _decode_round(self, number: int, round: dict, game: GameData) -> RoundData:
+    def _decode_round(self, number: int, round: dict, game: GameDetails) -> RoundData:
         return RoundData(
             game.id,
             number,
             round["mapName"],
-            self._js_millis_to_datetime(round["startTime"]),
-            round["startTime"],
-            self._js_millis_to_datetime(round["endTime"]),
-            round["redCaps"],
-            round["blueCaps"]
+            datetime.utcfromtimestamp(round["startTime"] / 1000),
+            datetime.utcfromtimestamp(round["endTime"] / 1000),
+            round["blueCaps"],
+            round["redCaps"]
         )
 
     def _decode_game(self, data: dict):
@@ -223,10 +249,15 @@ class GameImporter:
             raise NotImplementedError("no support for custom team names: " + ", ".join(data["teamRoundWins"]))
         score_red: int = data["teamRoundWins"]["Red"]
         score_blue: int = data["teamRoundWins"]["Blue"]
-        return GameData(
+        teams = defaultdict(lambda: [])
+        for player in data["players"]:
+            teams[player["team"]].append(player["playfabId"])
+        return GameDetails(
             data["startTime"],
             datetime.utcfromtimestamp(data["startTime"] / 1000),
             playlist_code,
+            score_blue,
             score_red,
-            score_blue
+            dict(teams),
+            data["matchQuality"]
         )

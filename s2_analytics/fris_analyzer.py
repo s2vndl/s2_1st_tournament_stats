@@ -5,7 +5,7 @@ from typing import List, Union, Set
 import pandas as pd
 
 from s2_analytics.constants import WEAPONS_PRIMARY, WEAPONS_SECONDARY
-from s2_analytics.importer import EventProcessor, EventData, RoundData, GameData, EventKill, RoundProcessor
+from s2_analytics.importer import EventProcessor, EventData, RoundData, GameDetails, EventKill, RoundProcessor
 
 
 class FriWeaponUsageAnalyzer:
@@ -40,7 +40,7 @@ class FriWeaponUsageCollector(EventProcessor, RoundProcessor):
     last_round: RoundData = None
     dates: Set[str] = set()
 
-    def process_round(self, round: RoundData, game: GameData):
+    def process_round(self, round: RoundData, game: GameDetails):
         report = self.analyzer.report()
         self._store_data(round.id, round.date_iso, report)
         self.analyzer = self._create_analyzer()
@@ -64,7 +64,7 @@ class FriWeaponUsageCollector(EventProcessor, RoundProcessor):
         self.cur.execute('CREATE TABLE weapon_usage_weapons("weapon")')
         return self
 
-    def process_event(self, event: EventData, round: RoundData, game: GameData):
+    def process_event(self, event: EventData, round: RoundData, game: GameDetails):
         if self.finalized:
             raise RuntimeError("collector is already finalized")
 
@@ -117,8 +117,7 @@ class FriWeaponUsageCollector(EventProcessor, RoundProcessor):
             """)
         self.con.commit()
 
-    def get_data(self, weapons_list, days):
-        total_period_days = 3 * days
+    def get_data(self, weapons_list, avg_period_days: int, min_days: int, total_period_days: int):
         self._finalize()
         weapons_list_str = ", ".join([f"'{x}'" for x in weapons_list])
 
@@ -132,12 +131,12 @@ class FriWeaponUsageCollector(EventProcessor, RoundProcessor):
                         where wu.date = wu2.date and weapon in ({weapons_list_str})
                     ) as usage
             from weapon_usage_by_date wu
-                where date >= datetime('now', '-{total_period_days} days')
+                where date >= datetime((select max(date) from weapon_usage_by_date), '-{total_period_days} days')
                 and weapon in ({weapons_list_str})
             order by weapon asc
         """, con=self.con, parse_dates="date")
         df["usage percentage"] = df.groupby("weapon", as_index=False, group_keys=False) \
             .apply(
-            lambda grp, freq: grp.rolling(freq, on='date', min_periods=int(days * 0.7))['usage'].mean(),
-            f"{days}D")
+            lambda grp, freq: grp.rolling(freq, on='date', min_periods=min_days)['usage'].mean(),
+            f"{avg_period_days}D")
         return df
