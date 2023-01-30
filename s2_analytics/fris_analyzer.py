@@ -1,6 +1,6 @@
 import sqlite3
 from collections import defaultdict
-from typing import List, Union, Set
+from typing import List, Set
 
 import pandas as pd
 
@@ -46,18 +46,12 @@ class FriWeaponUsageCollector(EventProcessor, RoundProcessor):
         self.analyzer = self._create_analyzer()
 
     def __init__(self):
-        self.con: sqlite3.Connection = sqlite3.connect("/tmp/sqlite_fri.db")
+        self.con: sqlite3.Connection = sqlite3.connect("file::memory:")
         self.finalized = False
         self.cur: sqlite3.Cursor = self.con.cursor()
         self.analyzer = self._create_analyzer()
 
     def init(self) -> "FriWeaponUsageCollector":
-        self.cur.execute('drop table if exists weapon_usage')
-        self.cur.execute('drop table if exists weapon_usage_dates')
-        self.cur.execute('drop table if exists weapon_usage_rounds')
-        self.cur.execute('drop table if exists weapon_usage_weapons')
-        self.cur.execute('drop table if exists weapon_usage_by_date')
-
         self.cur.execute('CREATE TABLE weapon_usage ("round_id", "date", "weapon", "usage")')
         self.cur.execute('CREATE TABLE weapon_usage_dates("date")')
         self.cur.execute('CREATE TABLE weapon_usage_rounds("id", "date")')
