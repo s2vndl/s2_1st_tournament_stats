@@ -13,7 +13,8 @@ mkdir -p build/notebooks
 mkdir -p docs
 cp README.md build/markdown/index.md
 
+poetry install
 ls *.ipynb | xargs -I QQ poetry run papermill --log-level WARNING --execution-timeout 20 QQ build/notebooks/QQ
 poetry run jupyter nbconvert --to markdown --output-dir=build/markdown build/notebooks/*.ipynb --no-input --log-level ERROR
 
-mkdocs build 2> >(grep -ive '^INFO' >&2)
+poetry run mkdocs build 2> >(grep -ive '^INFO' >&2)
