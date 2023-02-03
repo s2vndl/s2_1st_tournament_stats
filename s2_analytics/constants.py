@@ -51,6 +51,3 @@ WEAPONS = WEAPONS_PRIMARY + WEAPONS_SECONDARY + WEAPONS_OTHER
 WEAPON_MODS_DATES = [
     datetime.datetime(2022, 12, 28),
 ]
-
-
-FILTER_PLAYLIST_CTF = lambda g: "CTF" in g.playlist_code

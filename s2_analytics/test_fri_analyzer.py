@@ -4,7 +4,8 @@ from os.path import dirname, abspath
 import pandas as pd
 from pandas import Timestamp
 
-from .constants import WEAPONS_PRIMARY, FILTER_PLAYLIST_CTF
+from .constants import WEAPONS_PRIMARY
+from .filters import PLAYLIST_CTF
 from .fris_analyzer import FriWeaponUsageAnalyzer, FriWeaponUsageCollector
 from .importer import import_games
 from .test_assertions import assert_dataframes_equal
@@ -125,6 +126,6 @@ class TestImportWithAnalyzer:
 
     def test_full_dataset(self):
         collector = FriWeaponUsageCollector().init()
-        import_games(dirname(abspath(__file__)) + "/../logs_ranked/", period_days=90, processors=[collector], game_filters=[FILTER_PLAYLIST_CTF])
+        import_games(dirname(abspath(__file__)) + "/../logs_ranked/", period_days=90, processors=[collector], game_filters=[PLAYLIST_CTF])
         collector.get_data(WEAPONS_PRIMARY, 21, 5, 21 * 3 + 5)  # does not throw anything
         pass

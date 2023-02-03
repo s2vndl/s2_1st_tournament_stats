@@ -1,7 +1,7 @@
 import datetime
 from os.path import dirname, abspath
 
-from .constants import FILTER_PLAYLIST_CTF
+from .filters import PLAYLIST_CTF
 from .game_builder import GameBuilderFactory, GameBuilder
 from .importer import import_games, GameDetails, RoundData, EventKill, EventFlagCap
 from s2_analytics.collector.object_collector import GameObjectCollector
@@ -15,7 +15,7 @@ TIME_LIMIT_SECONDS = 2
 def test_import_cant_be_too_long():
     start = datetime.datetime.now().timestamp()
     collector = GameObjectCollector()
-    import_games(SCRIPT_DIR + "/logs_ranked/", period_days=30, processors=[collector], game_filters=[FILTER_PLAYLIST_CTF])
+    import_games(SCRIPT_DIR + "/logs_ranked/", period_days=30, processors=[collector], game_filters=[PLAYLIST_CTF])
     end = datetime.datetime.now().timestamp()
 
     assert len(collector.games) > 100
