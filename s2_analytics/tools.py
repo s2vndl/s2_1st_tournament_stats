@@ -1,13 +1,14 @@
 import json
 import os
-from typing import List, Callable
+from typing import List, Callable, Union
 
 from IPython.core.display import Markdown
 from IPython.core.display_functions import display
 from pandas import DataFrame
 
 from s2_analytics.collector.object_collector import GameObjectCollector
-from s2_analytics.importer import JsonGameDeserializer, Processor, Game, RoundData, EventData, EventKill, EventFlagCap
+from s2_analytics.importer import JsonGameDeserializer, Processor, Game, RoundData, EventData, EventKill, EventFlagCap, \
+    GameFilter
 
 
 def dump_csv(df: DataFrame, id: str):
@@ -58,8 +59,8 @@ def to_long_timestamp(time):
     return int(time.timestamp() * 1000)
 
 
-def process_games(games: list[Game], processors: list[Processor], game_filter: Callable[[Game], bool] = None):
-    reader = JsonGameDeserializer(processors, game_filter)
+def process_games(games: list[Game], processors: list[Processor], game_filters: Union[GameFilter, List[GameFilter]] = None):
+    reader = JsonGameDeserializer(processors, game_filters)
     for game in games:
         game = dump_game_as_json_dict(game)
         reader.deserialize_game(game)
@@ -67,7 +68,7 @@ def process_games(games: list[Game], processors: list[Processor], game_filter: C
 
 def dump_game_as_json_dict(game: Game):
     return {
-        "playlistCode": game.details.playlistCode,
+        "playlistCode": game.details.playlist_code,
         "startTime": game.details.id,
         "teamRoundWins": game.team_round_wins,
         "teams": list(game.details.teams.keys()),
@@ -81,7 +82,7 @@ def dump_games_as_json_dict(games: list[Game]):
     return [dump_game_as_json_dict(game) for game in games]
 
 
-def decode_game(path):
+def process_game(path):
     with open(os.path.dirname(os.path.realpath(__file__)) + "/" + path, "r") as f:
         collector = GameObjectCollector()
         JsonGameDeserializer([collector]).deserialize_game(json.load(f))

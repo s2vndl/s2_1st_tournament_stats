@@ -59,7 +59,8 @@ clock = FakeClock()
 
 class GameBuilder:
     def __init__(self, game_start_time: int = 0, teams: dict[str, list[str]] = None, factory=None,
-                 match_quality: float = 0.8):
+                 match_quality: float = 0.8, playlist="CTF-Standard-6"):
+        self.playlist = playlist
         self.match_quality = match_quality
         self.score: defaultdict[str, int] = defaultdict(lambda: 0)
         self.round_id = 0
@@ -111,7 +112,7 @@ class GameBuilder:
         round_wins = defaultdict(lambda: 0)
         for round in self.rounds:
             round_wins[round.winner] += 1
-        game = Game(GameDetails(self.game_id, datetime.utcfromtimestamp(self.game_id / 1000), "CTF-Standard-6",
+        game = Game(GameDetails(self.game_id, datetime.utcfromtimestamp(self.game_id / 1000), self.playlist,
                                 round_wins["Blue"], round_wins["Red"], self.teams, self.match_quality), self.rounds,
                     self.events_by_round_num[:len(self.rounds)])
         if self.factory is not None:
@@ -123,7 +124,7 @@ class GameBuilder:
 
 class GameBuilderFactory:
     def __init__(self, teams: dict[str, list[str]] = None):
-        self.game_start = 0
+        self.game_start = 1000
         self._teams = teams
         self._clock = FakeClock()
         self._games = []
@@ -131,12 +132,14 @@ class GameBuilderFactory:
     def finish_game(self, game: Game):
         self._games.append(game)
 
-    def add_game(self, match_quality=0.8, game_start_time: Timestamp = None) -> GameBuilder:
+    def add_game(self, match_quality=0.8, game_start_time: Timestamp = None, playlist: str = "CTF-Standard-6") -> GameBuilder:
         if game_start_time is not None:
-            self.game_start = game_start_time
+            self.game_start = game_start_time if isinstance(game_start_time, int) else game_start_time.timestamp()*1000
+        builder = GameBuilder(teams=self._teams, factory=self,
+                              game_start_time=self.game_start,
+                              match_quality=match_quality, playlist=playlist)
         self.game_start += 1000
-        return GameBuilder(teams=self._teams, factory=self, game_start_time=self.game_start,
-                           match_quality=match_quality)
+        return builder
 
     def finish(self) -> List[Game]:
         return self._games

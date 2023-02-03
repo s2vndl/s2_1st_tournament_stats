@@ -58,7 +58,7 @@ class SqliteCollector(GameProcessor, RoundProcessor, EventProcessor):
         self.cursor.execute("""
                 insert into game 
                     values (:startTime, :date, :playlistCode, :scoreRed, :scoreBlue, :winner)
-            """, {"startTime": game.id, "date": game.date_iso, "playlistCode": game.playlistCode,
+            """, {"startTime": game.id, "date": game.date_iso, "playlistCode": game.playlist_code,
                   "scoreRed": game.score_red, "scoreBlue": game.score_blue, "winner": game.winner})
 
     def process_round(self, round: RoundData, game: GameDetails):

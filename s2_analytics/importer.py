@@ -12,7 +12,7 @@ from typing import Union, Protocol, List, Callable
 class GameDetails:
     id: int
     start_time: datetime
-    playlistCode: str
+    playlist_code: str
     score_blue: int
     score_red: int
     teams: dict[str, list[str]]
@@ -113,6 +113,7 @@ class EventFlagCap:
 
 EventData = Union[EventFlagCap, EventKill]
 RoundsEventData = List[List[EventData]]
+GameFilter = Callable[[GameDetails], bool]
 
 
 @dataclass
@@ -135,10 +136,12 @@ class Game:
         return players
 
 
-def import_games(logs_dir: str, period_days: int = 60,
-                 processors: List[Union[GameProcessor, EventProcessor, RoundProcessor]] = None):
-    decoder = JsonGameDeserializer(processors)
-    for game_json in read_games_dir(logs_dir, period_days):
+def import_games(logs_dir: str, period_days: int = 60, start_date=None,
+                 processors: List[Union[GameProcessor, EventProcessor, RoundProcessor]] = None,
+                 game_filters: List[GameFilter] = None
+                 ):
+    decoder = JsonGameDeserializer(processors, game_filters=game_filters)
+    for game_json in read_games_dir(logs_dir, period_days, start_date):
         decoder.deserialize_game(game_json)
 
 
@@ -173,8 +176,9 @@ def _read_games_json(logs_dir, start_timestamp: datetime):
 
 class JsonGameDeserializer:
     def __init__(self, processors: list[Union[GameProcessor, RoundProcessor, EventProcessor]] = None,
-                 game_filter: Callable[[Game], bool] = None):
-        self.game_filter = game_filter if game_filter is not None else lambda g: True
+                 game_filters: Union[GameFilter, List[GameFilter]] = None):
+        game_filters = game_filters if game_filters is not None else []
+        self.game_filters = game_filters if isinstance(game_filters, list) else [game_filters]
         if processors is None:
             processors = []
         self.game_processors = [p for p in processors if _has_method(p, "process_game")]
@@ -186,25 +190,24 @@ class JsonGameDeserializer:
             self.deserialize_game(data)
 
     def deserialize_game(self, game_json_data: dict):
-        if game_json_data['playlistCode'] in ["CTF-Standard-4", "CTF-Standard-6", "CTF-Standard-8"]:
-            try:
-                game = self._decode_game(game_json_data)
-                if self.game_filter(game):
-                    for i, round_data in enumerate(game_json_data["rounds"]):
-                        round = self._decode_round(i + 1, round_data, game)
-                        for event_data in round_data["events"]:
-                            if len(self.event_processors) > 0:
-                                event = self._decode_event(event_data, round, game)
-                                for processor in self.event_processors:
-                                    processor.process_event(event, round, game)
+        try:
+            game: GameDetails = self._decode_game(game_json_data)
+        except NotImplementedError as e:
+            return
+        if all([f(game) for f in self.game_filters]):
+            for i, round_data in enumerate(game_json_data["rounds"]):
+                round = self._decode_round(i + 1, round_data, game)
+                for event_data in round_data["events"]:
+                    if len(self.event_processors) > 0:
+                        event = self._decode_event(event_data, round, game)
+                        for processor in self.event_processors:
+                            processor.process_event(event, round, game)
 
-                        for processor in self.round_processors:
-                            processor.process_round(round, game)
+                for processor in self.round_processors:
+                    processor.process_round(round, game)
 
-                    for processor in self.game_processors:
-                        processor.process_game(game)
-            except NotImplementedError as e:
-                print(e)
+            for processor in self.game_processors:
+                processor.process_game(game)
 
     def _decode_event(self, data: dict, round: RoundData, game: GameDetails) -> EventData:
         if data["type"] == "PLAYER_KILL":
@@ -239,7 +242,7 @@ class JsonGameDeserializer:
             round["redCaps"]
         )
 
-    def _decode_game(self, data: dict):
+    def _decode_game(self, data: dict) -> GameDetails:
         playlist_code = data["playlistCode"]
         if "Red" not in data["teamRoundWins"]:
             raise NotImplementedError("no support for custom team names: " + ", ".join(data["teamRoundWins"]))
