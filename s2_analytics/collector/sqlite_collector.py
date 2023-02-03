@@ -12,18 +12,18 @@ from s2_analytics.importer import GameDetails, GameProcessor, RoundData, EventKi
 
 
 class SqliteCollector(GameProcessor, RoundProcessor, EventProcessor):
-    def __init__(self, sqlite_path: Union[None, str] = None):
+    def __init__(self, sqlite_path: Union[None, str] = None, sqlite_conn: Union[sqlite3.Connection, None] = None):
         self.games: List[GameDetails] = []
         self.rounds: List[RoundData] = []
         self.events: List[EventData] = []
         self.sqlite_path = sqlite_path
-        self.connection: Union[sqlite3.Connection, None] = None
+        self.connection: Union[sqlite3.Connection, None] = sqlite_conn
         self.cursor: Union[sqlite3.Cursor, None] = None
         self.round_id = 0
 
     def init(self) -> "SqliteCollector":
-        self._prepare_sqlite_db(self.sqlite_path)
-        self.connection = self._prepare_sqlite_db(self.sqlite_path)
+        if self.connection is None:
+            self.connection = self._prepare_sqlite_db(self.sqlite_path)
         self.cursor = self.connection.cursor()
         self._create_tables()
         return self

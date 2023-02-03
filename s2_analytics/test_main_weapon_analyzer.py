@@ -1,5 +1,7 @@
+import sqlite3
 from typing import Union, Callable
 
+from s2_analytics.collector.sqlite_collector import SqliteCollector
 from s2_analytics.constants import WEAPONS_PRIMARY, W_STEYR, W_BARRETT, W_DEAGLES, WEAPONS_SECONDARY, W_RPG
 from s2_analytics.game_builder import GameBuilderFactory
 from s2_analytics.importer import RoundData
@@ -81,11 +83,19 @@ class TestMainWeaponAnalyzer:
         assert sut.report()["teamA"] == {"knife": 1, "ak": 1}
 
 
+NO_RESULT_TAG_FILTER = lambda t: t not in ["win", "lose"]
+
+
 class TestMainWeaponCorrelation:
     analyzer: TeamRoundTagCorrelationAnalyzer
 
     def setup_method(self):
-        self.analyzer = TeamRoundTagCorrelationAnalyzer([MainWeaponRoundTagger([WEAPONS_PRIMARY, WEAPONS_SECONDARY])])
+        conn = sqlite3.connect("file::memory:")
+        sqlite_collector = SqliteCollector(sqlite_conn=conn).init()
+        self.analyzer = TeamRoundTagCorrelationAnalyzer(conn, sqlite_collector, [
+            MainWeaponRoundTagger([WEAPONS_PRIMARY, WEAPONS_SECONDARY])
+        ]).init()
+        self.collectors = [sqlite_collector, self.analyzer]
 
     def test_creates_main_weapon_tags_for_each_round(self):
         game = GameBuilderFactory(teams={"Red": ["A"], "Blue": ["B"]}) \
@@ -101,14 +111,27 @@ class TestMainWeaponCorrelation:
             .build() \
             .finish()[0]
 
-        process_games([game], [self.analyzer])
+        process_games([game], self.collectors)
 
-        assert [
-                   {"win": 1, "Barrett_x1": 1},
-                   {"win": 0},
-                   {"win": 1, "SteyrAUG_x1": 1},
-                   {"win": 0, "Barrett_x1": 1}
-               ] == self.analyzer.tags_by_round
+        assert self.analyzer.tags_by_round(NO_RESULT_TAG_FILTER) == [
+            # game, round, team, tag entries
+            (1000, 1, "Red", "Barrett_x1"),
+            (1000, 2, "Red", "SteyrAUG_x1"),
+            (1000, 2, "Blue", "Barrett_x1")
+        ]
+
+    def test_tags_each_teamround_as_win_or_lose(self):
+        game = GameBuilderFactory(teams={"Red": ["1", "2", "3"], "Blue": ["A", "B", "C"]}) \
+            .add_game() \
+            .add_round() \
+            .add_cap(player="A") \
+            .build() \
+            .finish()[0]
+
+        process_games([game], self.collectors)
+
+        assert self.analyzer.tags_by_round() == [(1000, 1, 'Red', 'lose'),
+                                                 (1000, 1, 'Blue', 'win')]
 
     def test_create_x2_or_x3_tags_if_team_used_same_main_weapons(self):
         game = GameBuilderFactory(teams={"Red": ["1", "2", "3"], "Blue": ["A", "B", "C"]}) \
@@ -124,12 +147,12 @@ class TestMainWeaponCorrelation:
             .build() \
             .finish()[0]
 
-        process_games([game], [self.analyzer])
+        process_games([game], self.collectors)
 
-        assert [
-                   {'Barrett_x2': 1, 'SteyrAUG_x1': 1, 'win': 0},
-                   {'Deagles_x3': 1, 'win': 1}
-               ] == self.analyzer.tags_by_round
+        assert self.analyzer.tags_by_round(NO_RESULT_TAG_FILTER) == [
+            (1000, 1, 'Red', 'Barrett_x2'),
+            (1000, 1, 'Red', 'SteyrAUG_x1'),
+            (1000, 1, 'Blue', 'Deagles_x3')]
 
     def test_calculates_correlation_between_victory_and_tags(self):
         game = GameBuilderFactory(teams={"Red": ["A"], "Blue": ["B"]}) \
@@ -141,7 +164,7 @@ class TestMainWeaponCorrelation:
             .build() \
             .finish()[0]
 
-        process_games([game], [self.analyzer])
+        process_games([game], self.collectors)
         assert self.analyzer.calculate_win_correlation() == {"Barrett_x1": 1.0, "SteyrAUG_x1": -1.0}
 
     def test_calculates_correlation_between_victory_and_tags_with_more_data(self):
@@ -158,7 +181,7 @@ class TestMainWeaponCorrelation:
             .build() \
             .finish()[0]
 
-        process_games([game], [self.analyzer])
+        process_games([game], self.collectors)
         assert self.analyzer.calculate_win_correlation()["SteyrAUG_x1"] == 1.0
         assert self.analyzer.calculate_win_correlation()["Barrett_x1"] < 0.6
         assert self.analyzer.calculate_win_correlation()["Deagles_x1"] < 0.6
@@ -180,32 +203,5 @@ class TestMainWeaponCorrelation:
             .build() \
             .finish()[0]
 
-        process_games([game], [self.analyzer])
+        process_games([game], self.collectors)
         assert self.analyzer.calculate_win_correlation()["RPG_x1"] == 1.0
-
-    def test_calculations_ignore_some_rounds(self):
-        game = GameBuilderFactory(teams={"Red": ["A"], "Blue": ["B"]}) \
-            .add_game() \
-            .add_round(map="ctf_x") \
-            .add_kill(killer="A", weapon=W_STEYR) \
-            .add_cap(player="A") \
-            .add_round(map="ctf_ash") \
-            .add_kill(killer="A", weapon=W_DEAGLES) \
-            .add_cap(player="A") \
-            .build() \
-            .finish()[0]
-
-        analyzer = self._create_analyzer()
-        process_games([game], [analyzer])
-        assert analyzer.calculate_win_correlation()["SteyrAUG_x1"] < 0.6
-
-        analyzer = self._create_analyzer(lambda r: r.map == "ctf_x")
-        process_games([game], [analyzer])
-
-        assert analyzer.calculate_win_correlation()["SteyrAUG_x1"] == 1.0
-
-    def _create_analyzer(self, round_filter: Union[Callable[[RoundData], bool], None] = None):
-        return TeamRoundTagCorrelationAnalyzer(
-            [MainWeaponRoundTagger([WEAPONS_PRIMARY, WEAPONS_SECONDARY])],
-            round_filter=round_filter
-        )

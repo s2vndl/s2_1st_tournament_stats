@@ -1,7 +1,5 @@
-import os
-
 from s2_analytics.game_builder import GameBuilder
-from s2_analytics.tools import decode_game_json
+from s2_analytics.tools import decode_game
 
 
 class TestGameBuilder:
@@ -17,7 +15,4 @@ class TestGameBuilder:
             .add_cap(time=1673564529881, player="C19637F2290726EB") \
             .build()
 
-        path = "../fixtures/game_1666666666000.json"
-        expected = decode_game_json(os.path.dirname(os.path.realpath(__file__)) + "/" + path)
-
-        assert expected == game
+        assert decode_game("../fixtures/game_1666666666000.json") == game

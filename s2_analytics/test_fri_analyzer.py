@@ -126,7 +126,5 @@ class TestImportWithAnalyzer:
     def test_full_dataset(self):
         collector = FriWeaponUsageCollector().init()
         import_games(dirname(abspath(__file__)) + "/../logs_ranked/", period_days=90, processors=[collector])
-        data = collector.get_data(WEAPONS_PRIMARY, 21, 5, 21 * 3 + 5)
-        pass  # does not throw anything
-
-
+        collector.get_data(WEAPONS_PRIMARY, 21, 5, 21 * 3 + 5)  # does not throw anything
+        pass

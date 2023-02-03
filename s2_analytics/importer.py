@@ -4,7 +4,7 @@ from collections import defaultdict
 from dataclasses import dataclass
 from datetime import datetime, timedelta
 from os import listdir
-from os.path import isfile, join, exists
+from os.path import isfile, join
 from typing import Union, Protocol, List, Callable
 
 
@@ -137,48 +137,66 @@ class Game:
 
 def import_games(logs_dir: str, period_days: int = 60,
                  processors: List[Union[GameProcessor, EventProcessor, RoundProcessor]] = None):
-    game_importer = JsonGameReader(processors)
-    game_importer.read_games(logs_dir, period_days)
+    decoder = JsonGameDeserializer(processors)
+    for game_json in read_games_dir(logs_dir, period_days):
+        decoder.deserialize_game(game_json)
 
 
-def has_method(obj, method):
+def _has_method(obj, method):
     return callable(getattr(obj, method, None))
 
 
-class JsonGameReader:
+def read_games_dir(logs_dir: str, period_days: int = 60, start_date: datetime = None):
+    if start_date is None:
+        start_date = datetime.today() - timedelta(days=period_days)
+    games = _read_games_json(logs_dir, start_date)
+
+    for gameData in games:
+        yield gameData
+
+
+def _read_games_json(logs_dir, start_timestamp: datetime):
+    logs = [f for f in listdir(logs_dir) if isfile(join(logs_dir, f))]
+    games = []
+    for log in logs:
+        match = re.match("^game_([0-9]{13}).json", log)
+        if not match:
+            continue
+        timestamp = int(match.group(1))
+        game_start_time = datetime.utcfromtimestamp(timestamp / 1000)
+        if game_start_time < start_timestamp:
+            continue
+        with open(logs_dir + "/" + log, "r") as f:
+            games.append(json.load(f))
+    return games
+
+
+class JsonGameDeserializer:
     def __init__(self, processors: list[Union[GameProcessor, RoundProcessor, EventProcessor]] = None,
                  game_filter: Callable[[Game], bool] = None):
         self.game_filter = game_filter if game_filter is not None else lambda g: True
         if processors is None:
             processors = []
-        self.game_processors = [p for p in processors if has_method(p, "process_game")]
-        self.round_processors = [p for p in processors if has_method(p, "process_round")]
-        self.event_processors = [p for p in processors if has_method(p, "process_event")]
+        self.game_processors = [p for p in processors if _has_method(p, "process_game")]
+        self.round_processors = [p for p in processors if _has_method(p, "process_round")]
+        self.event_processors = [p for p in processors if _has_method(p, "process_event")]
 
-    def read_games(self, logs_dir: str, period_days: int = 60, start_date: datetime=None):
-        if start_date is None:
-            start_date = datetime.today() - timedelta(days=period_days)
-        games = self._read_games_json(logs_dir, start_date)
+    def deserialize_games(self, game_json_datas: list[dict]):
+        for data in game_json_datas:
+            self.deserialize_game(data)
 
-        for gameData in games:
-            self.decode_game_json(gameData)
-
-    def decode_game_json(self, game_data_or_filepath: Union[dict, str]):
-        if isinstance(game_data_or_filepath, str):
-            game_data = self._read_json_file(game_data_or_filepath)
-        else:
-            game_data = game_data_or_filepath
-
-        if game_data['playlistCode'] in ["CTF-Standard-4", "CTF-Standard-6", "CTF-Standard-8"]:
+    def deserialize_game(self, game_json_data: dict):
+        if game_json_data['playlistCode'] in ["CTF-Standard-4", "CTF-Standard-6", "CTF-Standard-8"]:
             try:
-                game = self._decode_game(game_data)
+                game = self._decode_game(game_json_data)
                 if self.game_filter(game):
-                    for i, round_data in enumerate(game_data["rounds"]):
+                    for i, round_data in enumerate(game_json_data["rounds"]):
                         round = self._decode_round(i + 1, round_data, game)
-
                         for event_data in round_data["events"]:
-                            for processor in self.event_processors:
-                                processor.process_event(self._decode_event(event_data, round, game), round, game)
+                            if len(self.event_processors) > 0:
+                                event = self._decode_event(event_data, round, game)
+                                for processor in self.event_processors:
+                                    processor.process_event(event, round, game)
 
                         for processor in self.round_processors:
                             processor.process_round(round, game)
@@ -187,28 +205,6 @@ class JsonGameReader:
                         processor.process_game(game)
             except NotImplementedError as e:
                 print(e)
-
-    def _read_json_file(self, json_data_or_file_path):
-        if not exists(json_data_or_file_path):
-            raise ValueError(f"file not found: `{json_data_or_file_path}`")
-        with open(json_data_or_file_path, "r") as f:
-            content = json.load(f)
-        return content
-
-    def _read_games_json(self, logs_dir, start_timestamp: datetime):
-        logs = [f for f in listdir(logs_dir) if isfile(join(logs_dir, f))]
-        games = []
-        for log in logs:
-            match = re.match("^game_([0-9]{13}).json", log)
-            if not match:
-                continue
-            timestamp = int(match.group(1))
-            game_start_time = datetime.utcfromtimestamp(timestamp / 1000)
-            if game_start_time < start_timestamp:
-                continue
-            with open(logs_dir + "/" + log, "r") as f:
-                games.append(json.load(f))
-        return games
 
     def _decode_event(self, data: dict, round: RoundData, game: GameDetails) -> EventData:
         if data["type"] == "PLAYER_KILL":
