@@ -1,10 +1,10 @@
 import datetime
 from os.path import dirname, abspath
 
-from .filters import PLAYLIST_CTF
-from .game_builder import GameBuilderFactory, GameBuilder
-from .importer import import_games, GameDetails, RoundData, EventKill, EventFlagCap
 from s2_analytics.collector.object_collector import GameObjectCollector
+from .filters import PLAYLIST_CTF
+from .game_builder import GameBuilderFactory
+from .importer import import_games
 from .tools import process_games
 
 TEST_DB = "/tmp/s2_ranked_test.sql"

@@ -2,7 +2,6 @@ import sqlite3
 from typing import Callable, Union
 
 import pandas as pd
-from numpy import int64
 
 from s2_analytics.collector.sqlite_collector import SqliteCollector
 from s2_analytics.importer import RoundData, GameDetails, EventData
@@ -71,6 +70,17 @@ class TeamRoundTagCorrelationAnalyzer:
             if tag_filter(t[3]):
                 r.append(t)
         return r
+
+    def tag_counts(self, tag_filter: Callable[[str], bool] = None):
+        if tag_filter is None:
+            tag_filter = lambda t: True
+
+        fetchall = self.cursor.execute(f"""
+               select tag, count(*) as count 
+               from team_round_tag trt
+               group by trt.tag 
+               """).fetchall()
+        return {tag: count for tag, count in fetchall if tag_filter(tag)}
 
     def calculate_win_correlation(self, round_filter_sql: Union[str, list[str]] = None):
         if isinstance(round_filter_sql, str):

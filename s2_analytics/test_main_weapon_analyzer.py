@@ -154,6 +154,23 @@ class TestMainWeaponCorrelation:
             (1000, 1, 'Red', 'SteyrAUG_x1'),
             (1000, 1, 'Blue', 'Deagles_x3')]
 
+    def test_returns_count_of_each_tag_in_dataset(self):
+        game = GameBuilderFactory(teams={"Red": ["1", "2", "3"], "Blue": ["A", "B", "C"]}) \
+            .add_game() \
+            .add_round() \
+            .add_kill(killer="1", weapon=W_BARRETT) \
+            .add_kill(killer="3", weapon=W_STEYR) \
+            .add_kill(killer="B", weapon=W_STEYR) \
+            .add_cap(player="A") \
+            .build() \
+            .finish()[0]
+
+        process_games([game], self.collectors)
+
+        assert self.analyzer.tag_counts(NO_RESULT_TAG_FILTER) == {
+            'Barrett_x1': 1,
+            'SteyrAUG_x1': 2}
+
     def test_calculates_correlation_between_victory_and_tags(self):
         game = GameBuilderFactory(teams={"Red": ["A"], "Blue": ["B"]}) \
             .add_game() \
