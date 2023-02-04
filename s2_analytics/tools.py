@@ -74,7 +74,8 @@ def dump_game_as_json_dict(game: Game):
         "teams": list(game.details.teams.keys()),
         "players": game.players,
         "rounds": [_encode_round(r, game.events_by_round[i]) for i, r in enumerate(game.rounds)],
-        "matchQuality": game.details.match_quality
+        "matchQuality": game.details.match_quality,
+        "teamWinProbabilities": game.details.team_win_probabilities
     }
 
 

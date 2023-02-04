@@ -5,7 +5,8 @@ from s2_analytics.tools import process_game
 class TestGameBuilder:
     def test_builder_builds_nicely(self):
         teams = {"Red": ["85D4CB1D1C2A72CD"], "Blue": ["C19637F2290726EB"]}
-        game = GameBuilder(1673564249000, teams, match_quality=0.5034282868653599) \
+        game = GameBuilder(1673564249000, teams, match_quality=0.5034282868653599,
+                           teams_win_probability={'Red': 0.38839434686013535, 'Blue': 0.6116056531398646}) \
             .add_round(start=1673564296797, end_time=1673564552013, map="ctf_x") \
             .add_kill(time=1673564310905, killer="C19637F2290726EB", victim="85D4CB1D1C2A72CD", weapon="Barrett") \
             .add_cap(time=1673564527881, player="C19637F2290726EB") \

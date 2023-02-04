@@ -17,6 +17,7 @@ class GameDetails:
     score_red: int
     teams: dict[str, list[str]]
     match_quality: float
+    team_win_probabilities: dict[str, float]
 
     @property
     def date_iso(self) -> str:
@@ -258,5 +259,6 @@ class JsonGameDeserializer:
             score_blue,
             score_red,
             dict(teams),
-            data["matchQuality"]
+            data["matchQuality"],
+            data["teamWinProbabilities"]
         )

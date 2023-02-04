@@ -59,7 +59,7 @@ clock = FakeClock()
 
 class GameBuilder:
     def __init__(self, game_start_time: int = 0, teams: dict[str, list[str]] = None, factory=None,
-                 match_quality: float = 0.8, playlist="CTF-Standard-6"):
+                 match_quality: float = 0.8, playlist="CTF-Standard-6", teams_win_probability=None):
         self.playlist = playlist
         self.match_quality = match_quality
         self.score: defaultdict[str, int] = defaultdict(lambda: 0)
@@ -70,6 +70,8 @@ class GameBuilder:
         self.current_events: list[EventData] = []
         self.game_id = game_start_time
         self.teams = teams if teams is not None else {"Blue": ["A"], "Red": ["B"]}
+        self.teams_win_probability = {team: 0.5 for team in
+                                      self.teams} if teams_win_probability is None else teams_win_probability
         self.team_by_player = {}
         self.factory = factory
         for team, players in teams.items():
@@ -112,8 +114,10 @@ class GameBuilder:
         round_wins = defaultdict(lambda: 0)
         for round in self.rounds:
             round_wins[round.winner] += 1
+        team_prob = {team: val for team, val in self.teams_win_probability.items()}
         game = Game(GameDetails(self.game_id, datetime.utcfromtimestamp(self.game_id / 1000), self.playlist,
-                                round_wins["Blue"], round_wins["Red"], self.teams, self.match_quality), self.rounds,
+                                round_wins["Blue"], round_wins["Red"], self.teams, self.match_quality, team_prob),
+                    self.rounds,
                     self.events_by_round_num[:len(self.rounds)])
         if self.factory is not None:
             self.factory.finish_game(game)
@@ -132,12 +136,15 @@ class GameBuilderFactory:
     def finish_game(self, game: Game):
         self._games.append(game)
 
-    def add_game(self, match_quality=0.8, game_start_time: Timestamp = None, playlist: str = "CTF-Standard-6") -> GameBuilder:
+    def add_game(self, match_quality=0.8, game_start_time: Timestamp = None, playlist: str = "CTF-Standard-6",
+                 teams_win_probability=None) -> GameBuilder:
         if game_start_time is not None:
-            self.game_start = game_start_time if isinstance(game_start_time, int) else game_start_time.timestamp()*1000
+            self.game_start = game_start_time if isinstance(game_start_time,
+                                                            int) else game_start_time.timestamp() * 1000
         builder = GameBuilder(teams=self._teams, factory=self,
                               game_start_time=self.game_start,
-                              match_quality=match_quality, playlist=playlist)
+                              match_quality=match_quality, playlist=playlist,
+                              teams_win_probability=teams_win_probability)
         self.game_start += 1000
         return builder
 
