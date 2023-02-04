@@ -218,7 +218,64 @@ class TestMainWeaponCorrelation:
             .add_kill(killer="B", weapon=W_DEAGLES) \
             .add_cap(player="A") \
             .build() \
-            .finish()[0]
+            .finish()[0]  # why [0] ??
 
         process_games([game], self.collectors)
         assert self.analyzer.calculate_win_correlation()["RPG_x1"] == 1.0
+
+    def test_calculates_correlations_for_selected_map(self):
+        games = GameBuilderFactory(teams={"Red": ["A"], "Blue": ["B"]}) \
+            .add_game() \
+            .add_round(map="ctf_x") \
+            .add_kill(killer="A", weapon=W_STEYR) \
+            .add_kill(killer="B", weapon=W_DEAGLES) \
+            .add_cap(player="A") \
+            .add_round(map="ctf_ash") \
+            .add_kill(killer="A", weapon=W_STEYR) \
+            .add_kill(killer="B", weapon=W_DEAGLES) \
+            .add_cap(player="B") \
+            .build() \
+            .finish()
+
+        process_games(games, self.collectors)
+        correlation = self.analyzer.calculate_win_correlation(map_name="ctf_x")
+        assert correlation["SteyrAUG_x1"] == 1.0
+
+    def test_calculates_correlations_for_all_maps(self):
+        games = GameBuilderFactory(teams={"Red": ["A"], "Blue": ["B"]}) \
+            .add_game() \
+            .add_round(map="ctf_x") \
+            .add_kill(killer="A", weapon=W_STEYR) \
+            .add_kill(killer="B", weapon=W_DEAGLES) \
+            .add_cap(player="A") \
+            .add_round(map="ctf_ash") \
+            .add_kill(killer="A", weapon=W_STEYR) \
+            .add_kill(killer="B", weapon=W_DEAGLES) \
+            .add_cap(player="B") \
+            .build() \
+            .finish()
+
+        process_games(games, self.collectors)
+        correlation = self.analyzer.calculate_win_correlation_per_map()
+        assert correlation["ctf_x"]["SteyrAUG_x1"] == 1.0
+        assert correlation["ctf_ash"]["SteyrAUG_x1"] == -1.0
+
+    def test_calculates_counts_of_tags_for_each_map(self):
+        games = GameBuilderFactory(teams={"Red": ["A"], "Blue": ["B"]}) \
+            .add_game() \
+            .add_round(map="ctf_x") \
+            .add_kill(killer="A", weapon=W_STEYR) \
+            .add_kill(killer="B", weapon=W_DEAGLES) \
+            .add_cap(player="A") \
+            .add_round(map="ctf_ash") \
+            .add_kill(killer="A", weapon=W_STEYR) \
+            .add_kill(killer="B", weapon=W_BARRETT) \
+            .add_cap(player="B") \
+            .build() \
+            .finish()
+
+        process_games(games, self.collectors)
+        assert self.analyzer.tag_counts_per_map(NO_RESULT_TAG_FILTER) == {
+            "ctf_x": {"SteyrAUG_x1": 1, "Deagles_x1": 1},
+            "ctf_ash": {"SteyrAUG_x1": 1, "Barrett_x1": 1}
+        }

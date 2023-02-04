@@ -71,21 +71,28 @@ class TeamRoundTagCorrelationAnalyzer:
                 r.append(t)
         return r
 
-    def tag_counts(self, tag_filter: Callable[[str], bool] = None):
+    def tag_counts(self, tag_filter: Callable[[str], bool] = None, map_name=None):
         if tag_filter is None:
             tag_filter = lambda t: True
+        where_clause = ""
+        if map_name is not None:
+            where_clause = f"where mapName = '{map_name}'"
 
         fetchall = self.cursor.execute(f"""
                select tag, count(*) as count 
                from team_round_tag trt
+                   join round r on r.game = trt.game and r.round = trt.round
+                   {where_clause}
                group by trt.tag 
                """).fetchall()
         return {tag: count for tag, count in fetchall if tag_filter(tag)}
 
-    def calculate_win_correlation(self, round_filter_sql: Union[str, list[str]] = None):
-        if isinstance(round_filter_sql, str):
-            round_filter_sql = [round_filter_sql]
-        where_clause = "" if round_filter_sql is None else "WHERE " + " AND ".join(round_filter_sql)
+    def calculate_win_correlation(self, map_name=None):
+        round_filters = []
+        if map_name is not None:
+            round_filters.append(f"r.mapName = '{map_name}'")
+        filter_query = " AND ".join(round_filters)
+        where_clause = "" if filter_query == "" else " WHERE " + filter_query
         resultset = self.cursor.execute(f"""
             select group_concat(tag, ';') as tags 
             from team_round_tag trt
@@ -112,3 +119,29 @@ class TeamRoundTagCorrelationAnalyzer:
         del data["win"]
         del data["lose"]
         return data
+
+    def calculate_win_correlation_per_map(self):
+        resultset = self.cursor.execute(f"""
+            select distinct mapName from round
+            """).fetchall()
+        results = {}
+        for map, in resultset:
+            results[map] = self.calculate_win_correlation(map)
+        return results
+
+
+    def _iter_all_maps(self):
+        resultset = self.cursor.execute(f"""
+            select distinct mapName from round
+            """).fetchall()
+        results = {}
+        for map, in resultset:
+            yield map
+
+    def tag_counts_per_map(self, tag_filter: Callable[[str], bool] = None):
+        result = {}
+        for map in self._iter_all_maps():
+            result[map] = self.tag_counts(tag_filter, map)
+
+        return result
+

@@ -2,7 +2,7 @@ import datetime
 from os.path import dirname, abspath
 
 from s2_analytics.collector.object_collector import GameObjectCollector
-from .filters import PLAYLIST_CTF, SIMILAR_WIN_PROB
+from .filters import PLAYLIST_CTF, BALANCED
 from .game_builder import GameBuilderFactory
 from .importer import import_games, GameDetails
 from .tools import process_games
@@ -53,11 +53,11 @@ class TestFiltering:
         games = GameBuilderFactory(teams=teams) \
             .add_game(game_start_time=10, teams_win_probability={"Red": 0.45, "Blue": 0.55}) \
             .build() \
-            .add_game(game_start_time=20, teams_win_probability={"Red": 0.41, "Blue": 0.59}) \
+            .add_game(game_start_time=20, teams_win_probability={"Red": 0.39, "Blue": 0.61}) \
             .build() \
             .finish()
 
-        process_games(games, [self.collector], game_filters=[SIMILAR_WIN_PROB])
+        process_games(games, [self.collector], game_filters=[BALANCED])
 
         assert len(self.collector.games) == 1
         assert self.collector.games[0].details.team_win_probabilities["Red"] == 0.45
