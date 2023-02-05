@@ -15,6 +15,7 @@ def test_min_days_for_average():
     period = RollingAveragePeriod(10, 3, 0.5)
     assert period.min_days_for_avg == 5
 
+
 def test_total_period_days():
     period = RollingAveragePeriod(10, 3, 0.5)
     assert period.total_days_visible == 30
