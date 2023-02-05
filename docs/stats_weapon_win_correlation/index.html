@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://s2vndl.github.io/s2stats/docs/stats_weapon_win_correlation/" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Weapon/win correlation - Soldat2 stats</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Weapon/win correlation";
+        var mkdocs_page_input_path = "stats_weapon_win_correlation.md";
+        var mkdocs_page_url = "/s2stats/docs/stats_weapon_win_correlation/";
+      </script>
+    
+    <script src="../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> Soldat2 stats
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Soldat2 stats</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="./">Weapon/win correlation</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#example-correlation-coefficient-values">Example correlation coefficient values</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#how-is-it-calculated">How is it calculated</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#parameters">Parameters</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#data-summary">Data summary</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#aggregated-result">Aggregated result</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../stats_maps_trends/">Map picking trends</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../stats_weapon_usage_trends_v2/">Weapon usage trends v2</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../stats_weapon_usage_trends/">Weapon usage trends v1</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../stats_ranked/">Ranked games</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../stats_tournament/">First Soldat2 tournament (Dec 2022)</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Soldat2 stats</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" alt="Docs"></a> &raquo;</li>
+      <li>Weapon/win correlation</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="weaponwin-correlation">Weapon/win correlation</h1>
+<p>Correlation between main primary weapon used and victory in round.</p>
+<h2 id="example-correlation-coefficient-values">Example correlation coefficient values</h2>
+<ul>
+<li>correlation coefficient 0.06 of Deagles_x1 over 100 rounds where it was tagged could mean that<ul>
+<li>53 were won by that team</li>
+<li>47 were lost</li>
+</ul>
+</li>
+<li>correlation coefficient -0.04 of Deagles_x1 over 100 rounds:<ul>
+<li>48 were won by that team</li>
+<li>52 were lost</li>
+</ul>
+</li>
+<li>correlation coefficient 0.00 of Deagles_x1 over 100 rounds:<ul>
+<li>50 were won by that team</li>
+<li>50 were lost</li>
+</ul>
+</li>
+</ul>
+<h2 id="how-is-it-calculated">How is it calculated</h2>
+<ul>
+<li>each round's kill log is checked</li>
+<li>if one player used a weapon for more than 50% of his primary-weapon-kills then tag for that team is created, eg <code>SteyrAUG_x1</code></li>
+<li>if there are two players in the team using mainly the same primary weapon in that round, that "team-round" will be tagged with <code>SteyrAUG_x2</code> instead of two <code>SteyrAUG_x1</code></li>
+<li>win or lose tag is added for each "team-round"</li>
+<li>entries are roughly like this for each round:<ul>
+<li>"game 123123, round 0, team Red, tags: SteyrAug_x2, Deagles_x1, win"</li>
+<li>"game 123123, round 0, team Blue, tags: M79_x1, MP5_x1, lose"</li>
+</ul>
+</li>
+<li>rounds that ended with Tie are ignored altogether</li>
+<li>data is filtered to only include balanced games from correct playlist (see "Parameters" section)</li>
+<li>finally correlation is calculated between win tag and all other tags using <a href="https://en.wikipedia.org/wiki/Pearson_correlation_coefficient">Pearson correlation coefficient</a></li>
+</ul>
+<h2 id="parameters">Parameters</h2>
+<pre><code>Start date: 2022-12-28 00:00:00
+Playlists: CTF-Standard-6
+
+Min samples: 30
+Max match imbalance: 10% 
+    (eg worst case: Red team win probability 45% and 55% for Blue)
+</code></pre>
+<h2 id="data-summary">Data summary</h2>
+<table>
+<tbody>
+<tr><td>First game                        </td><td>2022-12-28</td></tr>
+<tr><td>Last game                         </td><td>2023-02-04</td></tr>
+<tr><td>Games total                       </td><td>149       </td></tr>
+<tr><td>Rounds total                      </td><td>393       </td></tr>
+<tr><td>Games in playlist `CTF-Standard-6`</td><td>149       </td></tr>
+</tbody>
+</table>
+
+<h2 id="aggregated-result">Aggregated result</h2>
+<p><img alt="png" src="../stats_weapon_win_correlation_files/stats_weapon_win_correlation_7_0.png" /></p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href=".." class="btn btn-neutral float-left" title="Soldat2 stats"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../stats_maps_trends/" class="btn btn-neutral float-right" title="Map picking trends">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href=".." style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../stats_maps_trends/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme_extra.js" defer></script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

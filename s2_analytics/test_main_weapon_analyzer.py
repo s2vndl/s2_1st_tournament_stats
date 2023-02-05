@@ -3,7 +3,7 @@ from typing import Union, Callable
 
 from s2_analytics.collector.sqlite_collector import SqliteCollector
 from s2_analytics.constants import WEAPONS_PRIMARY, W_STEYR, W_BARRETT, W_DEAGLES, WEAPONS_SECONDARY, W_RPG
-from s2_analytics.game_builder import GameBuilderFactory
+from s2_analytics.game_builder import GameBuilderFactory, GameBuilder
 from s2_analytics.importer import RoundData
 from s2_analytics.main_weapon_analyzer import MainWeaponAnalyzer, MainWeaponRoundTagger
 from s2_analytics.team_round_tag_correlation_analyzer import TeamRoundTagCorrelationAnalyzer
@@ -278,4 +278,23 @@ class TestMainWeaponCorrelation:
         assert self.analyzer.tag_counts_per_map(NO_RESULT_TAG_FILTER) == {
             "ctf_x": {"SteyrAUG_x1": 1, "Deagles_x1": 1},
             "ctf_ash": {"SteyrAUG_x1": 1, "Barrett_x1": 1}
+        }
+
+    def test_sample_correlation_coefficient(self):
+        builder = GameBuilderFactory(teams={"Red": ["A"], "Blue": ["B"]}).add_game()
+        def add_won_round_with_main_weapon(builder: GameBuilder, main_weapon: str, won: bool):
+            return builder.add_round(map="ctf_x")\
+                .add_kill(killer="A", weapon=main_weapon)\
+                .add_cap(player="A" if won else "B")
+
+        for i in range(0, 48):
+            add_won_round_with_main_weapon(builder, W_STEYR, won=True)
+        for i in range(0, 52):
+            add_won_round_with_main_weapon(builder, W_STEYR, won=False)
+
+        games = builder.build().finish()
+
+        process_games(games, self.collectors)
+        assert self.analyzer.calculate_win_correlation() == {
+            "SteyrAUG_x1": -0.04
         }
