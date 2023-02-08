@@ -78,10 +78,13 @@ class GameBuilder:
             for player in players:
                 self.team_by_player[player] = team
 
-    def add_round(self, start: int = 0, end_time: int = 0, map: str = "ctf_ash"):
+    def add_round(self, start: int = 0, end_time: int = 0, map: str = "ctf_ash", winner=None):
         self._finish_round()
+
         self.round_in_progress = RoundBuilder(self.game_id, len(self.rounds) + 1, start_time=start,
                                               end_time=end_time, map=map)
+        if winner is not None:
+            self.add_cap(player=self.teams[winner][0])
         return self
 
     def _finish_round(self):
@@ -115,7 +118,8 @@ class GameBuilder:
         for round in self.rounds:
             round_wins[round.winner] += 1
         team_prob = {team: val for team, val in self.teams_win_probability.items()}
-        game = Game(GameDetails(self.game_id, datetime.utcfromtimestamp(self.game_id / 1000), self.playlist,
+        utcfromtimestamp = datetime.utcfromtimestamp(self.game_id * 1.0 / 1000)
+        game = Game(GameDetails(self.game_id, utcfromtimestamp, self.playlist,
                                 round_wins["Blue"], round_wins["Red"], self.teams, self.match_quality, team_prob),
                     self.rounds,
                     self.events_by_round_num[:len(self.rounds)])
@@ -125,9 +129,9 @@ class GameBuilder:
         else:
             return game
 
-
 class GameBuilderFactory:
     def __init__(self, teams: dict[str, list[str]] = None):
+        global game_start
         self.game_start = 1000
         self._teams = teams
         self._clock = FakeClock()
