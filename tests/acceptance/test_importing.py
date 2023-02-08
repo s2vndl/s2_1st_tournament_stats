@@ -1,21 +1,20 @@
 import datetime
-from os.path import dirname, abspath
 
 from s2_analytics.collect.object_collector import GameObjectCollector
-from .filters import PLAYLIST_CTF, BALANCED
-from .game_builder import GameBuilderFactory
-from .importer import import_games, GameDetails
-from .tools import process_games
+from s2_analytics.filters import PLAYLIST_CTF, BALANCED
+from s2_analytics.importer import import_games
+from s2_analytics.tools import process_games
+from tests.game_builder import GameBuilderFactory
+from tests.project_root import get_project_root
 
 TEST_DB = "/tmp/s2_ranked_test.sql"
-SCRIPT_DIR = dirname(dirname(abspath(__file__)))
 TIME_LIMIT_SECONDS = 2
 
 
 def test_import_cant_be_too_long():
     start = datetime.datetime.now().timestamp()
     collector = GameObjectCollector()
-    import_games(SCRIPT_DIR + "/logs_ranked/", period_days=30, processors=[collector], game_filters=[PLAYLIST_CTF])
+    import_games(get_project_root() + "/logs_ranked/", period_days=30, processors=[collector], game_filters=[PLAYLIST_CTF])
     end = datetime.datetime.now().timestamp()
 
     assert len(collector.games) > 100

@@ -38,25 +38,6 @@ class EventBuilder:
         self.killer = killer
 
 
-class FakeClock:
-    def __init__(self):
-        self._current_fake_time = 1674928452000
-
-    def get_millis(self) -> int:
-        time = self._current_fake_time
-        self.advance(2)
-        return time
-
-    def get_datetime(self) -> datetime:
-        return datetime.utcfromtimestamp(self._current_fake_time / 1000)
-
-    def advance(self, seconds):
-        self._current_fake_time += seconds * 1000
-
-
-clock = FakeClock()
-
-
 class GameBuilder:
     def __init__(self, game_start_time: int = 0, teams: dict[str, list[str]] = None, factory=None,
                  match_quality: float = 0.8, playlist="CTF-Standard-6", teams_win_probability=None):
@@ -129,12 +110,12 @@ class GameBuilder:
         else:
             return game
 
+
 class GameBuilderFactory:
     def __init__(self, teams: dict[str, list[str]] = None):
         global game_start
         self.game_start = 1000
         self._teams = teams
-        self._clock = FakeClock()
         self._games = []
 
     def finish_game(self, game: Game):

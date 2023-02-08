@@ -2,6 +2,7 @@ import json
 import os
 from typing import List, Callable, Union
 
+import matplotlib.pyplot as plt
 from IPython.core.display import Markdown
 from IPython.core.display_functions import display
 from pandas import DataFrame
@@ -59,7 +60,8 @@ def to_long_timestamp(time):
     return int(time.timestamp() * 1000)
 
 
-def process_games(games: list[Game], processors: list[Processor], game_filters: Union[GameFilter, List[GameFilter]] = None):
+def process_games(games: list[Game], processors: list[Processor],
+                  game_filters: Union[GameFilter, List[GameFilter]] = None):
     reader = JsonGameDeserializer(processors, game_filters)
     for game in games:
         game = dump_game_as_json_dict(game)
@@ -84,8 +86,13 @@ def dump_games_as_json_dict(games: list[Game]):
 
 
 def process_game(path):
-    with open(os.path.dirname(os.path.realpath(__file__)) + "/" + path, "r") as f:
+    with open(path, "r") as f:
         collector = GameObjectCollector()
         JsonGameDeserializer([collector]).deserialize_game(json.load(f))
         expected = collector.games[0]
     return expected
+
+
+class PlotShow:
+    def show(self):
+        plt.show()

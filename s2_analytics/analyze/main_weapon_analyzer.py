@@ -1,7 +1,7 @@
 from collections import defaultdict
 from typing import Union, Set
 
-from s2_analytics.analyze.fris_analyzer import FriWeaponUsageAnalyzer
+from s2_analytics.analyze.fris_weapon_usage_analyzer import FriWeaponUsageAnalyzer
 from s2_analytics.importer import GameDetails, RoundData, EventData, EventKill
 
 

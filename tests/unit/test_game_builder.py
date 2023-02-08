@@ -1,5 +1,6 @@
-from s2_analytics.game_builder import GameBuilder
+from tests.game_builder import GameBuilder
 from s2_analytics.tools import process_game
+from tests.project_root import get_project_root
 
 
 class TestGameBuilder:
@@ -16,4 +17,4 @@ class TestGameBuilder:
             .add_cap(time=1673564529881, player="C19637F2290726EB") \
             .build()
 
-        assert process_game("../fixtures/game_1666666666000.json") == game
+        assert process_game(get_project_root() + "/fixtures/game_1666666666000.json") == game

@@ -1,4 +1,4 @@
-from .rolling_average import RollingAveragePeriod
+from s2_analytics.rolling_average import RollingAveragePeriod
 
 
 def test_periods_visible():
