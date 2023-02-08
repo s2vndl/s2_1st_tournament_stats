@@ -57,13 +57,14 @@ class CorrelationChartMaker:
             samples_ax.set(title=f"{corr.tag}/win sample count", xlabel=None, ylabel=None)
             self._subplot(corr, min_samples, corr_ax, samples_ax)
 
-    def plot(self, weapon_corr: OneWeaponCorrelations, min_samples=None, count_max: float= None,
-             corr_minmax:tuple[float, float] = None):
+    def plot(self, weapon_corr: OneWeaponCorrelations, min_samples=None, count_max: float = None,
+             corr_minmax: tuple[float, float] = None):
         if min_samples is not None:
             weapon_corr = weapon_corr.filter(min_samples)
         maps_count = len(weapon_corr.maps)
         chart_height = self._calculate_chart_height(maps_count)
-        fig, axes = plt.subplots(1, 2, figsize=(10, chart_height), tight_layout=True, sharey=True)
+        fig, axes = plt.subplots(1, 2, figsize=(10, chart_height), tight_layout=True,
+                                 sharey=True, width_ratios=[1, 0.3])
         fig: Figure
         fig.suptitle(f"Weapon/Win correlation by map for {weapon_corr.tag}")
         axes: list["AxesSubplot"]
