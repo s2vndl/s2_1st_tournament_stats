@@ -1,4 +1,4 @@
-from s2_analytics.main_weapon_analyzer import MainWeaponAnalyzer
+from s2_analytics.analyze.main_weapon_analyzer import MainWeaponAnalyzer
 
 
 class TestMainWeaponAnalyzer:

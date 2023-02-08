@@ -1,11 +1,11 @@
 import sqlite3
 
-from s2_analytics.collector.sqlite_collector import SqliteCollector
+from s2_analytics.collect.sqlite_collector import SqliteCollector
 from s2_analytics.constants import WEAPONS_PRIMARY, WEAPONS_SECONDARY, W_BARRETT, W_STEYR, W_DEAGLES, W_RPG
 from s2_analytics.game_builder import GameBuilderFactory, GameBuilder
-from s2_analytics.main_weapon_analyzer import MainWeaponRoundTagger
-from s2_analytics.main_weapon_correlation import TeamRoundTagCorrelationAnalyzer
-from s2_analytics.test_main_weapon_analyzer import NO_RESULT_TAG_FILTER
+from s2_analytics.analyze.main_weapon_analyzer import MainWeaponRoundTagger
+from s2_analytics.analyze.main_weapon_correlation import TeamRoundTagCorrelationAnalyzer
+from s2_analytics.analyze.test_main_weapon_analyzer import NO_RESULT_TAG_FILTER
 from s2_analytics.tools import process_games
 
 

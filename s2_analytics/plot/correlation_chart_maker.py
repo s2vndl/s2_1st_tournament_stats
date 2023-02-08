@@ -1,4 +1,3 @@
-from collections import namedtuple
 from typing import Union
 
 import pandas as pd
@@ -8,7 +7,7 @@ from matplotlib import pyplot as plt
 from matplotlib.figure import Figure
 from matplotlib.offsetbox import AnchoredText
 
-from s2_analytics.main_weapon_correlation import OneWeaponCorrelations
+from s2_analytics.analyze.main_weapon_correlation import OneWeaponCorrelations
 
 
 class MinMax:

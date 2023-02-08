@@ -3,7 +3,7 @@ import sqlite3
 from collections import OrderedDict
 from dataclasses import dataclass
 
-from s2_analytics.collector.sqlite_collector import SqliteCollector
+from s2_analytics.collect.sqlite_collector import SqliteCollector
 from s2_analytics.game_builder import GameBuilderFactory
 from s2_analytics.tools import process_games
 

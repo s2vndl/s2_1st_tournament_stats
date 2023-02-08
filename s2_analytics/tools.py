@@ -6,7 +6,7 @@ from IPython.core.display import Markdown
 from IPython.core.display_functions import display
 from pandas import DataFrame
 
-from s2_analytics.collector.object_collector import GameObjectCollector
+from s2_analytics.collect.object_collector import GameObjectCollector
 from s2_analytics.importer import JsonGameDeserializer, Processor, Game, RoundData, EventData, EventKill, EventFlagCap, \
     GameFilter
 

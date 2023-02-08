@@ -1,7 +1,7 @@
 from os.path import dirname, abspath
 
-from s2_analytics.collector.sqlite_collector import SqliteCollector
-from .importer import import_games
+from s2_analytics.collect.sqlite_collector import SqliteCollector
+from s2_analytics.importer import import_games
 
 TEST_DB = "/tmp/s2_ranked_test.sql"
 
@@ -12,7 +12,7 @@ dir = dirname(dirname(abspath(__file__)))
 
 def test_building_sqlite_db():
     collector = SqliteCollector("file::memory:").init()
-    import_games(dir + "/fixtures/", period_days=99999,
+    import_games(dir + "/../fixtures/", period_days=99999,
                  processors=[collector])
     con = collector.connection
     assert 1 == con.cursor().execute("select count(*) from game").fetchone()[0]

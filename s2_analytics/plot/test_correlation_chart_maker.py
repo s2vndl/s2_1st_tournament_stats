@@ -3,12 +3,12 @@ import sqlite3
 
 from matplotlib import pyplot as plt
 
-from s2_analytics.collector.sqlite_collector import SqliteCollector
-from s2_analytics.constants import WEAPONS_PRIMARY, WEAPONS_SECONDARY, W_STEYR, W_DEAGLES
-from s2_analytics.correlation_chart_maker import CorrelationChartMaker
+from s2_analytics.collect.sqlite_collector import SqliteCollector
+from s2_analytics.constants import WEAPONS_PRIMARY, WEAPONS_SECONDARY, W_STEYR
+from s2_analytics.plot.correlation_chart_maker import CorrelationChartMaker
 from s2_analytics.game_builder import GameBuilderFactory
-from s2_analytics.main_weapon_analyzer import MainWeaponRoundTagger
-from s2_analytics.main_weapon_correlation import TeamRoundTagCorrelationAnalyzer
+from s2_analytics.analyze.main_weapon_analyzer import MainWeaponRoundTagger
+from s2_analytics.analyze.main_weapon_correlation import TeamRoundTagCorrelationAnalyzer
 from s2_analytics.tools import process_games
 
 
@@ -127,8 +127,8 @@ class TestCorrelationChartMaker:
     #
     #     games = self.factory.finish()
     #     process_games(games, self.collectors)
-    #     tag_corr = self.analyzer.correlations_for_weapon_tag(weapon_tag=f"{W_STEYR}_x1")
-    #     tag_corr2 = self.analyzer.correlations_for_weapon_tag(weapon_tag=f"{W_DEAGLES}_x1")
+    #     tag_corr = self.analyze.correlations_for_weapon_tag(weapon_tag=f"{W_STEYR}_x1")
+    #     tag_corr2 = self.analyze.correlations_for_weapon_tag(weapon_tag=f"{W_DEAGLES}_x1")
     #     CorrelationChartMaker().plot_multiple([tag_corr, tag_corr2], min_samples=3)
     #     plt.show()
     #     pass

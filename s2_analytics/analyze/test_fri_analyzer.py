@@ -1,14 +1,15 @@
-from io import StringIO
 from os.path import dirname, abspath
 
-import pandas as pd
 from pandas import Timestamp
 
-from .constants import WEAPONS_PRIMARY
-from .filters import PLAYLIST_CTF
-from .fris_analyzer import FriWeaponUsageAnalyzer, FriWeaponUsageCollector
-from .importer import import_games
-from .test_assertions import assert_dataframes_equal
+from s2_analytics.constants import WEAPONS_PRIMARY
+from s2_analytics.filters import PLAYLIST_CTF
+from s2_analytics.analyze.fris_analyzer import FriWeaponUsageAnalyzer, FriWeaponUsageCollector
+from s2_analytics.importer import import_games
+from s2_analytics.test_assertions import assert_dataframes_equal
+
+
+BASE_PATH = dirname(abspath(__file__)) + "/../../"
 
 
 class TestFrisPlayerRoundAnalyzer:
@@ -84,7 +85,7 @@ def _date(iso_string) -> Timestamp:
 class TestImportWithAnalyzer:
     def test_collects_kills_and_analyzes_them(self):
         collector = FriWeaponUsageCollector().init()
-        import_games(dirname(abspath(__file__)) + "/../fixtures/", period_days=99999, processors=[collector])
+        import_games(BASE_PATH + "/fixtures/", period_days=99999, processors=[collector])
 
         actual = collector.get_data(['Barrett', 'Deagles', 'Rheinmetall'], 99999, 1, 99999)[["weapon", "date", "usage"]]
         expected = """
@@ -105,7 +106,7 @@ class TestImportWithAnalyzer:
 
     def test_rolling_average(self):
         collector = FriWeaponUsageCollector().init()
-        import_games(dirname(abspath(__file__)) + "/../fixtures/", period_days=99999, processors=[collector])
+        import_games(BASE_PATH + "/fixtures/", period_days=99999, processors=[collector])
 
         actual = collector.get_data(['Barrett', 'Deagles', 'Rheinmetall'], 2, 1, 10)[["weapon", "date", "usage"]]
         expected = """
@@ -126,6 +127,6 @@ class TestImportWithAnalyzer:
 
     def test_full_dataset(self):
         collector = FriWeaponUsageCollector().init()
-        import_games(dirname(abspath(__file__)) + "/../logs_ranked/", period_days=90, processors=[collector], game_filters=[PLAYLIST_CTF])
+        import_games(BASE_PATH + "logs_ranked/", period_days=90, processors=[collector], game_filters=[PLAYLIST_CTF])
         collector.get_data(WEAPONS_PRIMARY, 21, 5, 21 * 3 + 5)  # does not throw anything
         pass

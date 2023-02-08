@@ -1,7 +1,7 @@
 import datetime
 from os.path import dirname, abspath
 
-from s2_analytics.collector.object_collector import GameObjectCollector
+from s2_analytics.collect.object_collector import GameObjectCollector
 from .filters import PLAYLIST_CTF, BALANCED
 from .game_builder import GameBuilderFactory
 from .importer import import_games, GameDetails

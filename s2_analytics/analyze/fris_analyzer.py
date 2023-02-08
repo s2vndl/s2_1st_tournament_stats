@@ -60,7 +60,7 @@ class FriWeaponUsageCollector(EventProcessor, RoundProcessor):
 
     def process_event(self, event: EventData, round: RoundData, game: GameDetails):
         if self.finalized:
-            raise RuntimeError("collector is already finalized")
+            raise RuntimeError("collect is already finalized")
 
         self.dates.add(round.date_iso)
         if isinstance(event, EventKill):

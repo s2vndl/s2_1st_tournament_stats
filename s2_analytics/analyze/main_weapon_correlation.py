@@ -4,7 +4,7 @@ from typing import Callable, Union
 
 import pandas as pd
 
-from s2_analytics.collector.sqlite_collector import SqliteCollector
+from s2_analytics.collect.sqlite_collector import SqliteCollector
 from s2_analytics.importer import RoundData, GameDetails, EventData
 
 Correlation = namedtuple("Correlation", ["correlation", "sample_count"])
