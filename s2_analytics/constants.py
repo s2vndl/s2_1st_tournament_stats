@@ -49,5 +49,6 @@ WEAPONS_OTHER = [
 WEAPONS = WEAPONS_PRIMARY + WEAPONS_SECONDARY + WEAPONS_OTHER
 
 WEAPON_MODS_DATES = [
+    datetime.datetime(2023, 3, 5),
     datetime.datetime(2022, 12, 28),
 ]
