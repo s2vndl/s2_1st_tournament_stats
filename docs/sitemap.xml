@@ -45,4 +45,19 @@
          <lastmod>2023-03-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
+    <url>
+         <loc>https://s2vndl.github.io/s2stats/docs/stats_weapon_win_correlation_wm_202212/</loc>
+         <lastmod>2023-03-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://s2vndl.github.io/s2stats/docs/stats_weapon_win_correlation_wm_202302/</loc>
+         <lastmod>2023-03-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://s2vndl.github.io/s2stats/docs/stats_weapon_win_correlation_wm_previous/</loc>
+         <lastmod>2023-03-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
 </urlset>
