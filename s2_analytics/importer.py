@@ -137,12 +137,12 @@ class Game:
         return players
 
 
-def import_games(logs_dir: str, period_days: int = 60, start_date=None,
+def import_games(logs_dir: str, period_days: int = 60, start_date=None, end_date=None,
                  processors: List[Union[GameProcessor, EventProcessor, RoundProcessor]] = None,
                  game_filters: List[GameFilter] = None
                  ):
     decoder = JsonGameDeserializer(processors, game_filters=game_filters)
-    for game_json in read_games_dir(logs_dir, period_days, start_date):
+    for game_json in read_games_dir(logs_dir, period_days, start_date, end_date):
         decoder.deserialize_game(game_json)
 
 
@@ -150,16 +150,18 @@ def _has_method(obj, method):
     return callable(getattr(obj, method, None))
 
 
-def read_games_dir(logs_dir: str, period_days: int = 60, start_date: datetime = None):
+def read_games_dir(logs_dir: str, period_days: int = 60, start_date: datetime = None, end_date: datetime = None):
     if start_date is None:
         start_date = datetime.today() - timedelta(days=period_days)
-    games = _read_games_json(logs_dir, start_date)
+    if end_date is None:
+        end_date = datetime.today() + timedelta(days=1)
+    games = _read_games_json(logs_dir, start_date, end_date)
 
     for gameData in games:
         yield gameData
 
 
-def _read_games_json(logs_dir, start_timestamp: datetime):
+def _read_games_json(logs_dir, start_timestamp: datetime, end_timestamp: datetime):
     logs = [f for f in listdir(logs_dir) if isfile(join(logs_dir, f))]
     games = []
     for log in logs:
@@ -169,6 +171,8 @@ def _read_games_json(logs_dir, start_timestamp: datetime):
         timestamp = int(match.group(1))
         game_start_time = datetime.utcfromtimestamp(timestamp / 1000)
         if game_start_time < start_timestamp:
+            continue
+        if game_start_time > end_timestamp:
             continue
         with open(logs_dir + "/" + log, "r") as f:
             games.append(json.load(f))
