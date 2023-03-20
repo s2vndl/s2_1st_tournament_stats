@@ -240,7 +240,7 @@ class JsonGameDeserializer:
         return RoundData(
             game.id,
             number,
-            round["mapName"],
+            round["mapName"].lower(),
             datetime.utcfromtimestamp(round["startTime"] / 1000),
             datetime.utcfromtimestamp(round["endTime"] / 1000),
             round["blueCaps"],
