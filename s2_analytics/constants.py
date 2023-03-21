@@ -61,12 +61,7 @@ class WeaponMod:
         self.datetime = date
 
     def __str__(self):
-        return 'WeaponMod ' + self._custom_strftime("{S} %b '%y", self.datetime)
-
-    def _custom_strftime(self, format, t):
-        def _suffix(d):
-            return 'th' if 11 <= d <= 13 else {1: 'st', 2: 'nd', 3: 'rd'}.get(d % 10, 'th')
-        return t.strftime(format).replace('{S}', str(t.day) + _suffix(t.day))
+        return 'WeaponMod ' + self.datetime.strftime("%Y-%m-%d")
 
 
 class WeaponModCatalog:
