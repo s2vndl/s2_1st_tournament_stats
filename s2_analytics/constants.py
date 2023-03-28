@@ -82,7 +82,7 @@ WEAPON_MODS = [
 - RocketLauncher has lower bullet force (impact when hitting other players)
 - Increased minimum dropkick ("headbutt") velocity in attempt to fix low-velocity player collision/bumping
 - Steyr &  Kalashnikov have a bit more bullet force
-""", ""),
+""", "https://codeberg.org/norwin/soldat2-custom/commit/3852f1cceade8876f6f2b74dd8501539ebd9ce62"),
     WeaponMod(datetime.datetime(2023, 3, 5), """
 - Dragunov
     - faster interval (0.7s -> 0.67s)
