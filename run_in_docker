@@ -1,0 +1,7 @@
+#!/bin/env bash
+set -e
+scriptDir=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+name=bb-s2stats
+
+docker build -t "$name" --file dockerfile-s2stats .
+docker run --rm --name bb-s2stats -v"$scriptDir:/app" "$name" ./recalculate_and_build_docs
