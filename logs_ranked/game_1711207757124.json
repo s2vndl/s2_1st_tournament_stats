@@ -1,0 +1,403 @@
+{
+  "playlistCode": "DM-Standard-2",
+  "gameMode": "Deathmatch",
+  "size": 2,
+  "players": [
+    {
+      "displayName": "EASY",
+      "playfabId": "F91E070A99C28718",
+      "team": "F91E070A99C28718",
+      "kills": 10,
+      "deaths": 21,
+      "kd": 0.47619047619047616,
+      "oldRating": {
+        "numGamesPlayedInPlaylist": 1,
+        "mu": 40.60631577666432,
+        "sigma": 13.985329234515953,
+        "lowerSkillEstimate": -1.3496719268835449,
+        "tier": "UNRANKED",
+        "formattedTier": "Unranked",
+        "tierNumber": 0,
+        "tierImageUrl": "http://placeholder"
+      },
+      "newRating": {
+        "numGamesPlayedInPlaylist": 2,
+        "mu": 37.371597006575975,
+        "sigma": 12.691117399076349,
+        "lowerSkillEstimate": -0.7017551906530741,
+        "tier": "UNRANKED",
+        "formattedTier": "Unranked",
+        "tierNumber": 0,
+        "tierImageUrl": "http://placeholder"
+      }
+    },
+    {
+      "displayName": "ilya ezek",
+      "playfabId": "69336AF55CC0D54B",
+      "team": "69336AF55CC0D54B",
+      "kills": 21,
+      "deaths": 10,
+      "kd": 2.1,
+      "oldRating": {
+        "numGamesPlayedInPlaylist": 1,
+        "mu": 59.3936842233357,
+        "sigma": 13.985329234515953,
+        "lowerSkillEstimate": 17.437696519787835,
+        "tier": "UNRANKED",
+        "formattedTier": "Unranked",
+        "tierNumber": 0,
+        "tierImageUrl": "http://placeholder"
+      },
+      "newRating": {
+        "numGamesPlayedInPlaylist": 2,
+        "mu": 62.62840299342405,
+        "sigma": 12.691117399076349,
+        "lowerSkillEstimate": 24.555050796194998,
+        "tier": "UNRANKED",
+        "formattedTier": "Unranked",
+        "tierNumber": 0,
+        "tierImageUrl": "http://placeholder"
+      }
+    }
+  ],
+  "teams": [
+    "F91E070A99C28718",
+    "69336AF55CC0D54B"
+  ],
+  "region": "EU",
+  "server": "gs-eu-1",
+  "startTime": 1711207757124,
+  "endTime": 1711208240055,
+  "result": {
+    "isTie": false,
+    "winner": "69336AF55CC0D54B"
+  },
+  "totalRounds": 1,
+  "matchQuality": 0.18866388146176644,
+  "teamRoundWins": {
+    "F91E070A99C28718": 0,
+    "69336AF55CC0D54B": 1
+  },
+  "teamWinProbabilities": {
+    "F91E070A99C28718": 0.18131722478157666,
+    "69336AF55CC0D54B": 0.8186827752184234
+  },
+  "rounds": [
+    {
+      "startTime": 1711207798671,
+      "endTime": null,
+      "mapName": "dm_monument",
+      "events": [
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1711207819018,
+          "killerPlayfabId": "69336AF55CC0D54B",
+          "killerTeam": "69336AF55CC0D54B",
+          "victimPlayfabId": "F91E070A99C28718",
+          "victimTeam": "F91E070A99C28718",
+          "weaponName": "Melee"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1711207827354,
+          "killerPlayfabId": "F91E070A99C28718",
+          "killerTeam": "F91E070A99C28718",
+          "victimPlayfabId": "69336AF55CC0D54B",
+          "victimTeam": "69336AF55CC0D54B",
+          "weaponName": "Barrett"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1711207833106,
+          "killerPlayfabId": "F91E070A99C28718",
+          "killerTeam": "F91E070A99C28718",
+          "victimPlayfabId": "69336AF55CC0D54B",
+          "victimTeam": "69336AF55CC0D54B",
+          "weaponName": "Barrett"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1711207838575,
+          "killerPlayfabId": "69336AF55CC0D54B",
+          "killerTeam": "69336AF55CC0D54B",
+          "victimPlayfabId": "F91E070A99C28718",
+          "victimTeam": "F91E070A99C28718",
+          "weaponName": "Spas12"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1711207852714,
+          "killerPlayfabId": "69336AF55CC0D54B",
+          "killerTeam": "69336AF55CC0D54B",
+          "victimPlayfabId": "F91E070A99C28718",
+          "victimTeam": "F91E070A99C28718",
+          "weaponName": "RGD5"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1711207888510,
+          "killerPlayfabId": "69336AF55CC0D54B",
+          "killerTeam": "69336AF55CC0D54B",
+          "victimPlayfabId": "F91E070A99C28718",
+          "victimTeam": "F91E070A99C28718",
+          "weaponName": "RGD5"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1711207922491,
+          "killerPlayfabId": "69336AF55CC0D54B",
+          "killerTeam": "69336AF55CC0D54B",
+          "victimPlayfabId": "F91E070A99C28718",
+          "victimTeam": "F91E070A99C28718",
+          "weaponName": "Spas12"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1711207922524,
+          "killerPlayfabId": "F91E070A99C28718",
+          "killerTeam": "F91E070A99C28718",
+          "victimPlayfabId": "69336AF55CC0D54B",
+          "victimTeam": "69336AF55CC0D54B",
+          "weaponName": "Barrett"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1711207933430,
+          "killerPlayfabId": "69336AF55CC0D54B",
+          "killerTeam": "69336AF55CC0D54B",
+          "victimPlayfabId": "F91E070A99C28718",
+          "victimTeam": "F91E070A99C28718",
+          "weaponName": "RPG"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1711207943351,
+          "killerPlayfabId": "69336AF55CC0D54B",
+          "killerTeam": "69336AF55CC0D54B",
+          "victimPlayfabId": "F91E070A99C28718",
+          "victimTeam": "F91E070A99C28718",
+          "weaponName": "Spas12"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1711207997063,
+          "killerPlayfabId": "69336AF55CC0D54B",
+          "killerTeam": "69336AF55CC0D54B",
+          "victimPlayfabId": "F91E070A99C28718",
+          "victimTeam": "F91E070A99C28718",
+          "weaponName": "Spas12"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1711207997145,
+          "killerPlayfabId": "F91E070A99C28718",
+          "killerTeam": "F91E070A99C28718",
+          "victimPlayfabId": "69336AF55CC0D54B",
+          "victimTeam": "69336AF55CC0D54B",
+          "weaponName": "Barrett"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1711208010570,
+          "killerPlayfabId": "69336AF55CC0D54B",
+          "killerTeam": "69336AF55CC0D54B",
+          "victimPlayfabId": "F91E070A99C28718",
+          "victimTeam": "F91E070A99C28718",
+          "weaponName": "RGD5"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1711208016939,
+          "killerPlayfabId": "69336AF55CC0D54B",
+          "killerTeam": "69336AF55CC0D54B",
+          "victimPlayfabId": "F91E070A99C28718",
+          "victimTeam": "F91E070A99C28718",
+          "weaponName": "Spas12"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1711208043384,
+          "killerPlayfabId": "F91E070A99C28718",
+          "killerTeam": "F91E070A99C28718",
+          "victimPlayfabId": "69336AF55CC0D54B",
+          "victimTeam": "69336AF55CC0D54B",
+          "weaponName": "Barrett"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1711208043517,
+          "killerPlayfabId": "69336AF55CC0D54B",
+          "killerTeam": "69336AF55CC0D54B",
+          "victimPlayfabId": "F91E070A99C28718",
+          "victimTeam": "F91E070A99C28718",
+          "weaponName": "Spas12"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1711208054574,
+          "killerPlayfabId": "F91E070A99C28718",
+          "killerTeam": "F91E070A99C28718",
+          "victimPlayfabId": "69336AF55CC0D54B",
+          "victimTeam": "69336AF55CC0D54B",
+          "weaponName": "Barrett"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1711208062380,
+          "killerPlayfabId": "69336AF55CC0D54B",
+          "killerTeam": "69336AF55CC0D54B",
+          "victimPlayfabId": "F91E070A99C28718",
+          "victimTeam": "F91E070A99C28718",
+          "weaponName": "RGD5"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1711208090528,
+          "killerPlayfabId": "69336AF55CC0D54B",
+          "killerTeam": "69336AF55CC0D54B",
+          "victimPlayfabId": "F91E070A99C28718",
+          "victimTeam": "F91E070A99C28718",
+          "weaponName": "Spas12"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1711208114094,
+          "killerPlayfabId": "69336AF55CC0D54B",
+          "killerTeam": "69336AF55CC0D54B",
+          "victimPlayfabId": "F91E070A99C28718",
+          "victimTeam": "F91E070A99C28718",
+          "weaponName": "Spas12"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1711208124348,
+          "killerPlayfabId": "69336AF55CC0D54B",
+          "killerTeam": "69336AF55CC0D54B",
+          "victimPlayfabId": "F91E070A99C28718",
+          "victimTeam": "F91E070A99C28718",
+          "weaponName": "RGD5"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1711208134703,
+          "killerPlayfabId": "F91E070A99C28718",
+          "killerTeam": "F91E070A99C28718",
+          "victimPlayfabId": "69336AF55CC0D54B",
+          "victimTeam": "69336AF55CC0D54B",
+          "weaponName": "Barrett"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1711208140655,
+          "killerPlayfabId": "F91E070A99C28718",
+          "killerTeam": "F91E070A99C28718",
+          "victimPlayfabId": "69336AF55CC0D54B",
+          "victimTeam": "69336AF55CC0D54B",
+          "weaponName": "Barrett"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1711208155029,
+          "killerPlayfabId": "F91E070A99C28718",
+          "killerTeam": "F91E070A99C28718",
+          "victimPlayfabId": "69336AF55CC0D54B",
+          "victimTeam": "69336AF55CC0D54B",
+          "weaponName": "Barrett"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1711208156296,
+          "killerPlayfabId": "69336AF55CC0D54B",
+          "killerTeam": "69336AF55CC0D54B",
+          "victimPlayfabId": "F91E070A99C28718",
+          "victimTeam": "F91E070A99C28718",
+          "weaponName": "N/A"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1711208167701,
+          "killerPlayfabId": "69336AF55CC0D54B",
+          "killerTeam": "69336AF55CC0D54B",
+          "victimPlayfabId": "F91E070A99C28718",
+          "victimTeam": "F91E070A99C28718",
+          "weaponName": "RGD5"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1711208202866,
+          "killerPlayfabId": "69336AF55CC0D54B",
+          "killerTeam": "69336AF55CC0D54B",
+          "victimPlayfabId": "F91E070A99C28718",
+          "victimTeam": "F91E070A99C28718",
+          "weaponName": "Spas12"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1711208219408,
+          "killerPlayfabId": "69336AF55CC0D54B",
+          "killerTeam": "69336AF55CC0D54B",
+          "victimPlayfabId": "F91E070A99C28718",
+          "victimTeam": "F91E070A99C28718",
+          "weaponName": "Barrett"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1711208227394,
+          "killerPlayfabId": "F91E070A99C28718",
+          "killerTeam": "F91E070A99C28718",
+          "victimPlayfabId": "69336AF55CC0D54B",
+          "victimTeam": "69336AF55CC0D54B",
+          "weaponName": "Barrett"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1711208227410,
+          "killerPlayfabId": "69336AF55CC0D54B",
+          "killerTeam": "69336AF55CC0D54B",
+          "victimPlayfabId": "F91E070A99C28718",
+          "victimTeam": "F91E070A99C28718",
+          "weaponName": "Barrett"
+        },
+        {
+          "type": "PLAYER_KILL",
+          "timestamp": 1711208236683,
+          "killerPlayfabId": "69336AF55CC0D54B",
+          "killerTeam": "69336AF55CC0D54B",
+          "victimPlayfabId": "F91E070A99C28718",
+          "victimTeam": "F91E070A99C28718",
+          "weaponName": "RPG"
+        }
+      ],
+      "result": {
+        "isTie": false,
+        "winner": "69336AF55CC0D54B"
+      },
+      "playerKillsAndDeaths": {
+        "F91E070A99C28718": {
+          "kills": 10,
+          "deaths": 21
+        },
+        "69336AF55CC0D54B": {
+          "kills": 21,
+          "deaths": 10
+        }
+      }
+    }
+  ],
+  "teamNames": {
+    "F91E070A99C28718": "EASY",
+    "69336AF55CC0D54B": "ilya ezek"
+  },
+  "gameForfeitedWithRemainingTeam": "69336AF55CC0D54B",
+  "playerKillsAndDeaths": {
+    "F91E070A99C28718": {
+      "kills": 10,
+      "deaths": 21
+    },
+    "69336AF55CC0D54B": {
+      "kills": 21,
+      "deaths": 10
+    }
+  },
+  "gameNumberInPlaylist": 100
+}
