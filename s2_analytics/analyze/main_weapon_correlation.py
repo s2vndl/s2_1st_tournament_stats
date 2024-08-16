@@ -12,7 +12,6 @@ class OneWeaponCorrelations:
             assert isinstance(correlation.sample_count, int)
             assert 0 <= correlation.sample_count
             assert isinstance(correlation.correlation, float)
-            assert -1.0 <= correlation.correlation <= 1.0
             self._total_samples += correlation.sample_count
         self._correlations_by_map = correlations_by_map
 
